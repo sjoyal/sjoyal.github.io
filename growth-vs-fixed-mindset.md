@@ -1,7 +1,7 @@
-# Growth vs Fixed Mindset - Outline
+# **Growth vs Fixed Mindset - Outline**
 
 * [ ] **Introduction**
-* [ ] Body
+* [ ] **Body**
     * [ ] Growth vs Fixed Mindset
       * [ ] Fixed traits
       * [ ] Growth traits
@@ -12,4 +12,4 @@
       * [ ] Acknowledge traits
       * [ ] Embrace failures
       * [ ] Think process first
-* [ ] Conclusion
+* [ ] **Conclusion**

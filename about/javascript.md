@@ -21,8 +21,11 @@
 
 ####Basic Operators
 * **'+'** - The addition operator produces the sum of numeric operands or string concatenation
-    `Operator: x + y`
+    
+`Operator: x + y`
 * **'-'** - The subtraction operator subtracts the two operands, producing their difference
-    `Operator: x - y`
+    
+`Operator: x - y`
 * **'/'** - The division operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor
-    `Operator: x / y` 
+    
+`Operator: x / y` 

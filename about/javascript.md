@@ -2,20 +2,39 @@
 
 #### Basic Literal Types:
 * **null** - Empty value (i.e. no object is present); retrieved in places where an object can be expected, but no object is relevant aka known to exist but no value; behaves as 0
-  `null`
+```JavaScript
+null
+```
+
 * **Boolean** - Logical data type that can only have two outputs
-  `true` or `false`
+```JavaScript
+true or false
+```
+
 * **Number** - Numeric data type
-  `42` or `3.14159` 
+```JavaScript
+42 or 3.14159
+```
+
 * **String** - Sequence of characters used to represent text
-  `Howdy`
+```JavaScript
+Howdy
+```
 
 #### Special Constants
 * **Infinity** - Numeric value representing infinity; The value is greater than any other number.
   * Any positive number multiplied by infinity equals infinity
   * Any number divided by infinity equals zero
+```JavaScript
+insert Infinity examples
+```
+
 * **NaN** - Value representing Not_A_Number 
   * Returned value when Math functions fail (math.sqrt(-1)) or when a function trying to parse a number fails (parseInt("blabla"))
+```JavaScript
+insert NaN example
+```
+
 * **undefined** - Variable that has not been assigned a value
   * Method or Statement also returns undefined if variable being evaluated does not have an assigned value
   * Function returns undefined if a value was not returned

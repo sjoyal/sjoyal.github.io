@@ -3,7 +3,7 @@
 #### Basic Literal Types:
 * **null** - Empty value (i.e. no object is present); retrieved in places where an object can be expected, but no object is relevant aka known to exist but no value; behaves as 0
 * **Boolean** - Logical data type that can only have the output of true or false
-
+  *
 * **Number** - Numeric data type in the double-precision 64-bit floating point format (IEEE 754)
   * 42 or 3.14159 
 * **String** - Sequence of characters used to represent text

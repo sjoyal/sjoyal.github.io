@@ -5,12 +5,12 @@
 * **Boolean** - Logical data type that can only have the output of true or false
 
 * **Number** - Numeric data type in the double-precision 64-bit floating point format (IEEE 754)
-  *   42 or 3.14159
+  * 42 or 3.14159 
 * **String** - Sequence of characters used to represent text
   *   "Howdy"
 
 #### Special Constants
-* **Infinity** - Numeric value representing infinity; Initially Number.Positive_Infinity, the value is greater than any other number.
+* **Infinity** - Numeric value representing infinity; The value is greater than any other number.
   *   Any positive number multiplied by infinity equals infinity
   *   Any number divided by infinity equals zero
 * **NaN** - Value representing Not_A_Number; Rare to use in a program. 

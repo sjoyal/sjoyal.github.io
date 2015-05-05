@@ -13,7 +13,7 @@
 * **Infinity** - Numeric value representing infinity; The value is greater than any other number.
   *   Any positive number multiplied by infinity equals infinity
   *   Any number divided by infinity equals zero
-* **NaN** - Value representing Not_A_Number; Rare to use in a program. 
+* **NaN** - Value representing Not_A_Number 
   *   Returned value when Math functions fail (math.sqrt(-1)) or when a function trying to parse a number fails (parseInt("blabla"))
 * **Undefined** - Variable that has not been assigned a value
   *   Method or Statement also returns undefined if variable being evaluated does not have an assigned value

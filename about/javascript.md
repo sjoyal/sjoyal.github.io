@@ -40,7 +40,7 @@ insert NaN example
   * Function returns undefined if a value was not returned
 ```JavaScript
 var something
-something //yields undefined
+something // yields undefined
 ```
 
 ####Basic Operators

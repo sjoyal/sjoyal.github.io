@@ -24,14 +24,14 @@
 
 ####Basic Operators
 * `+` - The addition operator produces the sum of numeric operands or string concatenation
-    
-`1 + 2 // yields 3`
-`2 + 4 // yields 6`
+*   ```JavaScript
+*   1 + 2 // yields 3
+*   2 + 4 // yields 6```
 * `-` - The subtraction operator subtracts the two operands, producing their difference
-    
-`5 - 3 // yields 2`
-`37.55 - 3.55 // yields 34`
+*   ```JavaScript
+*   5 - 3 // yields 2
+*   37.55 - 3.55 // yields 34```
 * `/` - The division operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor
-    
-`8 / 2 // yields 4`
-`10 / 4 // yields 2.5`
+*   ```JavaScript
+*   8 / 2 // yields 4
+*   10 / 4 // yields 2.5```

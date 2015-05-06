@@ -158,23 +158,33 @@ Sequence of characters used to represent text. Example:
 ```
 
 #### Special Constants
-* **Infinity** - Numeric value representing infinity; The value is greater than any other number.
-  * Any positive number multiplied by infinity equals infinity
-  * Any number divided by infinity equals zero
+
+### `Infinity` -- Infinity
+
+Numeric value representing infinity; The value is greater than any other number
 ```JavaScript
-insert Infinity examples
+5 * Infinity // yields Infinity
+26 / Infinity // yields 0
 ```
 
-* **NaN** - Value representing Not_A_Number 
-  * Returned value when Math functions fail (math.sqrt(-1)) or when a function trying to parse a number fails (parseInt("blabla"))
+### `NaN` -- Not_A_Number
+
+Unpresentable value that compares unequal to any other value, including itself. Example:
 ```JavaScript
-insert NaN example
+Math.sqrt(-2) // yields NaN
+NaN === NaN // yields false
 ```
 
-* **undefined** - Variable that has not been assigned a value
-  * Method or Statement also returns undefined if variable being evaluated does not have an assigned value
-  * Function returns undefined if a value was not returned
+### `undefined` -- undefined
+ 
+ Value when a variable has not been defined. Example:
 ```JavaScript
-var something
-something // yields undefined
+var x
+if (x === undefined) {
+   // these statements execute
+}
+else {
+   // these statements do not execute
+}
 ```
+

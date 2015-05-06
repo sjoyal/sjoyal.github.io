@@ -123,7 +123,37 @@ Compares left and right operands, returning true if the left operand is greater 
 5 > 9 // yields false
 ```
 
+#### `>=` -- greater than or equal
 
+Compares left and right operands, returning true if the left operand is greater than or equal to the right. Example:
+```JavaScript
+4 >= 3 // yields true
+3 >= 3 // yields true
+3 >= 4 // yields false
+```
+
+#### `<` -- less than operator
+
+Compares left and right operands, returning true if the left operand is less than the right. Example:
+```JavaScript
+3 < 4 // yields true
+6 < 5 // yields false
+```
+
+#### `<=` -- less than or equal
+
+Compares left and right operands, returning true if the left operand is less than or equal to the right. Example:
+```JavaScript
+3 <= 4 // yields true
+3 <= 3 // yields true
+3 <= 2 // yields false
+```
+
+### Typeof
+
+#### `typeof` -- typeof
+
+An expression returning a string that indicates the type of primitive or object that operand is. Example:
 
 ## Data Types
 
@@ -187,4 +217,26 @@ else {
    // these statements do not execute
 }
 ```
+
+##Objects
+
+###Functions
+
+#### `function` -- function
+
+Sequence of statements where values can be passed to return a value. Example:
+```JavaScript
+// function definition
+function addition (a, b /*parameters go here*/) {
+   //function body
+   return a + b;
+}
+
+// function invocation
+addition (3, 5 /*arguments go here */); // yields 8
+addition (2, 7); // yields 9
+addition (3, 15); // yields 18
+```
+
+
 

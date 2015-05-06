@@ -1,24 +1,115 @@
-## Javascript
+# About Javascript
 
-#### Basic Literal Types:
-* **null** - Empty value (i.e. no object is present); retrieved in places where an object can be expected, but no object is relevant aka known to exist but no value; behaves as 0
+## Operators
+
+### Arithmetic
+
+#### '+' -- addition
+
+Given two numeric values, the addition operator produces the sum of those values as another number. Example:
+```JavaScript
+1 + 2 // yields 3
+2 + 4 // yields 6
+```
+
+#### `-` -- subtraction
+
+Given two numeric values, the subtraction operator produces the difference of those values as another number. Example:
+```JavaScript
+5 - 3 // yields 2
+37.55 - 3.55 // yields 34
+```
+
+#### `/` -- division
+
+Given two numeric values (left value is the dividend; right value is the divisor), the division operator produces the quotient of those values as another number.
+```JavaScript
+8 / 2 // yields 4
+10 / 4 // yields 2.5
+```
+
+#### `*` -- multiplication
+
+Given two numberic values, the multiplication operator produces the product of those values as another number. Example:
+```JavaScript
+8 / 2 // yields 4
+10 / 4 // yields 2.5
+```
+
+#### `%` -- remainder
+
+Given two numeric values, the remainder operator produces the integer remainder of dividing the left value by the right value. Example:
+```JavaScript
+12 % 5 // yields 2
+40 % 7 //yields 5
+```
+
+#### `+` -- unary plus
+
+Given a value (numeric, string, non-string) the unary plus operator evaluates the value and attempts to convert it to a number. Example:
+```JavaScript
++3 // yields 3
++'3' // yields 3
++true // yields 1
++null // yields 0
+```
+
+#### `-` -- unary negation
+
+Given a numeric value, the unary negation operator precedes the value and negates it. Example:
+```JavaScript
+-Infinity // yield -Infinity
+-"one" // NaN
+
+var x = 3;
+y = -x; // y = -3, x = 3
+```
+
+### Assignment
+
+#### assignment
+
+Assigns a value to a variable. Example:
+```JavaScript
+x = y
+x = 3
+y = 3.40586
+```
+
+### Comparison
+
+#### `==` -- equality
+
+
+#### `!=` -- inequality
+
+
+#### `===` -- identity / strictly equal
+
+#### `!==` -- non-identity / strict not equal
+
+## Data Types
+
+### Primitive Values
+
+#### `null` -- Intentionally empty value (i.e. no object is present); retrieved in places where an object can be expected, but no object is relevant. Examples:
 ```JavaScript
 null
 ```
 
-* **Boolean** - Logical data type that can only have two outputs
+#### `Boolean` -- Logical data type that can only have two outputs. Examples:
 ```JavaScript
 true or false
 ```
 
-* **Number** - Numeric data type
+#### `Number` -- Numeric data type. Examples:
 ```JavaScript
 42 or 3.14159
 ```
 
-* **String** - Sequence of characters used to represent text
+#### `String` - Sequence of characters used to represent text. Example:
 ```JavaScript
-Howdy
+'Javascript is fun!'
 ```
 
 #### Special Constants
@@ -41,21 +132,4 @@ insert NaN example
 ```JavaScript
 var something
 something // yields undefined
-```
-
-####Basic Operators
-* `+` The addition operator produces the sum of numeric operands or string concatenation
-```JavaScript
-1 + 2 // yields 3
-2 + 4 // yields 6
-```
-* `-` The subtraction operator subtracts the two operands, producing their difference
-```JavaScript
-5 - 3 // yields 2
-37.55 - 3.55 // yields 34
-```
-* `/` The division operator produces the quotient of its operands where the left operand is the dividend and the right operand is the divisor
-```JavaScript
-8 / 2 // yields 4
-10 / 4 // yields 2.5
 ```

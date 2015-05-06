@@ -46,7 +46,7 @@ Given two numeric values, the remainder operator produces the integer remainder 
 
 #### `+` -- unary plus
 
-Given a value (numeric, string, non-string) the unary plus operator evaluates the value and attempts to convert it to a number. Example:
+Given an operand (numeric, string, non-string) the unary plus operator evaluates the operand and attempts to convert it to a number. Example:
 ```JavaScript
 +3 // yields 3
 +'3' // yields 3
@@ -56,7 +56,7 @@ Given a value (numeric, string, non-string) the unary plus operator evaluates th
 
 #### `-` -- unary negation
 
-Given a numeric value, the unary negation operator precedes the value and negates it. Example:
+Given a numeric operand, the unary negation operator precedes the operand and negates it. Example:
 ```JavaScript
 -Infinity // yield -Infinity
 -"one" // NaN
@@ -80,19 +80,50 @@ y = 3.40586
 
 #### `==` -- equality
 
-Converts values if not of the same type, then applies a strict comparison
+Is equal to; Converts operands if not of the same type, then applies a strict comparison. Example:
 ```JavaScript
 1 == 1 // yields true
 '1' == 1 // yields true
 0 == false // yields true
+```
 
 #### `!=` -- inequality
 
-
+Does not equal; Returns true if operands are not equal and attempts to convert to an appropriate type for comparison. Example:
+```JavaScript
+1 != 2 // yields true
+1 != '1' // yields false
+0 != false // yields false
+```
 
 #### `===` -- identity / strictly equal
 
+Applies a strict comparison with no type conversion; returns true if strictly equal. Example:
+```JavaScript
+3 === 3 // yields true
+3 === '3' // false
+```
+
 #### `!==` -- non-identity / strict not equal
+
+Compares and returns true if operands are not equal and/or not of the same type. Example:
+```JavaScript
+3 !== '3' // true
+4 !== 3 // true
+3 !== 3 // false
+```
+
+### Relational
+
+#### `>` -- greather than
+
+Compares left and right operands, returning true if the left operand is greater than the right. Example:
+```JavaScript
+4 > 3 // yields true
+5 > 9 // yields false
+```
+
+
 
 ## Data Types
 

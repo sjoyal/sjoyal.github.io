@@ -80,8 +80,14 @@ y = 3.40586
 
 #### `==` -- equality
 
+Converts values if not of the same type, then applies a strict comparison
+```JavaScript
+1 == 1 // yields true
+'1' == 1 // yields true
+0 == false // yields true
 
 #### `!=` -- inequality
+
 
 
 #### `===` -- identity / strictly equal

@@ -92,22 +92,30 @@ y = 3.40586
 
 ### Primitive Values
 
-#### `null` -- Intentionally empty value (i.e. no object is present); retrieved in places where an object can be expected, but no object is relevant. Examples:
+#### `null` -- null
+
+Intentionally empty value (i.e. no object is present); retrieved in places where an object can be expected, but no object is relevant. Examples:
 ```JavaScript
 null
 ```
 
-#### `Boolean` -- Logical data type that can only have two outputs. Examples:
+#### `Boolean` -- Boolean 
+
+Logical data type that can only have two outputs. Examples:
 ```JavaScript
 true or false
 ```
 
-#### `Number` -- Numeric data type. Examples:
+#### `Number` -- Numeric 
+
+Data type. Examples:
 ```JavaScript
 42 or 3.14159
 ```
 
-#### `String` - Sequence of characters used to represent text. Example:
+#### `String` -- String
+
+Sequence of characters used to represent text. Example:
 ```JavaScript
 'Javascript is fun!'
 ```

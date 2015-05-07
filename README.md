@@ -1,5 +1,5 @@
 ---
-permalink: index.html
+
 ---
 
 # This is a Heading

@@ -65,6 +65,17 @@ var x = 3;
 y = -x; // y = -3, x = 3
 ```
 
+#### `++` -- increment
+
+Increments (adds one to) an operand and returns a value; x++ returns values before incrementing; ++x returns values after incrementing. Example:
+```JavaScript
+var x = 3
+y = x++; // yields y = 3, x = 4
+
+var a = 2
+b = ++a; // yields a = 3, b = 3
+```
+
 ### Assignment
 
 #### assignment
@@ -163,9 +174,9 @@ typeof true // yields 'Boolean'
 typeof something // yields 'undefined'
 ```
 
-## Data Types
+## Objects
 
-### Primitive Values
+### Literal Types
 
 #### `null` -- null
 
@@ -226,9 +237,7 @@ else {
 }
 ```
 
-##Objects
-
-###Functions
+### Functions
 
 #### `function` -- function
 
@@ -246,5 +255,52 @@ addition (2, 7); // yields 9
 addition (3, 15); // yields 18
 ```
 
+### Arrays
 
+#### `Array` -- [element0, element1, ..., elementN]
+
+High level, list-like objects including elements ordered by an index beginning at 0. Example:
+```JavaScript
+var arr = ['this is the first element', 'this is the second element'];
+console.log(arr[0]); // logs 'this is the first element'
+console.log(arr[1]); // logs 'this is the second element'
+```
+
+#### `arr.length` -- length
+
+[Property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) that specifies the number of elements in an array without regard to the number of defined values therein. Examples:
+```JavaScript
+var arr = ['this is the first element', 'this is the second element'];
+console.log(arr[0]); // logs 'this is the first element'
+console.log(arr[arr.length - 1]); // logs 'this is the second element'
+```
+
+#### [Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2)
+
+##### [`array.prototype.pop`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+* _params:_ none
+* _returns:_ the last element
+* _side-effects_: removes the element returned
+
+###### Examples
+```JavaScript
+var myGit = ['status', 'add', 'commit', 'push'];
+var popped = myGit.pop();
+console.log(myGit); // yields ['status', 'add', 'commit']
+console.log(popped); // yields 'push'
+```
+##### [`array.prototype.push`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+
+* _params:_ none
+* _returns:_ the new length property of the array
+* _side-effects_: appends elements to the end
+
+###### Examples
+```JavaScript
+var literals = ['null', 'Boolean'];
+var missing = literals.push('Number', 'String');
+console.log(literals); // yields ['null', 'Boolean', 'Number', 'String']
+console.log(missing); // yields 4
+``
 

@@ -153,7 +153,15 @@ Compares left and right operands, returning true if the left operand is less tha
 
 #### `typeof` -- typeof
 
-An expression returning a string that indicates the type of primitive or object that operand is. Example:
+An expression returning a string indicating the type of primitive or object that operand is. Example:
+```JavaScript
+typeof 31 // yields 'number'
+typeof Infinity // yields 'number'
+typeof 'blahblah' // yields 'string'
+typeof ('typeof 1) // yields 'string'
+typeof true // yields 'Boolean'
+typeof something // yields 'undefined'
+```
 
 ## Data Types
 
@@ -187,9 +195,9 @@ Sequence of characters used to represent text. Example:
 'Javascript is fun!'
 ```
 
-#### Special Constants
+### Special Constants
 
-### `Infinity` -- Infinity
+#### `Infinity` -- Infinity
 
 Numeric value representing infinity; The value is greater than any other number
 ```JavaScript
@@ -197,7 +205,7 @@ Numeric value representing infinity; The value is greater than any other number
 26 / Infinity // yields 0
 ```
 
-### `NaN` -- Not_A_Number
+#### `NaN` -- Not_A_Number
 
 Unpresentable value that compares unequal to any other value, including itself. Example:
 ```JavaScript
@@ -205,7 +213,7 @@ Math.sqrt(-2) // yields NaN
 NaN === NaN // yields false
 ```
 
-### `undefined` -- undefined
+#### `undefined` -- undefined
  
  Value when a variable has not been defined. Example:
 ```JavaScript

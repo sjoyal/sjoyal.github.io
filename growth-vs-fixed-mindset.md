@@ -1,3 +1,7 @@
+---
+
+---
+
 # **Growth vs Fixed Mindsets - How it applies to The Iron Yard**
 
 ### **Outline**

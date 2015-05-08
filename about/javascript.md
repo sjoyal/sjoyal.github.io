@@ -255,8 +255,6 @@ addition (2, 7); // yields 9
 addition (3, 15); // yields 18
 ```
 
-### Arrays
-
 #### `Array` -- [element0, element1, ..., elementN]
 
 High level, list-like objects including elements ordered by an index beginning at 0. Example:
@@ -302,5 +300,33 @@ var literals = ['null', 'Boolean'];
 var missing = literals.push('Number', 'String');
 console.log(literals); // yields ['null', 'Boolean', 'Number', 'String']
 console.log(missing); // yields 4
-``
+```
+
+## Statements
+
+### Control Flow and Error Handling
+
+#### [`Block Statement`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
+
+Groups statements as indicated by a pair of curly brackets; commonly used with control flow statements, such as if...else and for. Example:
+```JavaScript
+{
+ statement 1;
+ statement 2;
+ .
+ .
+ statement n;
+ }
+```
+
+### [`If...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+Statement that evaluates an expression as true or false and returns a predefined statement accordingly; Expressions evaluated false can return a statement or nest further if statements using _else if_.  Examples:
+```JavaScript
+if (14 >= 12) {
+   "I am good at math!"
+ } else {
+   "Math is hard..."
+  }
+```
 

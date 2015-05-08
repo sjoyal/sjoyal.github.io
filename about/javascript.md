@@ -336,5 +336,34 @@ Statement that evaluates an expression and attempts to match it to a case from a
 ```JavaScript
 var task = "finished";
 switch (task) {
-  case 'open':
+  case "open":
+      "Keep working";
+      break;
+  case "finished":
+      "Good job";
+      break;
+}
+// yields "Good job"
+```
+
+#### [`Try...catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+Marks a block of statements to try and specifies a response should an exception be thrown within; at least one try statement and catch clause is required; a finally clause may be included that executes regardless of an exception being thrown / not thrown. Example:
+```JavaScript
+try {
+    try_statements
+} [catch (exception1){
+    statements1
+]} [catch (exception2){
+    statements2
+...
+]} [catch (exception_n_){
+    statments_n_
+]} finally {
+    statement
+]}
+```
+
+#### [`Throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+
 

@@ -319,7 +319,7 @@ Groups statements as indicated by a pair of curly brackets; commonly used with c
  }
 ```
 
-### [`If...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+#### [`If...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 Statement that evaluates an expression as true or false and returns a predefined statement accordingly; Expressions evaluated false can return a statement or nest further if statements using _else if_.  Examples:
 ```JavaScript
@@ -329,4 +329,12 @@ if (14 >= 12) {
    "Math is hard..."
   }
 ```
+
+#### [`Switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+
+Statement that evaluates an expression and attempts to match it to a case from a collection of case clauses. Executes the statement associated with the matching case. Example:
+```JavaScript
+var task = "finished";
+switch (task) {
+  case 'open':
 

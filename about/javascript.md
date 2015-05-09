@@ -306,7 +306,7 @@ console.log(missing); // yields 4
 
 ### Control Flow and Error Handling
 
-#### [`Block Statement`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
+#### [`block Statement`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
 
 Groups statements as indicated by a pair of curly brackets; commonly used with control flow statements, such as if...else and for. Example:
 ```JavaScript
@@ -319,7 +319,7 @@ Groups statements as indicated by a pair of curly brackets; commonly used with c
  }
 ```
 
-#### [`If...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+#### [`if...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 
 Statement that evaluates an expression as true or false and returns a predefined statement accordingly; Expressions evaluated false can return a statement or nest further if statements using _else if_.  Examples:
 ```JavaScript
@@ -330,7 +330,7 @@ if (14 >= 12) {
   }
 ```
 
-#### [`Switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+#### [`switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 
 Statement that evaluates an expression and attempts to match it to a case from a collection of case clauses. Executes the statement associated with the matching case. Example:
 ```JavaScript
@@ -346,7 +346,7 @@ switch (task) {
 // yields "Good job"
 ```
 
-#### [`Try...catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+#### [`try...catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 
 Marks a block of statements to try and specifies a response should an exception be thrown within; at least one try statement and catch clause is required; a finally clause may be included that executes regardless of an exception being thrown / not thrown. Example:
 ```JavaScript
@@ -364,6 +364,31 @@ try {
 ]}
 ```
 
-#### [`Throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+#### [`throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 
+User defined exception placed within a function; execution of function is stopped and expression is thrown; commonly used. Example:
+```JavaScript
+insert throw example
+```
+
+#### [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+insert def
+```JavaScript
+insert for example
+```
+
+#### [`while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+
+insert def
+```JavaScript
+insert while example
+```
+
+#### [`do...while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+
+insert def
+```JavaScript
+insert do...while example
+```
 

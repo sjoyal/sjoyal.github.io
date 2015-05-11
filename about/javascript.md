@@ -324,7 +324,7 @@ Groups statements as indicated by a pair of curly brackets; commonly used with c
 Statement that evaluates an expression as true or false and returns a predefined statement accordingly; Expressions evaluated false can return a statement or nest further if statements using _else if_.  Examples:
 ```JavaScript
 if (14 >= 12) {
-   "I am good at math!"
+   "I am good at math"
  } else {
    "Math is hard..."
   }
@@ -373,6 +373,7 @@ insert throw example
 
 #### [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
+Statement that uses 3 expressions (counter variable, conditional test, and final expression) as parameters to create a loop through which a statement(s) is executed through a pre-defined number or iterations.
 insert def
 ```JavaScript
 insert for example
@@ -380,14 +381,14 @@ insert for example
 
 #### [`while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
-insert def
+Statement that creates a loop through which statements are continually executed, so long as a conditional expression remains true. Used in place of a `for` statement when the number of iterations is not pre-defined. In order to avoid an infinite loop, the conditional expression evaluated prior to each iteration must be modified so that it will eventually return false. Examples:
 ```JavaScript
 insert while example
 ```
 
 #### [`do...while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
 
-insert def
+Statement creating a loop that executes a statement at least once (the "do"), and each iteration thereafter until the conditional expression (within the "while") evaluates to false. Examples:
 ```JavaScript
 insert do...while example
 ```

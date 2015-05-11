@@ -255,8 +255,6 @@ addition (2, 7); // yields 9
 addition (3, 15); // yields 18
 ```
 
-### Arrays
-
 #### `Array` -- [element0, element1, ..., elementN]
 
 High level, list-like objects including elements ordered by an index beginning at 0. Example:
@@ -302,5 +300,96 @@ var literals = ['null', 'Boolean'];
 var missing = literals.push('Number', 'String');
 console.log(literals); // yields ['null', 'Boolean', 'Number', 'String']
 console.log(missing); // yields 4
-``
+```
+
+## Statements
+
+### Control Flow and Error Handling
+
+#### [`block Statement`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
+
+Groups statements as indicated by a pair of curly brackets; commonly used with control flow statements, such as if...else and for. Example:
+```JavaScript
+{
+ statement 1;
+ statement 2;
+ .
+ .
+ statement n;
+ }
+```
+
+#### [`if...else`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+Statement that evaluates an expression as true or false and returns a predefined statement accordingly; Expressions evaluated false can return a statement or nest further if statements using _else if_.  Examples:
+```JavaScript
+if (14 >= 12) {
+   "I am good at math"
+ } else {
+   "Math is hard..."
+  }
+```
+
+#### [`switch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+
+Statement that evaluates an expression and attempts to match it to a case from a collection of case clauses. Executes the statement associated with the matching case. Example:
+```JavaScript
+var task = "finished";
+switch (task) {
+  case "open":
+      "Keep working";
+      break;
+  case "finished":
+      "Good job";
+      break;
+}
+// yields "Good job"
+```
+
+#### [`try...catch`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
+Marks a block of statements to try and specifies a response should an exception be thrown within; at least one try statement and catch clause is required; a finally clause may be included that executes regardless of an exception being thrown / not thrown. Example:
+```JavaScript
+try {
+    try_statements
+} [catch (exception1){
+    statements1
+]} [catch (exception2){
+    statements2
+...
+]} [catch (exception_n_){
+    statments_n_
+]} finally {
+    statement
+]}
+```
+
+#### [`throw`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+
+User defined exception placed within a function; execution of function is stopped and expression is thrown; commonly used. Example:
+```JavaScript
+insert throw example
+```
+
+#### [`for`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
+Statement that uses 3 expressions (counter variable, conditional test, and final expression) as parameters to create a loop through which a statement(s) is executed through a pre-defined number or iterations.
+insert def
+```JavaScript
+insert for example
+```
+
+#### [`while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
+
+Statement that creates a loop through which statements are continually executed, so long as a conditional expression remains true. Used in place of a `for` statement when the number of iterations is not pre-defined. In order to avoid an infinite loop, the conditional expression evaluated prior to each iteration must be modified so that it will eventually return false. Examples:
+```JavaScript
+insert while example
+```
+
+#### [`do...while`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+
+Statement creating a loop that executes a statement at least once (the "do"), and each iteration thereafter until the conditional expression (within the "while") evaluates to false. Examples:
+```JavaScript
+insert do...while example
+```
 

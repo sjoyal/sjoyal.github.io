@@ -34,15 +34,15 @@ This stuff is hard. Admittedly, I didn't get enough pre-work done before class s
 
 ##### Coding bootcamp week 1 "tips for survival"
 In honor of my finishing the first week of coding bootcamp, I've created the following list of tips that I would recommend to anyone set to begin a cohort. All views and opinions are my own, and also basically facts.
-```
-Coding Bootcamp: Tips for surviving week 1
+
+###### **Coding Bootcamp: Tips for surviving week 1**
   1) Only stop working on classwork and/or additional JavaScript practice to eat, sleep, shower, and drive
-     - Think I'm kidding? This blog was assigned for class. Get off me.
+     * Think I'm kidding? This blog was assigned for class. Get off me.
   2) Vary the topic / assignment you're working on with regularity
-     - Learning JavaScript defnitions is necessary. It's also not fun. Do some fun online codeschool programs to reinforce the definitions and/or any other assignments that need to be done. Vary the routine. It helps.
+     * Learning JavaScript defnitions is necessary. It's also not fun. Do some fun online codeschool programs to reinforce the definitions and/or any other assignments that need to be done. Vary the routine. It helps.
   3) It's never too early to build something
-     - See earlier comment about online codeschools not meaning a whole lot when you're staring at a blank .js file
-     - Be reasonable with your expectations of what you can accomplish starting out
-     - I built a paper rock scissors game; It's lame, it took me 6 hours, and it just runs on the command line, but I'm 72% sure I built it right...which is nice.
+     * See earlier comment about online codeschools not meaning a whole lot when you're staring at a blank .js file
+     * Be reasonable with your expectations of what you can accomplish starting out
+     * I built a paper rock scissors game; It's lame, it took me 6 hours, and it just runs on the command line, but I'm 72% sure I built it right...which is nice.
   4) Drink hot tea because everyone else drinks coffee; suckers
-```
+

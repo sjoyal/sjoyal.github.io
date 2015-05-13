@@ -19,8 +19,8 @@ In class this week, we worked through the initial stages of creating a "To do" l
 ```
 Proper testing
   1) Write tests that describe what we want the robot to do
-  2) When done correctly, tests should fail at first (going red :red_circle:)
-  3) Build code to correct the failure (going green :white_check_mark:)
+  2) When done correctly, tests should fail at first (going red)
+  3) Build code to correct the failure (going green)
 ```
 
 ##### You mentioned developer tools?

@@ -19,8 +19,8 @@ In class this week, we worked through the initial stages of creating a "To do" l
 ```
 Proper testing
   1) Write tests that describe what we want the robot to do
-  2) When done correctly, tests should fail at first (going red)
-  3) Build code to correct the failure (going green)
+  2) When done correctly, tests should fail at first (going red :red_circle:)
+  3) Build code to correct the failure (going green :white_check_mark:)
 ```
 
 ##### You mentioned developer tools?
@@ -33,16 +33,16 @@ My pops showing me how to work in MS-DOS back in '94 ended up paying off! It hel
 This stuff is hard. Admittedly, I didn't get enough pre-work done before class started. Even if I had, it's becoming pretty clear that having a program tell you what to code, and giving you small snippets of syntax to type, pales in comparison to starting from a blank .js file. We've covered basic literal types, operators, fucntions, arrays, array methods, if...else, for loops, while loops, and more. Most of it is pretty intuitive, but like any other language there are exceptions to rules and things that just don't make sense. I'm confident things will click. I'm not confident I'll get much sleep in the meantime.
 
 ##### Coding bootcamp week 1 "tips for survival"
-In honor of my finishing the first week, I've created the following list of tips that I would recommend to anyone set to begin a cohort. All views and opinions are my own, and also basically facts.
+In honor of my finishing the first week, I've created the following list of tips that I would recommend to anyone set to begin a cohort. All views and opinions are my own, and also basically facts :facepunch:.
 
 **Coding Bootcamp: Tips for surviving week 1**
-  * 1) Only stop working on classwork and/or additional JavaScript practice to eat, sleep, shower, and drive
+  * **1)** Only stop working on classwork and/or additional JavaScript practice to eat, sleep, shower, and drive
     * Think I'm kidding? This blog was assigned for class. Get off me.
-  * 2) Vary the topic / assignment you're working on with regularity
+  * **2)** Vary the topic / assignment you're working on with regularity
     * Learning JavaScript defnitions is necessary. It's also not fun. Do some fun online codeschool programs to reinforce the definitions and/or any other assignments that need to be done. Vary the routine. It helps me.
-  * 3) It's never too early to build something
+  * **3)** It's never too early to build something
     * See earlier comment about online codeschools not meaning a whole lot when you're staring at a blank .js file
     * Be reasonable with your expectations of what you can accomplish starting out
     * I built a paper rock scissors game; It's lame, it took me 6 hours, and it just runs on the command line, but I'm 72% sure I built it right...which is nice.
-  * 4) Drink hot tea because everyone else drinks coffee, and that stuff stunts your growth.
+  * **4)** Drink hot tea because everyone else drinks coffee, and that stuff stunts your growth.
 

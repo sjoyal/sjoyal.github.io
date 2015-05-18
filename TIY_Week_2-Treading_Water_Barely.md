@@ -27,6 +27,7 @@
   * Event Listeners
   * dot operators and dictionaries
   * Browser sync
+  * emoji-cheat-sheet.com
 
 **(failed)Assignments**
   * TodoMVC - Adding tasks, deleting, crying

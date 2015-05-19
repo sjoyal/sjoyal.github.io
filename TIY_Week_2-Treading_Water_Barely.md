@@ -17,7 +17,7 @@ The final tally of my week 2 projects
     Quotes Rotator - :poop:
 ```
 
-I find myself wondering how we stack up against other cohorts. Are we slow? Are we normal? I'm not going to even suggest that we are picking things up faster than normal. I read a lot before I came here. I know I'm supposed to feel like I'm drowning. I am. That doesn't make it any easier. That said, I got some new tools in week 2 that were pretty alright. Browser-sync helps with working offline and it's pretty legit. And the best website for finding keyboard shortcuts for every (emoji)[www.emoji-cheat-sheet.com] ever? Bless these little victories.
+I find myself wondering how we stack up against other cohorts. Are we slow? Are we normal? I'm not going to even suggest that we are picking things up faster than normal. I read a lot before I came here. I know I'm supposed to feel like I'm drowning. I am. That doesn't make it any easier. That said, I got some new tools in week 2 that were pretty alright. Browser-sync helps with working offline and it's pretty legit. And the best website for finding keyboard shortcuts for every [emoji](www.emoji-cheat-sheet.com) ever? Bless these little victories.
 
 ##### Wrap it up
 I ended week 1 by giving survival tips. I'll get to that, but wanted to list a few things I learned in week 2.
@@ -35,7 +35,7 @@ I ended week 1 by giving survival tips. I'll get to that, but wanted to list a f
      * There aren't enough hours in the day; blame the Egyptians....and the sun
   2) Growth mindset
      * That essay we had to write in week 1 is very pertinent all of a sudden
-     * (Listen Up)[http://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve?language=en]
+     * [Listen Up](http://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve?language=en)
   3) Sleep
      * See above - do as I say, not as I do
   4) Keep reading and learning core concepts

@@ -12,13 +12,13 @@ h3 {
 
 #### display
 Usually block or inline, every element has a default display value.
-  * block - block-level elements starts on a new line and stretch left to right as far as they can. Example:
+  * `block` - block-level elements starts on a new line and stretch left to right as far as they can. Example:
     `<div>, <p>, <form>`
-  * inline - inline elements can wrap some text inside a paragraph without disrupting flow. Example:
+  * `inline` - inline elements can wrap some text inside a paragraph without disrupting flow. Example:
     `<span>, <a>`
-  * none - default value of JavaScript elements, used to hide and show elements without deleting and recreating them
+  * `none` - default value of JavaScript elements, used to hide and show elements without deleting and recreating them
     * Different from visibility:hidden, which hides the element but still takes up the space it would if visible
-  * inline-block
+  * `inline-block`
     Generates a block element box flowed with surrounding content as if it were a single inline box...aka display things inline, while still retaining block-level characteristics.
       Example:
       `nav {
@@ -31,8 +31,8 @@ Usually block or inline, every element has a default display value.
 In addition to tag names, attribute values can be used in selectors; there are 2 types:
   * `class` - Multiple elements can be assigned to the same class value; typed with a period when used in a selectors
   * `id` - Unique to the a specific element when assigned in the document; typed with a hash before it in selectors
+  * Examples:
   ```
-  Examples
   .class {
       color: green;
   }
@@ -61,11 +61,20 @@ Used to horizontally center an element within its container after width has been
     margin: 0 auto;
   }`  
 
+#### font
+`serif` - Font type that includes ornate caps, feet, and other unique markings on each character.
+    * Example: Times New Roman
+    * Typically used in print media and for screens with higher resolutions (retina display)
+`sans serif` - Font type with clean lines and absent of unique markings associated with `serif` fonts
+    * Example: Arial
+    * Typically used in non-black colors for screens due to dpi issues
+
+
 #### max-*
-Property control content size; sets max height or width of content;
+Property that controls content size; sets max height or width of content;
 
 ##### max-width
-Used in place of width to improve the way browsers handle small windows; Important for making usable sites on mobile; Supported in all browsers. Example:
+Used in place of width to improve the way browsers handle small windows; important for making usable sites on mobile; supported in all browsers. Example:
 `#main {
     max-width: 600px;
     margin: 0 auto;
@@ -86,10 +95,10 @@ Property applied to an element so that the padding and border of the element no 
 ```
 #### position
 Property used on elements to create complex layouts.
-  * static - default value, not positioned in any special way
-  * relative - behaves the same as static unless top, right, bottom, and left properties are set
-  * fixed - positioned relative to the viewport; Always stays in the same place even if the page is scrolled; top, right, bottom, and left properties are used; shaky in mobile.
-  * absolute - trickiest of the position values; behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport.
+  * `static` - default value, not positioned in any special way
+  * `relative` - behaves the same as static unless top, right, bottom, and left properties are set
+  * `fixed` - positioned relative to the viewport; Always stays in the same place even if the page is scrolled; top, right, bottom, and left properties are used; shaky in mobile.
+  * `absolute` - trickiest of the position values; behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport.
 
 #### float
 Property used for layout; intended for wrapping text around images. Example:
@@ -113,17 +122,17 @@ Measurement unit relative to containing block; good for images; can be used to k
   }`
 
 #### Length - unit types
-* Relative  
+**Relative**  
   * `em` Calculated font-size of the element
   * `ex` Represents the x-height of the element's font; generally the height of lowercase letters in the font
   * `ch` Width or more precisely advance measure of the glyph '0' in the element's font
   * `rem` Represents font size of the root element `<html>`
-* Viewpoint %
+**Viewpoint %**
   * `vh` 1/100th of the height of the viewport
   * `vw` 1/100th of the width of the viewport
   * `vmin` 1/100th of the minimum value between the height and the width of the viewport
   * `vmax` 1/100th of the maximum value between the height and width of the viewport
-* Absolute Length - Not technically absolute; measured by px; for screens with greater density, 1 inch is smaller than 1 physical inch (likewise with mm, cm and pt)
+**Absolute Length** - Not technically absolute; measured by px; for screens with greater density, 1 inch is smaller than 1 physical inch (likewise with mm, cm and pt)
   * `px` Relative to viewing device; best for print/high resolution, pixel per inch stays around 96
   * `mm` One millimeter
   * `cm` One centimeter (10mm)

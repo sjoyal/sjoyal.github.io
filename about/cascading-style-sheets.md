@@ -63,12 +63,74 @@ Used to horizontally center an element within its container after width has been
 
 #### font
 `serif` - Font type that includes ornate caps, feet, and other unique markings on each character.
-    * Example: Times New Roman
-    * Typically used in print media and for screens with higher resolutions (retina display)
-`sans serif` - Font type with clean lines and absent of unique markings associated with `serif` fonts
-    * Example: Arial
-    * Typically used in non-black colors for screens due to dpi issues
+  * Example: Times New Roman
+  * Typically used in print media and for screens with higher resolutions (retina display)
 
+`sans serif` - Font type with clean lines and absent of unique markings associated with `serif` fonts
+  * Example: Arial
+  * Typically used in non-black colors for screens due to dpi issues
+
+##### font-family
+Property that lets you set a prioritized list of font name family names for the element selected
+  * Names should be separated using commas
+  * A semicolon should be used after the final name is listed
+  * Example:
+`font-family: Verdana, sans-serif;`
+
+##### font-style
+Property that lets you select italic or oblique faces within a `font-family`
+
+##### font-size
+Property that specifies the size of the font for the selected element; can impact other items because it is used to compute the value of em and ex length units
+
+##### font-weight
+Property that specifies the weight or boldness of the font. Examples:
+  * `100, 200, 300, etc`
+  * `bold`
+  * `bolder`
+  * `lighter`
+
+##### font-variant
+Shorthand for long hand font-variant properties including:
+  * `font-variant-caps` - Property that controls alternate glyphs for capital letters
+  * `font-variant-numeric` - Property that controls the usage of alternate glyphs for numbers, fractions, and ordinal markers
+
+#### line-height
+On block level elements, this property that specifies the minimum height of line boxes within elements.
+  * Example to increase spacing within individual lines of an element aka doublespace:
+  `selector {
+      line-height: 2;
+    }`
+
+#### line-break
+Property used to specify how, or if, to break lines
+  * Example:
+  ```
+   line-break: auto;
+   line-break: loose;
+   line-break: normal;
+   line-break: strict;
+   line-break: inherit;
+  ```
+
+#### text-align
+Property that describes how inline content like text is aligned in its parent element; only controls inline content, not the alignment of block elements themselves
+  ```
+  text-align: left;
+  text-align: center;
+  text-align: justify;
+  text-align: right;
+  text-align: inherit;
+  ```
+
+#### text-decoration
+Property used to set the text formatting to underline, overline, line-through, or blink;
+  * Example:
+  `text-decoration: underline;`
+
+#### text-indent
+Property that specifies how much horizontal spacing should be left before the beginning of the first line of the text content of an element
+  * Potential values include length, percentage, each-line, and hanging
 
 #### max-*
 Property that controls content size; sets max height or width of content;
@@ -127,11 +189,13 @@ Measurement unit relative to containing block; good for images; can be used to k
   * `ex` Represents the x-height of the element's font; generally the height of lowercase letters in the font
   * `ch` Width or more precisely advance measure of the glyph '0' in the element's font
   * `rem` Represents font size of the root element `<html>`
+
 **Viewpoint %**
   * `vh` 1/100th of the height of the viewport
   * `vw` 1/100th of the width of the viewport
   * `vmin` 1/100th of the minimum value between the height and the width of the viewport
   * `vmax` 1/100th of the maximum value between the height and width of the viewport
+
 **Absolute Length** - Not technically absolute; measured by px; for screens with greater density, 1 inch is smaller than 1 physical inch (likewise with mm, cm and pt)
   * `px` Relative to viewing device; best for print/high resolution, pixel per inch stays around 96
   * `mm` One millimeter

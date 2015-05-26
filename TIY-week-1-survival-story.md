@@ -45,4 +45,3 @@ In honor of my finishing the first week, I've created the following list of tips
     * Be reasonable with your expectations of what you can accomplish starting out
     * I built a paper rock scissors game; It's lame, it took me 6 hours, and it just runs on the command line, but I'm 72% sure I built it right...which is nice.
   * **4)** Drink hot tea because everyone else drinks coffee, and that stuff stunts your growth.
-

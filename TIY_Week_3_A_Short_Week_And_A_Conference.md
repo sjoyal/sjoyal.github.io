@@ -32,7 +32,4 @@ Tips for surviving week 2
      * You're learning even if it feels like you're failing
   7) Find relief it isn't week 4 yet
      * My brain is mush
-  8) Avoid merge conflicts in your personal github repo's by following the following guidelines included below
 ```
-
-![Avoiding merge conflicts](https://files.slack.com/files-pri/T03FAV5N3-F04RL15S4/avoiding_merge_conflicts.jpg)

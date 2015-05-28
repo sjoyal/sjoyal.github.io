@@ -91,13 +91,79 @@ Block level elements occupy the entire space of their parent(container), creatin
 
 ##### `<form>`
 
+Element containing interactive controls for submitting information to a web server.
+
+##### `<fieldset>`
+
+Element used to organize and group controls and labels (`<label>`) within a web form
+
+##### `<legend>`
+
+Element that represents a caption for the content of its parent. Example:
+
+```HTML
+<form action="" method="post">
+  <fieldset>
+    <legend>Title</legend>
+    <input type="radio" name="radio" id="radio"> <label for="radio">Click me</label>
+  </fieldset>
+</form>
+```
+
+##### `<input>`
+
+Elements used to create interactive controls for web forms so that they can accept content from the user. Includes a `type` attribute with several possible values, including:
+  * button
+  * checkbox
+  * date
+  * hidden
+  * image
+
+##### `<label>`
+
+Element representing a caption for an item in a user interface. Example:
+```HTML
+<label>Click Me! <input type='text' name="username"></label>
+```
+
+##### `<button>`
+
+Element representing a clickable button. Example:
+```HTML
+<button name="button">Click me</button>
+```
+
+##### `<select>`
+
+Represents a control that presents a menu of options. Typically used in conjunction with the `<option>` tag.
+
+##### `<option>`
+
+Element used to create a control that represents an item within `<select>`
+
+##### `<textarea>`
+
+Multiline plain text editor control.
+
 ##### `<ol>`
+
+Element representing an ordered list of items. List displayed with a preceding character (e.g. number, character, bullet) specified by the `list-style-type` property within CSS.
+
+##### `<ul>`
+
+Element representing an unordered list of items. Because the order of the items is meaningless, unordered lists are typically displayed with some form of bullet. Though, the style is defined using the `list-style-type` property within CSS.
+
+##### `[<dl>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)`
+
+Element that encloses a list of pairs of terms or conditions. Typically used to display metadata including keys and corresponding values.
 
 ##### `<p>`
 
 ##### `<table>`
 
 ##### `<li>`
+
+Element used to represent an item in a list. Typically preceded by a bullet point or number depending on its parent element _ul_ or _ol_. However, the preceding character is defined using the `list-style-type` property within CSS.
 
 ### Inline elements
 
@@ -112,7 +178,3 @@ Inline elements occupy the space bounded by the tags that define the inline elem
 ##### `<img>`
 
 ##### `<span>`
-
-##### `<button>`
-
-##### `<input>`

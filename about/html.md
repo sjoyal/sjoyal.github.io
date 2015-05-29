@@ -163,6 +163,8 @@ Element that encloses a list of pairs of terms or conditions. Typically used to 
 
 #### `<p>`
 
+Element representing a paragraph of text / flowing content.
+
 #### `<table>`
 
 Element used to represent in tabular data in a structured two dimensional format. Example:
@@ -187,7 +189,17 @@ The table body element; defines `<tr>` element data rows within the body of the 
 
 ##### `<thead>`
 
+Element that defines a set of rows that serve as the header for columns within the parent table.
 
+##### `<tfoot>`
+
+Element that defines a set of rows that summarize the content of a table; must be after the `<table>` and `<thead>` and cannot intermix with `<tr>` elements within the `<tbody>`
+
+##### `<tr>`
+
+Element that defines a row of cells within a table:
+  * `<td>` - Cell within a table that contains data
+  * `<th>` - Defines a cell that is a header for a group of cells within a table
 
 ### Inline elements
 

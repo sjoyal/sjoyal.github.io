@@ -87,9 +87,9 @@ Block level elements occupy the entire space of their parent(container), creatin
   * Only appear within the `<body>` element
   * May contain inline elements and other block level elements
 
-##### `<div>`
+#### `<div>`
 
-##### `<form>`
+#### `<form>`
 
 Element containing interactive controls for submitting information to a web server.
 
@@ -145,25 +145,49 @@ Element used to create a control that represents an item within `<select>`
 
 Multiline plain text editor control.
 
-##### `<ol>`
+#### `<ol>`
 
 Element representing an ordered list of items. List displayed with a preceding character (e.g. number, character, bullet) specified by the `list-style-type` property within CSS.
 
-##### `<ul>`
+#### `<ul>`
 
 Element representing an unordered list of items. Because the order of the items is meaningless, unordered lists are typically displayed with some form of bullet. Though, the style is defined using the `list-style-type` property within CSS.
 
-##### `[<dl>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)`
+#### `<li>`
+
+Element used to represent an item in a list. Typically preceded by a bullet point or number depending on its parent element _ul_ or _ol_. However, the preceding character is defined using the `list-style-type` property within CSS.
+
+#### `[<dl>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)`
 
 Element that encloses a list of pairs of terms or conditions. Typically used to display metadata including keys and corresponding values.
 
-##### `<p>`
+#### `<p>`
 
-##### `<table>`
+#### `<table>`
 
-##### `<li>`
+Element used to represent in tabular data in a structured two dimensional format. Example:
 
-Element used to represent an item in a list. Typically preceded by a bullet point or number depending on its parent element _ul_ or _ol_. However, the preceding character is defined using the `list-style-type` property within CSS.
+  | Tables        | Are           | Baller  |
+  | ------------- |:-------------:| -------:|
+  | This is       | some data     |  _yo_   |
+  | This  is      | more data     |  _yo_   |
+  | This is done  | final data    |  _yo_   |
+
+##### `<caption>`
+
+Element representing the title of a table; the first descendent of said table, though styling with CSS may relatively position the title elsewhere.
+
+##### `<colgroup>`
+
+Element used to specify attributes that will be applied to a set of table columns (`<col>`)
+
+##### `<tbody>`
+
+The table body element; defines `<tr>` element data rows within the body of the parent table. In contrast to `<thead>` and `<tfoot>` elements, the content within `<tbody>` will typically vary throughout.
+
+##### `<thead>`
+
+
 
 ### Inline elements
 

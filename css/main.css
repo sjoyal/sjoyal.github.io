@@ -111,7 +111,7 @@ textarea {
 
 .header-title {
   font-family: serif;
-  color: white;
+  color: #BDF3A6;
   text-align: center;
 }
 
@@ -130,23 +130,23 @@ nav li {
   line-height: 2.5em;
   margin-right: 1.25%;
   margin-left: 1.25%;
-  border: .25ex solid white;
+  border: .25ex solid #BDF3A6;
   list-style-type: none;
   cursor: pointer;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #BDF3A6;
 }
 
 .tab-current {
-  background-color: white;
+  background-color: #BDF3A6;
 }
 
 .tab-current a {
   color: #31343F;
-  background-color: white;
+  background-color: #BDF3A6;
 }
 
 

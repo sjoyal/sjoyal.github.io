@@ -95,8 +95,52 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.header {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: #31343F;
+}
 
+.container .header .headblock {
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  width: 100%;
+}
 
+.header-title {
+  font-family: serif;
+  color: white;
+  text-align: center;
+}
+
+.main-menu {
+  display: block;
+  vertical-align: middle;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  width: 6.5em;
+  line-height: 2.5em;
+  margin: auto;
+  color: white;
+  border: .25ex solid white;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.middle-button {
+  color: #31343F;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
+  background-color: white;
+}
 
 
 

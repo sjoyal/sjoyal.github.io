@@ -128,17 +128,24 @@ nav li {
   display: inline-block;
   width: 6.5em;
   line-height: 2.5em;
-  margin: auto;
-  color: white;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
   border: .25ex solid white;
   list-style-type: none;
   cursor: pointer;
 }
 
-.middle-button {
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.tab-current {
+  background-color: white;
+}
+
+.tab-current a {
   color: #31343F;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
   background-color: white;
 }
 

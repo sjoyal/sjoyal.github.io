@@ -1,8 +1,10 @@
 (function(window) {
 
   $('.main-buttons').click(function(){
-    $('li').removeClass('tab-current')
+    $(this).siblings().removeClass('tab-current')
     $(this).addClass('tab-current');
+    $('.body-container').children().removeClass('section-current');
+    $($('a', this).attr('href')).addClass('section-current');
   });
 
   $('.blog-title').click(function(){

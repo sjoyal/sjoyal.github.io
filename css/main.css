@@ -102,24 +102,80 @@ textarea {
   margin-right: 5%;
 }
 
-.body-container .section-1 {
+.body-container #section-1 {
   margin-top: 5em;
 }
 
-.body-container .section-1 h2 {
+.body-container #section-1 h2 {
   font-family: sans-serif;
+  font-size: 3.5em;
+  font-weight: lighter;
   padding: 0;
   margin: 0;
 }
 
-.body-container .section-1 h4 {
+.body-container #section-1 h4 {
   font-family: sans-serif;
+  font-weight: lighter;
   color: #B5B5B5;
   padding: 0;
   margin:0;
 }
 
+.body-container #section-2 {
+  margin-top: 2.5em;
+}
 
+.body-container #section-2 .blog-post {
+  border-top: .25ex solid lightgray;
+  padding-top: 2em;
+}
+
+.blog-post .date-time {
+  display: inline-block;
+  width: 13%;
+  text-align: right;
+  padding-right: 1.5%;
+  vertical-align: top;
+}
+
+.date-time .small, .big {
+  display: block;
+}
+
+.date-time .big {
+  font-family: sans-serif;
+  font-size: 1.75em;
+}
+
+.blog-post .blog-content {
+  display: inline-block;
+  width: 82%;
+  vertical-align: top;
+}
+
+.blog-content {
+  border-left: .5ex solid black;
+  padding-left: 1%;
+}
+
+.blog-content h4 {
+  margin-top: .5ex;
+  margin-bottom: .5ex;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 2em;
+  color: darkgray;
+  cursor: pointer;
+}
+
+.no-text {
+  display: none;
+}
+
+.blog-content .long-text {
+  display: block;
+}
 
 
 

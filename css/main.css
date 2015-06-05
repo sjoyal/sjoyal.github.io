@@ -102,26 +102,53 @@ textarea {
   margin-right: 5%;
 }
 
-.body-container .section-1 {
+.body-container #section-1 {
   margin-top: 5em;
 }
 
-.body-container .section-1 h2 {
+.body-container #section-1 h2 {
   font-family: sans-serif;
   padding: 0;
   margin: 0;
 }
 
-.body-container .section-1 h4 {
+.body-container #section-1 h4 {
   font-family: sans-serif;
   color: #B5B5B5;
   padding: 0;
   margin:0;
 }
 
+.body-container #section-2 {
+  margin-top: 5em;
+}
 
+.body-container #section-2 .blog-post {
+  border-top: .25ex solid darkgray;
+  padding-top: 1em;
+}
 
+.blog-post .date-time {
+  display: inline-block;
+  width: 12.5%;
+  text-align: right;
+  padding-right: 2.5%;
+  vertical-align: top;
+}
 
+.date-time .small, .big {
+  display: block;
+}
+
+.blog-post .blog-content {
+  display: inline-block;
+  width: 84%;
+  vertical-align: top;
+}
+
+.blog-content h4 {
+  margin-top: 0;
+}
 
 
 

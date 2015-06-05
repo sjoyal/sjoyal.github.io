@@ -1,0 +1,20 @@
+{
+  "name": "sjoyal.github.io",
+  "version": "0.0.0",
+  "description": "--- permalink: index.html ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --directory --files='index.html, css/**/*.css, js/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjoyal/sjoyal.github.io.git"
+  },
+  "author": "Sean Joyal <sean.joyal@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/sjoyal/sjoyal.github.io/issues"
+  },
+  "homepage": "https://github.com/sjoyal/sjoyal.github.io"
+}

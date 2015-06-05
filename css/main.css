@@ -95,7 +95,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.body-container {
+  color: #393A3B;
+  font-family: serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+.body-container .section-1 {
+  margin-top: 5em;
+}
+
+.body-container .section-1 h2 {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.body-container .section-1 h4 {
+  font-family: sans-serif;
+  color: #B5B5B5;
+  padding: 0;
+  margin:0;
+}
 
 
 

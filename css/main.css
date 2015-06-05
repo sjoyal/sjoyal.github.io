@@ -105,22 +105,23 @@ textarea {
 .container .header .headblock {
   position: absolute;
   text-align: center;
-  top: 30px;
+  top: 20px;
   width: 100%;
 }
 
 .header-title h1 {
-  font-family: serif;
-  color: #BDF3A6;
+  font-family: helvetica;
+  font-weight: lighter;
+  color: white;
   text-align: center;
-  font-size: 4em;
+  font-size: 3.0em;
   margin: 0;
 }
 
 .header-title p {
   font-family: serif;
-  color: #BDF3A6;
-  font-size: 1em;
+  color: white;
+  font-size: .8em;
   margin: 0;
 }
 
@@ -139,7 +140,7 @@ textarea {
   line-height: 2.25em;
   margin-right: 1.25%;
   margin-left: 1.25%;
-  border: .25ex solid #BDF3A6;
+  border: .25ex solid white;
   list-style-type: none;
   cursor: pointer;
 }
@@ -148,12 +149,12 @@ textarea {
   display: block;
   width: 100%;
   text-decoration: none;
-  color: #BDF3A6;
+  color: white;
   font-size: 1.5ex;
 }
 
 .main-menu .main-buttons:hover {
-  background-color: #BDF3A6;
+  background-color: white;
 }
 
 .main-menu .main-buttons a:hover {
@@ -161,12 +162,12 @@ textarea {
 }
 
 .tab-current {
-  background-color: #BDF3A6;
+  background-color: white;
 }
 
 .main-menu .tab-current a {
   color: #31343F;
-  background-color: #BDF3A6;
+  background-color: white;
 }
 
 

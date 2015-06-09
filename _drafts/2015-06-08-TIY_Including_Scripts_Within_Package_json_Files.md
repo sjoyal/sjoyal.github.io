@@ -6,13 +6,16 @@ For our purposes in class, we have initially used the scripts field for includin
 
 
 1.) Create the `package.json` file by using the following command `npm init`
+
 2.) Open `package.json` using the text editor of your choice
+
 3.) Include a `start` script in the `scripts` section directly below the field for `main`:
   * `"start": "browser-sync start --server --directory --files='index.html'"`
   * In the example provided, a script is used to run a local server through browser-sync that starts on a directory listing and watches the file `index.html`.
-  * For additional browser-sync options, refer to the browser-sync [documentation](http://www.browsersync.io/docs/command-line/)
+  * For additional browser-sync options, refer to the [browser-sync documentation](http://www.browsersync.io/docs/command-line/)
+
 4.) After saving the changes within `package.json`, the script can be run using `npm start` on the command line
 
-[npm-scripts_example](../npm-scripts_example.png "npm-scripts_example")
+![npm-scripts_example](../npm-scripts_example.png "npm-scripts_example")
 
 Though I've used browser-sync in my example, many different scripts can be included to automate the yak-shaving process when beginning work on a project. For additional information on the predefined naming conventions for screipts, see the [npm documentation](https://docs.npmjs.com/misc/scripts).

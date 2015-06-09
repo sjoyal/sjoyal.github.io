@@ -15,8 +15,10 @@ Ok, I talk about the tools we receive every week. This week is no different. But
    * Yeoman is a scaffolding tool for the modern web, and its very noice. Created to get a project up and running quickly, Yeoman uses best practices to construct a package of the correct files in the correct places, pointing to the right things. Even cooler, you call a generator using the `$ yo <generatorName>` command. It's glorious, and it has already helped me with the following generators:
     * `h5bp` - (html5Boilderplate) Includes the basics we need to start a project (e.g., index.html, css/, js/, and LICENSE.txt)
     * :wave: `mocha` - Where chai once lived, mocha made me quit you (not literally, I get both for the price of one in a lovely tests folder and test.js file)
+
 **`json files`**
    * package.json and bower.json files are files including various information about a project like its name, version, main pages, dependencies, and scripts to run at various times. These files make it extremely simple to install the related dependencies for a project if you are not the original contributor (just run `npm install`, `bower install`, etc.). The scripts section of package.json is also especially useful for adding browser-sync start paths for testing and watching files.
+   
 **`Skitch`**
    * I have no idea if I discussed this last week. And that will take to long to check, so I'm mentioning it again (or maybe for the first time?). Skitch is a free, easy to use tool that let's the user add stuff to screen shots as part of the planning/mockup process. Praying this is all I need in the design realm, I don't design.
 

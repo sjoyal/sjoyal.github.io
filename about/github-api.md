@@ -70,3 +70,28 @@ Endpoints are the full URL required to retrieve a specific .json file within an 
 `$ curl 'https://api.github.com/user/repos?per_page=100'`
 
 For more results, the user must submit additional requests for a different page of results using the `?page` parameter
+
+  * What is the basic structure of the results?
+  
+  * What fields are included in each result?
+
+  * What are the data types for each field?
+
+  * What are some of the different values for the `type` field?
+
+Using the Github API to:
+  * Get all the comments for a particular issue?
+
+  * Add a comment to an issue?
+
+Using the jQuery API to:
+  * Get the HTML contents of an element?
+
+  * Create a _new_ HTML element?
+
+  * Add an HTML element to the page?
+
+Using the Lodash API to:
+  * Replace placeholders with values from an object?
+
+  * Repeat code for every item of an array?

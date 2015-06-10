@@ -6,6 +6,7 @@ For our purposes in class, we have initially used the scripts field for includin
 
 
 1.) Create the `package.json` file by using the following command `npm init`
+  * If you're confused on how to answer the questions presented after using `npm init`, just keep hitting enter. _Defaults never killed anybody_.
 
 2.) Open `package.json` using the text editor of your choice
 

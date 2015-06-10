@@ -17,7 +17,7 @@ Authentication is a process that began in order to secure sensitive traffic from
       * Developed as an idea between Twitter API and Ma.gnolia to allow Ma.gnolia users access to twitter without those users needing to give Ma.gnolia their twitter passwords
       * Result is like a valet key for an API; a token giving a single client or website access to an API on behalf of one user (_credential dance_ process takes place to exchange secret token between API and client/website)
 
-#### Github API v3
+#### GitHub API v3
 
 ##### Authentication
 3 ways to authenticate through Github API:
@@ -51,3 +51,22 @@ Authentication is a process that began in order to secure sensitive traffic from
   * Specify further information with the '?page' parameter
   * Specify less information by restricting items returned per page with the '?per-page' parameter
   * View infromation on data available in the pagination info within the 'Link Header'
+
+##### Endpoints
+Endpoints are the full URL required to retrieve a specific .json file within an endpoint category in the GitHub API.
+
+**Endpoints for fetching:**
+1) User profile data: `https://api.github.com/users/USERNAME`
+2) User organizations: `https://api.github.com/users/USERNAME/orgs`
+3) Repos created by user: `https://api.github.com/users/USERNAME/repos?type=owner`
+4) Filtered list of repositories - `tbd`
+5) Sorted list of repositories: `https://api.github.com/users/USERNAME/repos?sort=PARAMETER`
+6) List of user public activity: `https://api.github.com/users/USERNAME/events/public`
+
+**Public activity requests:**
+1) The default number of results for a public activity requests is 30 items
+2) To retrieve more results in one request, the custom page size can be increased to 100 using the `?per_page` parameter:
+
+`$ curl 'https://api.github.com/user/repos?per_page=100'`
+
+For more results, the user must submit additional requests for a different page of results using the `?page` parameter

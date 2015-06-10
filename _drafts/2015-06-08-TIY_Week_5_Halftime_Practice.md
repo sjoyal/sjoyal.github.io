@@ -1,22 +1,17 @@
 ## What Once Was a Plan Was Not
 
-Week 5 at TIY = done. It was a weird one. In a neither good nor bad way. Just weird. We began the week with the possibility of covering new material, or tapping the breaks for a recap week, starting on Tuesday. Worse, the decision was ours to make. Option A - Cover new material in week 5 and take halftime in week 6, or Option B - Take a halftime break in week 5, then go back to new material in week 6. Collectively, the cohort opted to take the halftime week, as opposed to covering new material. And while there were some that were more vocal with their opinion than others, the cohort definitely embraced the no man left behind concept. I didn't expect any type of halftime week when I first got to TIY, but after experiencing the information dump through the first third of the course, I'm beginning to see why it's needed. P.S. I voted to push forward and take a halftime break in week 6.
+Week 5 at TIY = done. It was a weird one. In a neither good nor bad way. Just weird. We began the week with the possibility of covering new material, or tapping the breaks for a recap week starting on Tuesday. Worse, the decision was ours to make. Option A - Cover new material in week 5 and take halftime in week 6, or option B - Take a halftime break in week 5, then go back to new material in week 6. Collectively, the cohort opted for option B. And while there were some that were more vocal with their opinion than others, the cohort definitely embraced the no man left behind concept. I certainly hadn't expected any type of halftime week when I first got to TIY, but after trying to digest all the information that was dumped in my brain through the first third of the course, I'm beginning to see why it was a good idea. For the record, I voted for option A, but one guy does not a cohort make.
 
 #### So what did I learn during halftime week?
 
-Turns out, not a whole lot. At least in terms of new tools. Instead, I got to spend a lot of time reworking some of the projects we've previoussly worked on throughout the first month of the course. 
+Turns out, not a whole lot. At least in terms of new tools. Instead, I got to spend a lot of time reworking some of the projects we've previously worked on throughout the first month of the course. My blueprint friends Full Width Tabs and View Mode Switch got reworked, and I started on the fundamental building blocks of personal blog/portfolio site. I also failed to finish a third blueprint I was supposed to complete, but I digress. The week was a good lesson on planning and scope. Something about a combination of checkboxes and feature buzzwords....woot. So looking back, even though I would've preferred delaying halftime one more week, I don't think the week was a waste of time. More like extended practice. I really hope I have something to put on said portfolio sight by the end of this course...
 
+In terms of new concepts, I learned that I didn't use a very good technique for holding moves when I made that chessboard with moving pieces and jQuery and blah. Apparently calling a parameter's (which happens to be an array literal) index in a function body, makes that array act as a _tuple_. Aka, a finite ordered list of elements, emphasis on the ordered. That ordered incorrectly will cause some serious issues. Anyway, I need to embrace the object literal. Getting warmer here.
 
-Tuple
-* A finite ordered list of elements
-* This is what happens when you stumble upon some moves and a chessboard and/or calling things in a function based on index number of an array (works, but prolly not smart)
-* Example, an array of data that must be used in a specific way, the index of elements matters
-* But I'm scare of objects kind of sort of
+We also took a look at using _doc blocks_ when defining functions in our JavaScript. 2 reasons here: it's easier for other developers to see what the hell you're doing, and if done properly can make generating documentation a much easier process using a generator such as JSDoc.
 
-Use doc blocks when defining functions
-* best practice for semantic .js
-* first step in eventually using robots to turn info into documentation (e.g., jsdoc)
-* Example:
+An example of the doc block format we've used in class:
+
 ```
 /**
  * multiply two numbers
@@ -29,24 +24,16 @@ Use doc blocks when defining functions
  };
 ```
 
-Fetch things from an api in multiple ways
-* curl -i <URL>, GET, or POSTMAN
-* Push the output of a command in terminal into a file name as specified (ex: command > filename.extension)
+_Perfect pixel_......this seems like a cool chrome extension, even if the video demonstration is the most atrocious thing possibly ever. I can see this being very useful if working for an especially anal designer. You know who you are.
 
-Babel js
-* Use ECMAScript6 today
-* Compiler takes next generation JS and translates it into ES5 for use today
-* This might be beneficial when I become competent in ES6
+The coolest tool we dipped our toes in was definitely _Jekyll_. Jekyll is a ruby based static site generator that takes basic text files, applies basic styling, and creates a mf'ing website. Combined with GitHub pages, I can see it's going to be a very useful tool.
 
-perfect pixel
-* Put a semi-transparent image overlay over the top of developed html
+As usual, my tips for surviving a coding bootcamp, week 5 edition, are included below. Week 5 was better than week 4. Not sure how that happened.
 
-Jekyll
-* Ruby static site generator that takes basic text files, applies basic styling, and creates a website
-
-How to survive week 5 list or any halftime week for that many
-* Don't worry about finishing things, everything's been finished before (get better)
-* Touch on everything, some in the cohort didn't do any js.....not for me
-* Go to a Tom Cruise character costume party
+**How to survive week 5, or any halftime week for that matter**
+* Tear it all down and rebuild. Don't worry about finishing things, just get better
+* Touch on everything, for front end specifically, don't forget there's html, css, AND js
+* Go to a Tom Cruise themed costume party (this happened)
 * Regret that you aren't learning something new (where's my momentum?)
-* Almost through the burnout phase. DON'T. GIVE. UP.
+* Change up that study scenery
+* Rejoice that burnout phase should be over soon

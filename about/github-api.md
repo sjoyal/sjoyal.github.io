@@ -67,31 +67,66 @@ Endpoints are the full URL required to retrieve a specific .json file within an 
 1) The default number of results for a public activity requests is 30 items
 2) To retrieve more results in one request, the custom page size can be increased to 100 using the `?per_page` parameter:
 
-`$ curl 'https://api.github.com/user/repos?per_page=100'`
+`https://api.github.com/user/repos?per_page=100`
 
 For more results, the user must submit additional requests for a different page of results using the `?page` parameter
 
-  * What is the basic structure of the results?
-  
-  * What fields are included in each result?
+3) What is the basic structure of the results?
 
-  * What are the data types for each field?
+    * A multidimensional array of object literals
 
-  * What are some of the different values for the `type` field?
+4) What fields are included in each result?
+
+    * id, type, actor, repo, payload, public, created at
+
+5) What are the data types for each field?
+
+    * Booleans, numbers, strings, and object literals
+
+6) What are some of the different values for the `type` field?
+
+    * DeleteEvent, PushEvent, PullRequestEvent, IssueCommentEvent, CreateEvent, IssuesEvent
 
 Using the Github API to:
   * Get all the comments for a particular issue?
 
+    `https://api.github.com/repos/:owner/issues/:issue/comments`
+
   * Add a comment to an issue?
+
+    `POST https://api.github.com/repos/:owner/:repo/issues/:number/comments`
 
 Using the jQuery API to:
   * Get the HTML contents of an element?
 
+    `.html()` Examples:
+    ```
+    <div class="foo">
+      <div class="bar"><span>&#8853;</span><p>This is a foobar demonstration</p>
+    </div> <!--.foo-->
+
+    <script>
+    $(.foo).html();
+    // yields <div class="bar"><span>&#8853;</span><p>This is a foobar demonstration</p>
+    </script>
+    ```
+
   * Create a _new_ HTML element?
 
+    `.clone()`
+    `.html()`
+
   * Add an HTML element to the page?
+
+    `.html()`
+    `.append()`
+    `.prepend()`
 
 Using the Lodash API to:
   * Replace placeholders with values from an object?
 
+    `_.assign()`
+
   * Repeat code for every item of an array?
+
+    `.forEach()`

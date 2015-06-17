@@ -16,7 +16,6 @@
     * `500` level indicates an internal error with the error with Etsy API
 
 #### How does the API handle authentication?
-
   * Do I need to authenticate?
 
     Technically no, but an `api_key` is required with each request. This can be obtained during app registration. True authentication is required for write access or for accessing private data (OAuth token required)
@@ -43,7 +42,6 @@
     The `ListingImage` parameter
 
 #### Is there a limit to the number of requests I can make?
-
     With a public `api_key`, `10_000` requests can be made per 24-hour period; `10` per second
 Requests made with private authentication (OAuth) are subject to the same limits
 
@@ -65,3 +63,45 @@ Requests made with private authentication (OAuth) are subject to the same limits
   * How do I know that there is more data available?
 
     Responses include a `count` field which specifies the total number of records available through pagination; max value is `50_000`
+
+#### What Resource in the API represents...
+    * An individual product?
+
+    `/listing/:listing_id`
+
+    * A group or collection of products?
+
+    `category`
+
+    * Images associated with a product?
+
+    `Images` association within `/listings/`; includes fields for multiple sizes used for thumbnails, zoom, etc.
+
+    * Sizes and colors for a product?
+
+    `Item weight`, `Item height`, `Item width`, `Item length` fields returned for a `listing` request
+
+#### What actions and endpoints exist for each of these Resources?
+
+    Additional parameters can be passed for each, including associations which can be nested 3 deep
+
+#### What parameters do each endpoint require or accept?
+
+    `fields`(i.e. "title"), `includes`(i.e. "includes=Images"), and `scopes`(i.e. "active")
+
+#### What fields are returned for each Resource, specifically:
+    * An individual product?
+
+    [Fields](https://www.etsy.com/developers/documentation/reference/listing#section_fields)
+
+    * A group or collection of products?
+
+    [Fields](https://www.etsy.com/developers/documentation/reference/category#section_fields)
+
+    * What additional fields can be requested for each?
+
+    `Associations` using the `includes` parameter
+
+    * What is a Taxonomy Resource?
+
+    New style categories (buyers and sellers) that will eventually replace the category resource. The seller taxonomy is optimized for completeness and specificity, while the buyer taxonomy is optimized for how buyers search.

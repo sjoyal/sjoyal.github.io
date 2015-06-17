@@ -17,27 +17,25 @@ title: Sean rambles
     </head>
     <body>
       <main class="container">
-        <div class="header"><img src="img/MainStBridge.jpg">
+        <header><img src="img/MainStBridge.jpg">
           <div class="headblock">
             <div class="header-title">
               <h1>Sean Joyal</h1>
               <p><em>CODING FRONTS BREAKING NECKS CASHING CHECKS</em><p>
             </div> <!-- .header-title -->
-            <nav class="main-menu">
-              <ul>
-                <li class="main-buttons tab-1 tab-current">
-                  <a href="#section-1">ABOUT</a>
-                </li>
-                <li class="main-buttons tab-2">
-                  <a href="#section-2">BLOG</a>
-                </li>
-                <li class="main-buttons tab-3">
-                  <a href="#section-3">CONTACT</a>
-                </li>
-              </ul>
-            </nav> <!-- .main-menu -->
+            <ul class="main-menu">
+              <li class="main-buttons tab-1 tab-current">
+                <a href="#section-1">ABOUT</a>
+              </li>
+              <li class="main-buttons tab-2">
+                <a href="#section-2">BLOG</a>
+              </li>
+              <li class="main-buttons tab-3">
+                <a href="#section-3">CONTACT</a>
+              </li>
+            </ul> <!-- .main-menu -->
           </div> <!-- .headblock -->
-        </div> <!-- .header -->
+        </header>
         <div class="body-container">
           <div id="section-1" class="section-current">
             <h2>about.</h2>
@@ -67,10 +65,16 @@ title: Sean rambles
             {% endfor %}
           </div> <!-- #section-2 -->
         </div> <!-- .body-container -->
-      <!--create footer-->
         <footer class="footer">
+          <div class="copyright">
+            <p>©2015 Sean Joyal. All rights reserved.</p>
+          </div> <!--.copyright-->
+          <div class="social-links">
+            <p><a href="www.github.com/sjoyal">GitHub</a></p>
+            <p><a href="www.twitter.com/s_joyal">twitter</a></p>
+            <p><a href="www.linkedin.com/in/sjoyal">Linkedin</a></p>
+          </div> <!--.social-links-->
         </footer> <!--.footer-->
-      <!--end create footer-->
       </main> <!-- .container -->
       <!--bower:js-->
       <script src="bower_components/jquery/dist/jquery.js"></script>

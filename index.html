@@ -1,5 +1,5 @@
 ---
-title: Sean Rambles
+title: Sean rambles
 ---
 
 <!doctype html>
@@ -17,48 +17,49 @@ title: Sean Rambles
     </head>
     <body>
       <main class="container">
-        <div class="header"><img src="img/MainStBridge.jpg">
+        <header><img src="img/MainStBridge.jpg">
           <div class="headblock">
             <div class="header-title">
               <h1>Sean Joyal</h1>
               <p><em>CODING FRONTS BREAKING NECKS CASHING CHECKS</em><p>
             </div> <!-- .header-title -->
-            <nav class="main-menu">
-              <ul>
-                <li class="main-buttons tab-1 tab-current">
-                  <a href="#section-1">ABOUT</a>
-                </li>
-                <li class="main-buttons tab-2">
-                  <a href="#section-2">BLOG</a>
-                </li>
-                <li class="main-buttons tab-3">
-                  <a href="#section-3">CONTACT</a>
-                </li>
-              </ul>
-            </nav> <!-- .main-menu -->
+            <ul class="main-menu">
+              <li class="main-buttons tab-1 tab-current">
+                <a href="#section-1">ABOUT</a>
+              </li>
+              <li class="main-buttons tab-2">
+                <a href="#section-2">BLOG</a>
+              </li>
+              <li class="main-buttons tab-3">
+                <a href="#section-3">CONTACT</a>
+              </li>
+            </ul> <!-- .main-menu -->
           </div> <!-- .headblock -->
-        </div> <!-- .header -->
+        </header>
         <div class="body-container">
           <div id="section-1" class="section-current">
             <h2>about.</h2>
+          <!--update about me-->
             <h4>Gator alum. Tech newb. I'd rather be traveling.</h4>
-            <p>Lebowski ipsum vee belief in nossing, Lebowski! Dolor sit amet, consectetur adipiscing elit praesent ac. We're scattering the fucking ashes! Magna justo pellentesque ac lectus quis elit blandit fringilla. The new technology permits us to do exciting things with interactive erotic software. Wave of the future, Dude. 100% electronic. A ut turpis praesent felis. I don't see any connection to Vietnam, Walter. Ligula, malesuada suscipit malesuada non, ultrices non urna sed orci ipsum, placerat id.</p>
-            <p>I got a nice quiet beach community here, and I aim to keep it nice and quiet. Condimentum rutrum, rhoncus ac lorem aliquam placerat posuere neque, at dignissim magna ullamcorper. "My son can't hold a job, my daughter's married to a fuckin' loser, and I got a rash on my ass so bad I can't hardly siddown. But you know me. I can't complain.". In aliquam sagittis massa ac tortor ultrices faucibus curabitur eu.</p>
+            <p> Hello. My name is Sean. I'm an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. Put more simply, it should help me get a job with a team that is a cultural fit, maybe? If that's what you're here for, read my blogs. Hopefully I've fixed the site, and they're working by now. </p>
+            <p> As background, I went to the University of Florida and graduated with BSBA in marketing way back in 2005. For almost 10 years, I worked in various marketing a communications roles, until I decided to pursue something entirely different. Enter tech. Enter programming. Enter code. I now get excited and dream about JavaScript, among other things, though I'm still very green and have a lot to learn. That said, I'm now accepting applications for mentor. Contact me via social media if you'd like to connect. We both know you already have the links. </p>
+          <!--end about me section feature-->
           </div> <!-- #section-1 -->
           <div id="section-2">
           <!--jekyll placeholder work begins here-->
             {% for post in site.posts %}
             <article class="blog-post">
               <div class="date-time">
-                <time class="small">7:37p.m.</time>
-                <time class="big">5/31/15</time>
+                <!-- <time class="small">7:37p.m.</time> -->
+                <time class="big">{{page.date}}</time>
               </div> <!-- .date-time -->
               <div class="blog-content">
-                <h4 class="blog-title">A Placeholder Title About TIY Being Hard</h4>
+                <h4 class="blog-title">{{page.title}}</h4>
                 <div class="no-text">
-                  <a href="{{ post.url}}">{{post.title}}</a>
+                  <!-- <a href="{{ post.url}}">{{post.title}}</a> -->
                   <!-- <p>Lebowski ipsum vee belief in nossing, Lebowski! Dolor sit amet, consectetur adipiscing elit praesent ac. We're scattering the fucking ashes! Magna justo pellentesque ac lectus quis elit blandit fringilla. The new technology permits us to do exciting things with interactive erotic software. Wave of the future, Dude. 100% electronic. A ut turpis praesent felis. I don't see any connection to Vietnam, Walter. Ligula, malesuada suscipit malesuada non, ultrices non urna sed orci ipsum, placerat id.</p> -->
                   <!-- <p>I got a nice quiet beach community here, and I aim to keep it nice and quiet. Condimentum rutrum, rhoncus ac lorem aliquam placerat posuere neque, at dignissim magna ullamcorper. "My son can't hold a job, my daughter's married to a fuckin' loser, and I got a rash on my ass so bad I can't hardly siddown. But you know me. I can't complain.". In aliquam sagittis massa ac tortor ultrices faucibus curabitur eu.</p> -->
+                  <p>{{page.content}}</p>
                 </div> <!-- .long-text -->
               </div> <!-- .blog-content -->
             </article> <!-- .blog-post -->
@@ -66,6 +67,16 @@ title: Sean Rambles
           <!--jekyll placeholder work ends here-->
           </div> <!-- #section-2 -->
         </div> <!-- .body-container -->
+        <footer class="footer">
+          <div class="copyright">
+            <p>©2015 Sean Joyal. All rights reserved.</p>
+          </div> <!--.copyright-->
+          <div class="social-links">
+            <p><a href="www.github.com/sjoyal">GitHub</a></p>
+            <p><a href="www.twitter.com/s_joyal">twitter</a></p>
+            <p><a href="www.linkedin.com/in/sjoyal">Linkedin</a></p>
+          </div> <!--.social-links-->
+        </footer> <!--.footer-->
       </main> <!-- .container -->
       <!--bower:js-->
       <script src="bower_components/jquery/dist/jquery.js"></script>

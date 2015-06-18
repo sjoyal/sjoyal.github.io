@@ -77,13 +77,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.header img {
+header img {
   position: relative;
   width: 100%;
   height: 350px;
   /*background-color: #31343F;*/ }
 
-.container .header .headblock {
+.container header .headblock {
   position: absolute;
   text-align: center;
   top: 20px;
@@ -107,7 +107,7 @@ textarea {
   display: block;
   vertical-align: middle; }
 
-.main-menu ul {
+.main-menu {
   padding: 0; }
 
 .main-menu .main-buttons {
@@ -211,6 +211,28 @@ textarea {
 
 .blog-content .long-text {
   display: block; }
+
+.footer {
+  background-color: #31343F;
+  color: white;
+  font-size: 1.25ex;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+  .footer p {
+    display: inline-block; }
+    .footer p a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      border: .25ex solid white;
+      width: 5em;
+      line-height: 2.5em;
+      border-radius: 5px; }
+    .footer p a:hover {
+      background-color: white;
+      color: #31343F; }
 
 /* ==========================================================================
    Helper classes

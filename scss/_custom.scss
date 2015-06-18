@@ -118,50 +118,44 @@ header img {
   margin-bottom: 2.5em;
 }
 
-.blog-post .date-time {
-  display: inline-block;
-  width: 13%;
-  text-align: right;
-  padding-right: 3%;
-  vertical-align: top;
-}
+.blog-post {
 
-.date-time .small, .big {
-  display: block;
-}
+  date-time {
+    display: inline-block;
+    width: 13%;
+    text-align: right;
+    padding-right: 3%;
+    vertical-align: top;
 
-.date-time .big {
-  font-family: sans-serif;
-  font-size: 1em;
-}
+   .small {
+     display: block;
+    }
 
-.blog-post .blog-content {
-  display: inline-block;
-  width: 75%;
-  vertical-align: top;
-}
+   .big {
+     display: block;
+     font-family: sans-serif;
+     font-size: .5em;
+    }
+  }
 
-.blog-content {
-  border-left: .5ex solid black;
-  padding-left: 2.5%;
-}
+  .blog-content {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    border-left: .5ex solid black;
+    padding-left: 2%;
 
-.blog-content h4 {
-  margin-top: .5ex;
-  margin-bottom: .5ex;
-  font-family: sans-serif;
-  font-weight: lighter;
-  font-size: 1.5em;
-  color: darkgray;
-  cursor: pointer;
-}
-
-.no-text {
-  display: none;
-}
-
-.blog-content .long-text {
-  display: block;
+    .blog-title {
+      /* margin-top: .5ex; */
+      /* margin-bottom: .5ex; */
+      cursor: pointer;
+      font-family: sans-serif;
+      font-weight: lighter;
+      font-size: 1ex;
+      color: black;
+      text-decoration: none;
+    }
+  }
 }
 
 .footer {

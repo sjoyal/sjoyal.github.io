@@ -80,11 +80,18 @@ textarea {
 /* ---
 
 --- */
+h2 {
+  font-family: sans-serif;
+  font-size: 3.5em;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0; }
+
 header img {
   position: relative;
   width: 100%;
   height: 350px;
-  /*background-color: #31343F;*/ }
+  background-color: #31343F; }
 
 .container header .headblock {
   position: absolute;
@@ -108,112 +115,75 @@ header img {
 
 .main-menu {
   display: block;
-  vertical-align: middle; }
-
-.main-menu {
+  vertical-align: middle;
   padding: 0; }
-
-.main-menu .main-buttons {
-  display: inline-block;
-  width: 5em;
-  line-height: 2.25em;
-  margin-right: 1.25%;
-  margin-left: 1.25%;
-  border: .25ex solid white;
-  list-style-type: none;
-  cursor: pointer; }
-
-.main-menu .main-buttons a {
-  display: block;
-  width: 100%;
-  text-decoration: none;
-  color: white;
-  font-size: 1.5ex; }
-
-.main-menu .main-buttons:hover {
-  background-color: white; }
-
-.main-menu .main-buttons a:hover {
-  color: #31343F; }
-
-.tab-current {
-  background-color: white; }
-
-.main-menu .tab-current a {
-  color: #31343F;
-  background-color: white; }
+  .main-menu .main-buttons {
+    display: inline-block;
+    margin-right: 1.25%;
+    margin-left: 1.25%;
+    list-style-type: none;
+    cursor: pointer; }
+    .main-menu .main-buttons a {
+      display: block;
+      width: 6em;
+      text-decoration: none;
+      color: white;
+      border: .4ex solid white;
+      font-size: 1.5ex;
+      line-height: 3em; }
+  .main-menu .tab-current {
+    background-color: white; }
+    .main-menu .tab-current a {
+      color: #31343F;
+      background-color: white; }
+  .main-menu .main-buttons:hover {
+    background-color: white; }
+    .main-menu .main-buttons:hover a:hover {
+      color: #31343F; }
 
 .body-container {
   color: #393A3B;
   font-family: serif;
   margin-left: 5%;
   margin-right: 5%; }
-
-.body-container div {
-  display: none; }
-
-.body-container .section-current {
-  display: block; }
-
-.body-container #section-1 {
-  margin-top: 2.5em;
-  margin-bottom: 2.5em; }
-
-.body-container #section-1 h2 {
-  font-family: sans-serif;
-  font-size: 3.5em;
-  font-weight: lighter;
-  padding: 0;
-  margin: 0; }
-
-.body-container #section-1 h4 {
-  font-family: sans-serif;
-  font-weight: lighter;
-  color: #B5B5B5;
-  padding: 0;
-  margin: 0; }
-
-.body-container #section-2 {
-  margin-top: 2.5em;
-  margin-bottom: 2.5em; }
-
-.blog-post .date-time {
-  display: inline-block;
-  width: 13%;
-  text-align: right;
-  padding-right: 3%;
-  vertical-align: top; }
-
-.date-time .small, .big {
-  display: block; }
-
-.date-time .big {
-  font-family: sans-serif;
-  font-size: 1em; }
-
-.blog-post .blog-content {
-  display: inline-block;
-  width: 75%;
-  vertical-align: top; }
-
-.blog-content {
-  border-left: .5ex solid black;
-  padding-left: 2.5%; }
-
-.blog-content h4 {
-  margin-top: .5ex;
-  margin-bottom: .5ex;
-  font-family: sans-serif;
-  font-weight: lighter;
-  font-size: 1.5em;
-  color: darkgray;
-  cursor: pointer; }
-
-.no-text {
-  display: none; }
-
-.blog-content .long-text {
-  display: block; }
+  .body-container div {
+    display: none; }
+  .body-container .section-current {
+    display: block; }
+  .body-container #section-1 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em; }
+    .body-container #section-1 h4 {
+      font-family: sans-serif;
+      font-weight: lighter;
+      color: #B5B5B5;
+      padding: 0;
+      margin: 0; }
+  .body-container #section-2 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em; }
+    .body-container #section-2 .blog-post .date-time {
+      display: inline-block;
+      width: 13%;
+      text-align: right;
+      padding-right: 2.5%; }
+      .body-container #section-2 .blog-post .date-time .small {
+        display: block;
+        font-size: 1.25ex;
+        font-family: sans-serif;
+        color: #B6B5B6; }
+    .body-container #section-2 .blog-post .blog-content {
+      display: inline-block;
+      width: 75%;
+      padding-left: 1.5%; }
+      .body-container #section-2 .blog-post .blog-content a {
+        font-weight: lighter;
+        font-size: 2.25ex;
+        color: black;
+        text-decoration: none; }
+  .body-container #section-3 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em; }
 
 .footer {
   background-color: #31343F;
@@ -222,6 +192,7 @@ header img {
   font-weight: 300;
   padding: 0;
   margin: 0;
+  margin-top: 10em;
   text-align: center; }
   .footer p {
     display: inline-block; }

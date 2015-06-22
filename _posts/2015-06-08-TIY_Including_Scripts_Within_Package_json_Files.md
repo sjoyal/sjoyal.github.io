@@ -1,3 +1,8 @@
+---
+layout: post
+title: npm Scripts within package.json Files
+---
+
 ## Including Browser-Sync Scripts Within Package.json Files
 
 Creating a `package.json` file within a project repo has many advantages. One of those advantages is the `scripts` section, which allows a developer to include various scripts to run on the command line and increase automation when working on a project.

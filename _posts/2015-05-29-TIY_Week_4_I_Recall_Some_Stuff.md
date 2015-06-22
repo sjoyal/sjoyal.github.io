@@ -1,3 +1,8 @@
+---
+layout: post
+title: TIY Week 4 - I Recall Some Things
+---
+
 ## TIY Week 4 - I Remember Everything and Don't. Same time like, ya dig?
 
 #### What I learned?
@@ -18,7 +23,7 @@ Ok, I talk about the tools we receive every week. This week is no different. But
 
 **`json files`**
    * package.json and bower.json files are files including various information about a project like its name, version, main pages, dependencies, and scripts to run at various times. These files make it extremely simple to install the related dependencies for a project if you are not the original contributor (just run `npm install`, `bower install`, etc.). The scripts section of package.json is also especially useful for adding browser-sync start paths for testing and watching files.
-   
+
 **`Skitch`**
    * I have no idea if I discussed this last week. And that will take to long to check, so I'm mentioning it again (or maybe for the first time?). Skitch is a free, easy to use tool that let's the user add stuff to screen shots as part of the planning/mockup process. Praying this is all I need in the design realm, I don't design.
 

@@ -11,7 +11,7 @@ title: Sean rambles
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--bower:css-->
-        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
         <!--endbower-->
         <link rel="stylesheet" href="css/main.css">
     </head>
@@ -45,22 +45,22 @@ title: Sean rambles
             <h5>Recent posts</h5>
             <ul class="recent-posts">
             {% for post in site.posts limit: 5 %}
-              <li><a href="{{ post.url }}">{{ post.title | capitalize }}</a></li>
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
             </ul>
           </div> <!-- #section-1 -->
           <div id="section-2">
-            {% for post in site.posts %}
             <article class="blog-post">
               <h2>ramblings.</h2>
+              {% for post in site.posts %}
               <div class="date-time">
-                <time class="small">{{ post.date }}</time>
+                <time class="small">{{ post.date | date_to_string }}</time>
               </div> <!-- .date-time -->
               <div class="blog-content">
-                <a href="{{ post.url }}">{{ post.title | capitalize }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
               </div> <!-- .blog-content -->
+              {% endfor %}
             </article> <!-- .blog-post -->
-            {% endfor %}
           </div> <!-- #section-2 -->
           <div id="section-3">
             <h2>work.</h2>
@@ -72,15 +72,15 @@ title: Sean rambles
             <p>©2015 Sean Joyal. All rights reserved.</p>
           </div> <!--.copyright-->
           <div class="social-links">
-            <p><a href="www.github.com/sjoyal">GitHub</a></p>
-            <p><a href="www.twitter.com/s_joyal">twitter</a></p>
-            <p><a href="www.linkedin.com/in/sjoyal">Linkedin</a></p>
+            <p><a href="https://github.com/sjoyal">GitHub</a></p>
+            <p><a href="https://twitter.com/s_joyal">twitter</a></p>
+            <p><a href="https://www.linkedin.com/in/sjoyal">Linkedin</a></p>
           </div> <!--.social-links-->
         </footer> <!--.footer-->
       </main> <!-- .container -->
       <!--bower:js-->
-      <script src="bower_components/jquery/dist/jquery.js"></script>
-      <script src="bower_components/modernizr/modernizr.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
       <!--endbower-->
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
       <script src="js/plugins.js"></script>

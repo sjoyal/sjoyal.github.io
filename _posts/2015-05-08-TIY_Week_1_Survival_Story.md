@@ -1,3 +1,8 @@
+---
+layout: post
+title: TIY Week 1 Survival Story
+---
+
 ## Week 1 in the books - TIY
 
 Week 1 at **The Iron Yard -- Orlando** is officially in the books. Jeebus. Like a lot of the other members in my cohort, I must've read tens upon tens (they get repetitive people) of blog posts from students of various TIY campuses while I prepped for my course to begin. No one undersold it, and yet I still feel....undersold? Everything has gone as expected - I wake up thinking Developer tools and JavaScript, I go to sleep thinking Developer tools and JavaScript - yet everything hasn't gone as expected at the same time. It would be easy to start a countdown until the end, or a progress bar that says _You are 8.333% complete with the Front End Engineering course_. But really, I've already learned so much, and there is so much more to learn, that I think another countdown might be necessary: _11 weeks until distractions creep back into my life and slow the learning process down_. That's a scary thought.

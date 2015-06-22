@@ -1,3 +1,8 @@
+---
+layout: post
+title: TIY Week 2 - Treading Water Barely
+---
+
 ## TIY Week 2 - Treading Water Barely
 
 ##### What the effffff just happened?

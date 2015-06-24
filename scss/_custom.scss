@@ -143,11 +143,18 @@ header img {
         width: 75%;
         padding-left: 1.5%;
 
-        a {
+        span {
           font-weight: lighter;
           font-size: 2.25ex;
-          color: black;
-          text-decoration: none;
+          cursor: pointer;
+        }
+
+        .blog-excerpt {
+          display: none;
+        }
+
+        .show {
+          display: block;
         }
       }
     }

@@ -178,11 +178,10 @@ header img {
       display: inline-block;
       width: 75%;
       padding-left: 1.5%; }
-      .body-container #section-2 .blog-post .blog-content a {
+      .body-container #section-2 .blog-post .blog-content span {
         font-weight: lighter;
         font-size: 2.25ex;
-        color: black;
-        text-decoration: none; }
+        cursor: pointer; }
   .body-container #section-3 {
     margin-top: 2.5em;
     margin-bottom: 2.5em; }

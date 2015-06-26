@@ -53,16 +53,13 @@ title: Sean rambles
             <h2>ramblings.</h2>
             {% for post in site.posts %}
             <article class="blog-post">
-              <div class="date-time">
-                <time class="small">{{ post.date | date_to_string }}</time>
-              </div> <!-- .date-time -->
+              <div class="small">{{ post.date | date_to_string }}</div>
               <div class="blog-content">
-                <span>{{ post.title }}</span>
+                <h3>{{ post.title | upcase }}</h3>
+                <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
+                  <a href="{{ post.url }}">more</a>
+                </p>
               </div> <!-- .blog-content -->
-              <div class="blog-excerpt">
-                <p>{{ post.excerpt }}</p>
-                <a href="{{ post.url }}">READ MORE</a>
-              </div> <!--.blog-excerpt-->
             </article> <!-- .blog-post -->
             {% endfor %}
           </div> <!-- #section-2 -->

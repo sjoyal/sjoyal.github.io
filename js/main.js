@@ -9,8 +9,9 @@
   });
 
   $('.blog-post')
-    .on('click', 'span', (function(){
-    $('.blog-excerpt', this).toggleClass('show');
-  });
+    .on('click', 'h3', function(){
+      console.log("Hello");
+      $(this).siblings().toggleClass('show');
+    });
 
 })(window);

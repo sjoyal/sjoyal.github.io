@@ -50,23 +50,22 @@ title: Sean rambles
             </ul>
           </div> <!-- #section-1 -->
           <div id="section-2">
+            <h2>ramblings.</h2>
+            {% for post in site.posts %}
             <article class="blog-post">
-  <!-- Update some stuff in here! -->
-              <h2>ramblings.</h2>
-              {% for post in site.posts %}
-              <div class="date-time">
-                <time class="small">{{ post.date | date_to_string }}</time>
-              </div> <!-- .date-time -->
+              <div class="small">{{ post.date | date_to_string }}</div>
               <div class="blog-content">
-                <a href="{{ post.url }}">{{ post.title }}</a>
+                <h3>{{ post.title | upcase }}</h3>
+                <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
+                  <a href="{{ post.url }}">Keep Reading</a>
+                </p>
               </div> <!-- .blog-content -->
-              {% endfor %}
-  <!-- Update some stuff in here! -->              
             </article> <!-- .blog-post -->
+            {% endfor %}
           </div> <!-- #section-2 -->
           <div id="section-3">
             <h2>work.</h2>
-            <h5>Coming soon</h5>
+            <h4>Coming soon</h5>
           </div> <!-- #section-1 -->
         </div> <!-- .body-container -->
         <footer class="footer">

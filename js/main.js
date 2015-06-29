@@ -8,8 +8,10 @@
     $($('a', this).attr('href')).addClass('section-current');
   });
 
-  // $('.blog-title').click(function(){
-  //   $(this).siblings().toggleClass('long-text');
-  // });
+  $('.blog-post')
+    .on('click', 'h3', function(){
+      console.log("Hello");
+      $(this).siblings().toggleClass('show');
+    });
 
 })(window);

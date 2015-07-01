@@ -3,8 +3,6 @@ layout: post
 title: npm Scripts within package.json Files
 ---
 
-## Including Browser-Sync Scripts Within Package.json Files
-
 Creating a `package.json` file within a project repo has many advantages. One of those advantages is the `scripts` section, which allows a developer to include various scripts to run on the command line and increase automation when working on a project.
 
 For our purposes in class, we have initially used the scripts field for including some default commands to run browser-sync. The basic use of browser-sync is to run a local server for the current project that allows the user to work offline, and is initiated from the command line using the following command: `browser-sync start --server`. While that seems relatively painless, the command can become increasingly convoluted as more options are added for launch. For example, in order to launch the project directory, and watch select file paths (thus seeing automatic updates to your work on the local server), we would need the following command: `browser-sync start --server --directory --files='<filepath>'`. Typing that each time you begin work in a project sounds a little more messy. To automate the process, update the scripts field within `package.json` using the following steps:

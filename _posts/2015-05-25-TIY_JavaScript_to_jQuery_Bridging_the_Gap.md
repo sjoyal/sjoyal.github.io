@@ -3,8 +3,6 @@ layout: post
 title: Selecting Tabs - From Vanilla.js to jQuery
 ---
 
-## Selecting tabs with JavaScript - From vanilla.js to jQuery
-
 Recently, our cohort was given a project to recreate the JavaScript and CSS for a Blueprint from the codrops website. The template, "Full Width Tabs" looks simple to the eye. However, getting the functionality of clicking tabs to work proved to be a struggle for everyone. In this instance, the HTML included several tabs and sections of content, and the trick for us was linking the tabs and content together so that when the appropriate tab was clicked, only the content in the associated section was displayed. Sounds easy? It wasn't. At least not for noobs with less than 3 weeks of programming experience. After numerous google sessions (see: bulldogging), I made the decision to break down what needed to be done in its simplest form. After some brainstorming, I concluded, we essentially needed to do 5 things:
   * Add a `click` event listener to the tabs
   * Remove the appropriate class from the tab that indicated active (`'tab-current'`)

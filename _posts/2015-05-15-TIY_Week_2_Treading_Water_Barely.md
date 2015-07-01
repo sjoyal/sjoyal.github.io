@@ -3,8 +3,6 @@ layout: post
 title: TIY Week 2 - Treading Water Barely
 ---
 
-## TIY Week 2 - Treading Water Barely
-
 ##### What the effffff just happened?
 
 Emphasis on the **F**. I just read my entry for week 1. It sounds remarkably upbeat and almost giddy with excitement. Who wrote that? All the things I was so positive about got rocked in the worst possible way during week 2. Git and github? el.oh.el. Practically everything I thought I was grasping turned out to be a lie. How was I supposed to know what a merge conflict was? The fearless leader threw us into that fire firsthand. Learn by doing, he says. At least that means I followed directions properly since I avoided the problem until the intended face smack on Tuesday. And the JavaScript? Learning the fundamentals was borderline fun in week one. Applying those fundamentals to elements in the DOM? Not so much. I still have the command line to grasp onto. That didn't take an unexpected turn this week. Still, kind of sad. At least we have in class homework review on Mondays. Where we get to see how equally _dum_(sic) we all are.

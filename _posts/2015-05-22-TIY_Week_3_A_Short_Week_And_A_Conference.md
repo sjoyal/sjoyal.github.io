@@ -1,9 +1,7 @@
 ---
 layout: post
-title: TIY Week 3 - A Short Week and a Conference
+title: TIY Week 3 - A Short Week and a Conference to Boot
 ---
-
-## TIY Week 3 - A Short Week and a Conference to Boot
 
 Oh man. Let me tell you a story about the time that I attended a 2 day conference on a Thurs and Fri, followed immediately by a 3 day weekend, all in the middle of an intensive front end development bootcamp lasting a TOTAL of 12 weeks! Lolwut?! Sounds some kind of wonderful, no? A nice little break after almost 3 weeks in the program? Yeah? No? Yes and no? Something like that. Said perfect storm happened to our cohort at the end of week 3. Most of the group left for _Front End Design Conf_ in St. Pete on Wednesday evening, and we saw numerous speakers over 2 days before heading back to Orlando Friday evening. The conference itself was terrific (more on that later), but I do wish the timing would've worked out a little differently for our group. It's pretty apparent we'll be doing what it takes to play catchup in the next few weeks....and that I'm going to become a zombie sooner than later. As an aside, if you haven't seen the movie Warm Bodies, watch it. Its got zombies and stuff.
 

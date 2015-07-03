@@ -1,4 +1,6 @@
-/* Update styling with grid, header, colors, main image, font families*/
+body {
+  background-color: #F6F3EF;
+}
 
 h2 {
   font-family: sans-serif;
@@ -11,15 +13,17 @@ h2 {
 header img {
   position: relative;
   width: 100%;
-  height: 350px;
-  background-color: #31343F;
+  height: auto;
 }
 
-.container header .headblock {
-  position: absolute;
-  text-align: center;
-  top: 20px;
-  width: 100%;
+.container header {
+
+  .headblock {
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 100%;
+  }
 }
 
 .header-title {
@@ -48,8 +52,8 @@ header img {
 
   .main-buttons {
     display: inline-block;
-    margin-right: 1.25%;
-    margin-left: 1.25%;
+    margin-right: .5%;
+    margin-left: .5%;
     list-style-type: none;
     cursor: pointer;
 
@@ -59,6 +63,26 @@ header img {
       text-decoration: none;
       color: white;
       border: .4ex solid white;
+      border-radius: 5px;
+      font-size: 1.5ex;
+      line-height: 3em;
+    }
+  }
+
+  .email-button {
+    display: inline-block;
+    margin-right: .5%;
+    margin-left: .5%;
+    list-style-type: none;
+    cursor: pointer;
+
+    a {
+      display: block;
+      width: 6em;
+      text-decoration: none;
+      color: white;
+      border: .4ex solid white;
+      border-radius: 5px;
       font-size: 1.5ex;
       line-height: 3em;
     }
@@ -66,18 +90,33 @@ header img {
 
   .tab-current {
     background-color: white;
+    border-radius: 5px;
 
     a {
       color: #31343F;
       background-color: white;
+      border-radius: 5px;
+      font-weight: bold;
     }
   }
 
   .main-buttons:hover {
     background-color: white;
+    border-radius: 5px;
 
     a:hover {
       color: #31343F;
+      font-weight: bold;
+    }
+  }
+
+  .email-button:hover {
+    background-color: white;
+    border-radius: 5px;
+
+    a:hover {
+      color: #31343F;
+      font-weight: bold;
     }
   }
 }
@@ -85,8 +124,11 @@ header img {
 .body-container {
   color: #393A3B;
   font-family: serif;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: white;
+  padding: 0 1.5em 15em 1.5em;
+  border-radius: 10px;
 
   div {
     display: none;
@@ -98,7 +140,6 @@ header img {
 
   #section-1 {
     margin-top: 2.5em;
-    margin-bottom: 2.5em;
 
     h4 {
       font-family: sans-serif;
@@ -122,7 +163,6 @@ header img {
 
   #section-2 {
     margin-top: 2.5em;
-    margin-bottom: 2.5em;
 
     .blog-post {
 
@@ -143,7 +183,6 @@ header img {
         padding-left: 1.5%;
 
         h3 {
-          font-weight: lighter;
           font-size: 2.25ex;
           font-family: sans-serif;
           margin: 0;
@@ -155,7 +194,7 @@ header img {
 
           a {
             text-decoration: none;
-            font-family: sans-serif;
+            font-family: serif;
             font-size: 2ex;
             color: #80A6CD;
           }
@@ -170,7 +209,14 @@ header img {
 
   #section-3 {
     margin-top: 2.5em;
-    margin-bottom: 2.5em;
+
+    h4 {
+      font-family: sans-serif;
+      font-weight: lighter;
+      color: #B5B5B5;
+      padding: 0;
+      margin:0;
+    }
   }
 }
 
@@ -244,23 +290,27 @@ header img {
 .footer {
   background-color: #31343F;
   color: white;
-  font-size: 1.25ex;
+  font-size: 1.5ex;
   font-weight: 300;
   padding: 0;
   padding-bottom: .5em;
   margin: 0;
-  margin-top: 10em;
+  margin-top: 3em;
   text-align: center;
 
-  p {
-    display: inline-block;
-  }
+p {
+  margin: 0;
+  padding-top: 1.25em;
+}
 
   .social-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.25em 0;
 
-    p {
+    li {
       display: inline-block;
-      margin-top: 0;
+      margin: 0 .25em;
 
       a {
         display: block;
@@ -269,7 +319,7 @@ header img {
         border: .25ex solid white;
         width: 5em;
         line-height: 2.5em;
-        border-radius: 5px;
+        border-radius: 2.5px;
       }
 
       a:hover {

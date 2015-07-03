@@ -157,6 +157,7 @@ header img {
       a {
         text-decoration: none;
         color: #9B9B9A;
+        font-family: sans-serif;
       }
     }
   }
@@ -182,8 +183,8 @@ header img {
         width: 75%;
         padding-left: 1.5%;
 
-        h3 {
-          font-size: 2.25ex;
+        h4 {
+          /* font-size: 2.25ex; */
           font-family: sans-serif;
           margin: 0;
           cursor: pointer;

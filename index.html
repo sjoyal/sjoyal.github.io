@@ -59,7 +59,7 @@ title: Sean rambles
             <article class="blog-post">
               <div class="small">{{ post.date | date_to_string }}</div>
               <div class="blog-content">
-                <h3>{{ post.title | upcase }}</h3>
+                <h4>{{ post.title | upcase }}</h4>
                 <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
                   <a href="{{ post.url }}">Keep Reading</a>
                 </p>

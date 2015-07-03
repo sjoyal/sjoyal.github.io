@@ -33,12 +33,15 @@ title: Sean rambles
               <li class="main-buttons">
                 <a href="#section-3">WORK</a>
               </li>
+              <li class="email-button">
+                <a href="mailto:sean.joyal@gmail.com">CONTACT</a>
+              </li>
             </ul> <!-- .main-menu -->
           </div> <!-- .headblock -->
         </header>
         <div class="body-container">
           <div id="section-1" class="section-current">
-            <h2>about.</h2>
+            <h2>about</h2>
             <h4>Gator alum and a tech newb. I'd rather be traveling.</h4>
             <p> Hello. My name is Sean. I'm an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. More simply, it should help me get a job with a team that is a cultural fit, maybe? If that's what you're here for, read my blogs. Hopefully I've fixed the site, and they're working by now. </p>
             <p> As background, I'm from Jacksonville, FL and proud of it. I went to the University of Florida and graduated with a BSBA in marketing in 2005. 10 years and a graduate degree later, I've worked in various marketing and communications roles, but have ultimately decided to pursue something entirely different. I've recently jumped head first into the tech world. I now get excited and dream about JavaScript, among other things, though I'm still very green and have a lot to learn. I'm accepting applications for a mentor if you or someone you know is interested. Contact me via social media if you'd like to connect. We both know you already have the links. </p>
@@ -50,7 +53,7 @@ title: Sean rambles
             </ul>
           </div> <!-- #section-1 -->
           <div id="section-2">
-            <h2>ramblings.</h2>
+            <h2>ramblings</h2>
             <!--update post front matter with title / remove from body -->
             {% for post in site.posts %}
             <article class="blog-post">
@@ -65,7 +68,7 @@ title: Sean rambles
             {% endfor %}
           </div> <!-- #section-2 -->
           <div id="section-3">
-            <h2>work.</h2>
+            <h2>work</h2>
             <h4>Coming soon</h5>
           </div> <!-- #section-1 -->
         </div> <!-- .body-container -->
@@ -73,11 +76,11 @@ title: Sean rambles
           <div class="copyright">
             <p>©2015 Sean Joyal. All rights reserved.</p>
           </div> <!--.copyright-->
-          <div class="social-links">
-            <p><a href="https://github.com/sjoyal">GitHub</a></p>
-            <p><a href="https://twitter.com/s_joyal">twitter</a></p>
-            <p><a href="https://www.linkedin.com/in/sjoyal">Linkedin</a></p>
-          </div> <!--.social-links-->
+          <ul class="social-links">
+            <li><a href="https://github.com/sjoyal">GitHub</a></li>
+            <li><a href="https://twitter.com/s_joyal">twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/sjoyal">Linkedin</a></li>
+          </ul> <!--.social-links-->
         </footer> <!--.footer-->
       </main> <!-- .container -->
       <!--bower:js-->

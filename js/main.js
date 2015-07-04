@@ -9,7 +9,7 @@
   });
 
   $('.blog-post')
-    .on('click', 'h3', function(){
+    .on('click', 'h4', function(){
       console.log("Hello");
       $(this).siblings().toggleClass('show');
     });

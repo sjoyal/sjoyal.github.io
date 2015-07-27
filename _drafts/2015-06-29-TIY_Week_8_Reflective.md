@@ -6,7 +6,7 @@
  * No journaling in weeks?
  * AngularJS
  * gulp webapp generator is boss
- * My final project - Iron Pong(include link)
+ * My final project - Iron Pong(include link and images)
  * Where do I go from here?
  * Tips for surviving the The Iron Yard, from start to finish
    * do more pre-work

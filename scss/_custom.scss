@@ -1,53 +1,16 @@
-body {
-  background-color: #F6F3EF;
+$font-color-primary: #3D3D3D;
+$portfolio-background-color: #77FFD6;
+$posts-background-color: #7AD9FF;
+$about-background-color: black;
+$font-color-about: white;
+
+.landing-page {
+  @extend .clearfix;
+  clear: both;
+  min-height: 800px;
 }
-
-h2 {
-  font-family: sans-serif;
-  font-size: 3.5em;
-  font-weight: lighter;
-  margin: 0;
-  padding: 0;
-}
-
-header img {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
-.container header {
-
-  .headblock {
-    position: absolute;
-    text-align: center;
-    top: 65px;
-    width: 100%;
-  }
-}
-
-.header-title {
-
-  h1 {
-    font-family: helvetica;
-    font-weight: lighter;
-    color: white;
-    text-align: center;
-    font-size: 3.0em;
-    margin: 0;
-  }
-
-  p {
-    font-family: serif;
-    color: white;
-    font-size: .8em;
-    margin: 0;
-  }
-}
-
 .main-menu {
-  display: block;
-  vertical-align: middle;
+  display: inline-block;
   padding: 0;
 
   .main-buttons {

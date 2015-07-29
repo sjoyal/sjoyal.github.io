@@ -1,4 +1,5 @@
 $font-color-primary: #3D3D3D;
+$font-color-scrollspy: #31343F;
 $portfolio-background-color: #77FFD6;
 $posts-background-color: #7AD9FF;
 $about-background-color: black;
@@ -8,85 +9,49 @@ $font-color-about: white;
   @extend .clearfix;
   clear: both;
   min-height: 800px;
+  width: 95%;
+  margin: auto;
 }
 
-.home-button {
-  line-height: 2.5em;
-  vertical-align: middle;
-}
-.main-menu {
-  text-align: right;
+nav {
 
-  .main-buttons {
-    display: inline-block;
-    margin-right: .5%;
-    margin-left: .5%;
-    height: 2.5em;
-    list-style-type: none;
-    cursor: pointer;
-
-    a {
-      display: block;
-      width: 6em;
-      text-decoration: none;
-      color: white;
-      border: .4ex solid white;
-      border-radius: 2px;
-      line-height: 2.5em;
-    }
+  .home-button {
+    line-height: 2.5em;
+    vertical-align: middle;
+    color: $font-color-primary;
+    text-decoration: none;
+    text-align: left;
   }
+  .main-menu {
+    text-align: right;
 
-  .email-button {
-    display: inline-block;
-    margin-right: .5%;
-    margin-left: .5%;
-    list-style-type: none;
-    cursor: pointer;
+    .main-buttons {
+      display: inline-block;
+      margin-right: .5%;
+      margin-left: .5%;
+      height: 2.5em;
+      list-style-type: none;
+      cursor: pointer;
 
-    a {
-      display: block;
-      width: 6em;
-      text-decoration: none;
-      color: white;
-      border: .4ex solid white;
-      border-radius: 2px;
-      font-size: 1.5ex;
-      line-height: 3em;
+      a {
+        display: block;
+        color: $font-color-primary;
+        line-height: 2.5em;
+      }
+      a:hover {
+        font-weight: bold;
+      }
     }
-  }
 
   .tab-current {
-    background-color: white;
-    border-radius: 2px;
 
     a {
-      color: #31343F;
-      background-color: white;
-      border-radius: 2px;
-      font-weight: bold;
-    }
-  }
-
-  .main-buttons:hover {
-    background-color: white;
-    border-radius: 2px;
-
-    a:hover {
-      color: #31343F;
-      font-weight: bold;
-    }
-  }
-
-  .email-button:hover {
-    background-color: white;
-    border-radius: 2px;
-
-    a:hover {
-      color: #31343F;
       font-weight: bold;
     }
   }
 }
+
+
 
 .body-container {
   color: #393A3B;

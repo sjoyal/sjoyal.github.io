@@ -27,8 +27,7 @@ nav {
 
     .main-buttons {
       display: inline-block;
-      margin-right: .5%;
-      margin-left: .5%;
+      width: 6em;
       height: 2.5em;
       list-style-type: none;
       cursor: pointer;
@@ -38,15 +37,17 @@ nav {
         color: $font-color-primary;
         line-height: 2.5em;
       }
-      a:hover {
+      a:hover, a:visited, a:focus {
         font-weight: bold;
+        text-decoration: none;
       }
     }
 
-  .tab-current {
+    .tab-current {
 
-    a {
-      font-weight: bold;
+      a {
+        font-weight: bold;
+      }
     }
   }
 }

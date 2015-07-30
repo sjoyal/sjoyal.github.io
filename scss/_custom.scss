@@ -8,23 +8,35 @@ $font-color-about: white;
 .navbar-style {
   background-color: white;
   border: 0;
-  border-bottom: 1px solid #3D3D3D;
+  /* border-bottom: 1px solid #3D3D3D; */
 }
 
 nav {
 
+  .hamburger {
+    border: 1px solid $font-color-primary;
+  }
+
   .home-button {
     color: $font-color-primary;
+  }
+  .home-button:hover {
+    font-weight: 500;
   }
   .main-buttons {
 
     a {
       color: $font-color-primary;
     }
-    a:hover, a:visited, a:focus {
-      font-weight: bold;
+    a:hover {
+      font-weight: 500;
       text-decoration: none;
-      background-color: white;
+      background-color: #E3E3E3;
+    }
+    a:visited, a:focus {
+      font-weight: 500;
+      text-decoration: none;
+      /* background-color: white; */
     }
   }
 }
@@ -35,17 +47,35 @@ nav {
   min-height: 100%;
   width: 95%;
   margin: auto;
-  padding: 250px 0;
+  padding: 225px 0;
 
   h1 {
     font-size: 4em;
-    font-weight: 300;
+    font-weight: 100;
     text-align: center;
     margin: 0;
     padding-bottom: 10px;
   }
   figure {
     text-align: center;
+
+    a {
+      display: inline-block;
+      height: 4.25em;
+      width: 4.25em;
+      text-align: center;
+      /* border: 1px solid $font-color-primary; */
+      border-radius: 50px;
+
+      i {
+        padding-top: 2.5px;
+        color: $font-color-primary;
+      }
+    }
+
+    a:hover {
+      background-color: #E3E3E3;
+    }
   }
 }
 

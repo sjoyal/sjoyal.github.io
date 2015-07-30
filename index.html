@@ -1,7 +1,6 @@
 ---
-title: Sean rambles
+title: Sean Joyal
 ---
-
 <!doctype html>
 <html class="no-js" lang="">
     <head>
@@ -11,34 +10,57 @@ title: Sean rambles
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--bower:css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
         <!--endbower-->
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-      <main class="container">
-        <header><img src="img/MainStBridge.jpg">
-          <div class="headblock">
-            <div class="header-title">
-              <h1>Sean Joyal</h1>
-              <p><em>CODING FRONTS BREAKING NECKS CASHING CHECKS</em><p>
-            </div> <!-- .header-title -->
-            <ul class="main-menu">
-              <li class="main-buttons tab-current">
-                <a href="#section-1">ABOUT</a>
-              </li>
-              <li class="main-buttons">
-                <a href="#section-2">POSTS</a>
-              </li>
-              <li class="main-buttons">
-                <a href="#section-3">WORK</a>
-              </li>
-              <li class="email-button">
-                <a href="mailto:sean.joyal@gmail.com">CONTACT</a>
-              </li>
-            </ul> <!-- .main-menu -->
-          </div> <!-- .headblock -->
-        </header>
+      <main>
+        <nav class="navbar navbar-style navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar hamburger"></span>
+                <span class="icon-bar hamburger"></span>
+                <span class="icon-bar hamburger"></span>
+              </button>
+              <a class="navbar-brand home-button" href="#">
+                <i class="fa fa-plus" style="padding-right: .25em">
+                  </i>SEAN JOYAL</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="main-buttons"><a href="#">PORTFOLIO</a></li>
+                <li class="main-buttons"><a href="#">POSTS</a></li>
+                <li class="main-buttons"><a href="#">ABOUT</a></li>
+                <li class="main-buttons"><a href="#">CONTACT</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <section class="landing-page">
+          <h1>Sean Joyal</h1>
+          <figure>
+            <a href="#">
+              <span class="circle">
+                <i class="fa fa-angle-double-down fa-4x"></i>
+              </span>
+            </a>
+          </figure>
+        </section> <!--.landing-page-->
+        <section class="portfolio">
+          
+        </section> <!--.portfolio-->
+
+
+
+
+
         <div class="body-container">
           <div id="section-1" class="section-current">
             <h2>about</h2>
@@ -84,10 +106,10 @@ title: Sean rambles
         </footer> <!--.footer-->
       </main> <!-- .container -->
       <!--bower:js-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/modernizr/modernizr.js"></script>
+      <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
       <!--endbower-->
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
     </body>

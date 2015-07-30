@@ -12,6 +12,17 @@ h1 {
   margin: 0;
   padding-bottom: 10px;
 }
+h4 {
+  font-weight: 400;
+  color: $font-color-primary;
+  text-align: center;
+}
+p {
+  font-size: 1.2em;
+  font-weight: 200;
+  width: 80%;
+  margin: auto;
+}
 
 .navbar-style {
   background-color: white;
@@ -24,7 +35,6 @@ nav {
   .hamburger {
     border: 1px solid $font-color-primary;
   }
-
   .home-button {
     color: $font-color-primary;
   }
@@ -91,11 +101,34 @@ nav {
     padding-top: 50px;
 
     .listing {
-      text-align: center;
+      padding: .5em .5em 0 .5em;
+      padding-bottom: 2.5em;
 
-      img {
-        width: 100%;
-        height: auto;
+      article {
+        background-color: white;
+        padding: .5em .5em;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+/*       p {
+  min-height: 100px;
+} */
+      .tech-stack {
+        text-align: left;
+        padding-left: 2.5em;
+      }
+      .ts-items {
+        list-style-type: none;
+        padding-left: 3.5em;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+      }
+      i {
+        padding-right: .25em;
       }
     }
   }
@@ -108,17 +141,6 @@ nav {
 
 #about {
   min-height: 100px;
-
-  #section-1 {
-
-    h4 {
-      font-family: sans-serif;
-      font-weight: lighter;
-      color: #B5B5B5;
-      padding: 0;
-      margin:0;
-    }
-  }
 }
 
 #contact {

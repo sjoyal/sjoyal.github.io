@@ -45,7 +45,7 @@ title: Sean Joyal
         <section id="landing-page">
           <h1>Sean Joyal</h1>
           <figure>
-            <a href="#">
+            <a href="#portfolio">
               <span class="circle">
                 <i class="fa fa-angle-double-down fa-4x"></i>
               </span>
@@ -63,42 +63,66 @@ title: Sean Joyal
               <article>
                 <img src="img/Old_portfolio_portfolio.png">
               </article>
-              <h3>Project Name</h3>
+              <h4>OLDER PORTFOLIO</h4>
               <p>Enter a project description for the love of shit</p>
-              <ul>
-                <li>tech</li>
-                <li>stack</li>
-                <li>used</li>
+              <h4 class='tech-stack'><i class="fa fa-star-o"></i>Tech Stack</h4>
+              <ul class="ts-items">
+                <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                <li><i class="fa fa-chevron-right"></i>Sass</li>
+                <li><i class="fa fa-chevron-right"></i>jQuery</li>
               </ul>
             </div> <!--.listing-->
             <div class="listing col-sm-4 col-xs-12">
               <article>
                 <img src="img/Explore_Outdoors_portfolio.png">
               </article>
-              <h3>Project Name</h3>
+              <h4>EXPLORE OUTDOORS</h4>
               <p>Enter a project description for the love of shit</p>
-              <ul>
-                <li>tech</li>
-                <li>stack</li>
-                <li>used</li>
+              <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
+              <ul class="ts-items">
+                <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                <li><i class="fa fa-chevron-right"></i>Sass</li>
+                <li><i class="fa fa-chevron-right"></i>jQuery</li>
+                <li><i class="fa fa-chevron-right"></i>Google Places API</li>
+                <li><i class="fa fa-chevron-right"></i>Dark Sky Forecast API</li>
               </ul>
             </div> <!--.listing-->
             <div class="listing col-sm-4 col-xs-12">
               <article>
                 <img src="img/IronPong_portfolio.png">
               </article>
-              <h3>Project Name</h3>
+              <h4>IRON PONG</h4>
               <p>Enter a project description for the love of shit</p>
-              <ul>
-                <li>tech</li>
-                <li>stack</li>
-                <li>used</li>
-              </ul>
+              <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
+              <ul class="ts-items">
+                <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                <li><i class="fa fa-chevron-right"></i>Sass</li>
+                <li><i class="fa fa-chevron-right"></i>jQuery</li>
+                <li><i class="fa fa-chevron-right"></i>AngularJS</li>
+                <li><i class="fa fa-chevron-right"></i>Lodash</li>
+                <li><i class="fa fa-chevron-right"></i>Firebase</li>
+                <li><i class="fa fa-chevron-right"></i>Restangular</li>
+                <li><i class="fa fa-chevron-right"></i>GitHub API</li>
+              </ul> <!--.tech-stack-->
             </div> <!--.listing-->
           </aside> <!--.project-->
         </section> <!--#portfolio-->
         <section id="posts">
-
+          <div id="section-2">
+            <h2 style="margin: 0">ramblings</h2>
+            <!--update post front matter with title / remove from body -->
+            <article class="blog-post">
+              {% for post in site.posts %}
+              <div class="small">{{ post.date | date_to_string }}</div>
+              <div class="blog-content">
+                <h4>{{ post.title | upcase }}</h4>
+                <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
+                  <a href="{{ post.url }}">Keep Reading</a>
+                </p>
+              </div> <!-- .blog-content -->
+              {% endfor %}
+            </article> <!-- .blog-post -->
+          </div> <!-- #section-2 -->
         </section> <!--#posts-->
         <section id="about">
           <div id="section-1" class="container section-current">
@@ -117,21 +141,6 @@ title: Sean Joyal
 
 
         <div class="body-container">
-          <div id="section-2">
-            <h2>ramblings</h2>
-            <!--update post front matter with title / remove from body -->
-            <article class="blog-post">
-              {% for post in site.posts %}
-              <div class="small">{{ post.date | date_to_string }}</div>
-              <div class="blog-content">
-                <h4>{{ post.title | upcase }}</h4>
-                <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
-                  <a href="{{ post.url }}">Keep Reading</a>
-                </p>
-              </div> <!-- .blog-content -->
-              {% endfor %}
-            </article> <!-- .blog-post -->
-          </div> <!-- #section-2 -->
           <div id="section-3">
             <h2>work</h2>
             <h4>Coming soon</h5>

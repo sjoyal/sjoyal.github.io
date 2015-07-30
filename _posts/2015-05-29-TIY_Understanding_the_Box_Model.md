@@ -3,8 +3,6 @@ layout: post
 title: Understanding the Box Model
 ---
 
-## Understanding the Box Model
-
 During weeks 3 and 4 at TIY, a particularly difficult concept for me to understand was the box model in CSS. At its core, the box model defines every HTML element as a rectangle taking the following considerations when rendering on the page:
 
   * Content area - Width; height (Example: `width: 50%`)

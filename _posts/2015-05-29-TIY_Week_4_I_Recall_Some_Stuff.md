@@ -1,9 +1,7 @@
 ---
 layout: post
-title: TIY Week 4 - I Recall Some Things
+title: TIY Week 4 - I Remember Everything and Don't. Same time like, ya dig?
 ---
-
-## TIY Week 4 - I Remember Everything and Don't. Same time like, ya dig?
 
 #### What I learned?
 Oh hey week 4. Bye week 4. That was quick right? I'll just go ahead and say that I have the feeling this post might read like an inverted bell shape. Like super high --> down in the dumps --> super high again. Actually, I know it will...I already wrote an outline. What? You don't write an outline for blog posts? Fuck you. No, really. Way too much in this brain for word vomit. I only word vomit on the keys when it's 2am and I've been tapping rockies, keeping it natural, or hipster sipping on that silver, white, red, and blue can -- I don't condone product placement in my blog. Anyway, week 4 is freaking done. And I"m super excited it's over. We did a lot. I retained most of it. Recalling things verbally is another story. That's what a Memorial Day holiday will do for you.

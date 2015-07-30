@@ -3,8 +3,6 @@ layout: post
 title: TIY Week 5 - Halftime Happened
 ---
 
-## What Once Was a Plan Was Not
-
 Week 5 at TIY = done. It was a weird one. In a neither good nor bad way. Just weird. We began the week with the possibility of covering new material, or tapping the breaks for a recap week starting on Tuesday. Worse, the decision was ours to make. Option A - Cover new material in week 5 and take halftime in week 6. Option B - Take a halftime break in week 5, then go back to new material in week 6. Collectively, the cohort opted for B. And while there were some that were more vocal with their opinion than others, the cohort definitely embraced the no man left behind concept. I certainly hadn't expected any type of halftime week when I first got to TIY, but after trying to digest all the information that was dumped in my brain through the first third of the course, I'm beginning to see why it was a good idea. For the record, I voted for option A, but one guy does not a cohort make.
 
 #### So what did I learn during halftime week?

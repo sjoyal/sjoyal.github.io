@@ -1,9 +1,29 @@
 $font-color-primary: #3D3D3D;
 $font-color-scrollspy: #31343F;
 $portfolio-background-color: #77FFD6;
-$posts-background-color: #7AD9FF;
-$about-background-color: black;
-$font-color-about: white;
+$posts-background-color: #F5F5F5;
+$foot-background-color: black;
+$font-color-footer: white;
+
+h1 {
+  font-size: 4em;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
+h4 {
+  font-weight: 400;
+  color: $font-color-primary;
+  text-align: center;
+}
+p {
+  font-size: 1.1em;
+  font-weight: 200;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
 
 .navbar-style {
   background-color: white;
@@ -16,7 +36,6 @@ nav {
   .hamburger {
     border: 1px solid $font-color-primary;
   }
-
   .home-button {
     color: $font-color-primary;
   }
@@ -36,26 +55,18 @@ nav {
     a:visited, a:focus {
       font-weight: 500;
       text-decoration: none;
-      /* background-color: white; */
     }
   }
 }
 
-.landing-page {
+#landing-page {
   @extend .clearfix;
   clear: both;
   min-height: 100%;
   width: 95%;
   margin: auto;
-  padding: 225px 0;
+  padding: 250px 0;
 
-  h1 {
-    font-size: 4em;
-    font-weight: 100;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 10px;
-  }
   figure {
     text-align: center;
 
@@ -79,6 +90,72 @@ nav {
   }
 }
 
+#portfolio {
+  min-height: 100%;
+  background-color: $portfolio-background-color;
+  padding: 75px 0;
+
+  figure {
+    text-align: center;
+  }
+  .project {
+    padding-top: 50px;
+
+    .listing {
+      padding: .5em .5em 0 .5em;
+      padding-bottom: 2.5em;
+
+      article {
+        background-color: white;
+        padding: .5em .5em;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+/*       p {
+  min-height: 100px;
+} */
+      .tech-stack {
+        text-align: left;
+        padding-left: 2.5em;
+      }
+      .ts-items {
+        list-style-type: none;
+        padding-left: 3.5em;
+        text-align: left;
+        width: 90%;
+        margin: auto;
+      }
+      i {
+        padding-right: .25em;
+      }
+    }
+  }
+}
+
+#posts {
+  min-height: 100%;
+  background-color: $posts-background-color;
+}
+
+#about {
+  min-height: 100px;
+}
+
+#contact {
+  min-height: 100px;
+}
+
+footer {
+  background-color: $foot-background-color;
+}
+
+
+
+
+
 
 
 .body-container {
@@ -96,30 +173,6 @@ nav {
 
   .section-current {
     display: block;
-  }
-
-  #section-1 {
-    margin-top: 2.5em;
-
-    h4 {
-      font-family: sans-serif;
-      font-weight: lighter;
-      color: #B5B5B5;
-      padding: 0;
-      margin:0;
-    }
-
-    h5 {
-      font-family: sans-serif;
-    }
-
-    .recent-posts {
-      a {
-        text-decoration: none;
-        color: #9B9B9A;
-        font-family: sans-serif;
-      }
-    }
   }
 
   #section-2 {
@@ -217,7 +270,6 @@ nav {
   padding: 0;
   padding-bottom: .5em;
   margin: 0;
-  margin-top: 27.5em;
   text-align: center;
 
   p {
@@ -249,14 +301,12 @@ nav {
 }
 
 .footer {
-  background-color: #31343F;
   color: white;
   font-size: 1.5ex;
   font-weight: 300;
   padding: 0;
   padding-bottom: .5em;
   margin: 0;
-  margin-top: 3em;
   text-align: center;
 
 p {

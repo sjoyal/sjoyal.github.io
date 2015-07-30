@@ -5,50 +5,47 @@ $posts-background-color: #7AD9FF;
 $about-background-color: black;
 $font-color-about: white;
 
-.landing-page {
-  @extend .clearfix;
-  clear: both;
-  min-height: 800px;
-  width: 95%;
-  margin: auto;
+.navbar-style {
+  background-color: white;
+  border: 0;
+  border-bottom: 1px solid #3D3D3D;
 }
 
 nav {
 
   .home-button {
-    line-height: 2.5em;
-    vertical-align: middle;
     color: $font-color-primary;
-    text-decoration: none;
-    text-align: left;
   }
-  .main-menu {
-    text-align: right;
+  .main-buttons {
 
-    .main-buttons {
-      display: inline-block;
-      width: 6em;
-      height: 2.5em;
-      list-style-type: none;
-      cursor: pointer;
-
-      a {
-        display: block;
-        color: $font-color-primary;
-        line-height: 2.5em;
-      }
-      a:hover, a:visited, a:focus {
-        font-weight: bold;
-        text-decoration: none;
-      }
+    a {
+      color: $font-color-primary;
     }
-
-    .tab-current {
-
-      a {
-        font-weight: bold;
-      }
+    a:hover, a:visited, a:focus {
+      font-weight: bold;
+      text-decoration: none;
+      background-color: white;
     }
+  }
+}
+
+.landing-page {
+  @extend .clearfix;
+  clear: both;
+  min-height: 100%;
+  width: 95%;
+  margin: auto;
+  padding: 250px 0;
+
+  h1 {
+    font-size: 4em;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  figure {
+    text-align: center;
   }
 }
 

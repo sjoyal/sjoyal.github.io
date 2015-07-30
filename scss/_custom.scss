@@ -1,7 +1,7 @@
 $font-color-primary: #3D3D3D;
 $font-color-scrollspy: #31343F;
 $portfolio-background-color: #77FFD6;
-$posts-background-color: #7AD9FF;
+$posts-background-color: #F5F5F5;
 $foot-background-color: black;
 $font-color-footer: white;
 
@@ -18,10 +18,11 @@ h4 {
   text-align: center;
 }
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 200;
   width: 80%;
   margin: auto;
+  text-align: center;
 }
 
 .navbar-style {

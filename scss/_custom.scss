@@ -12,6 +12,9 @@ h1 {
   margin: 0;
   padding-bottom: 10px;
 }
+h2 {
+  margin: 0;
+}
 h4 {
   font-weight: 400;
   color: $font-color-primary;
@@ -138,6 +141,7 @@ nav {
 #posts {
   min-height: 100%;
   background-color: $posts-background-color;
+  padding: 75px 0;
 }
 
 #about {

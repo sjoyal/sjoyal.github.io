@@ -5,6 +5,14 @@ $posts-background-color: #7AD9FF;
 $foot-background-color: black;
 $font-color-footer: white;
 
+h1 {
+  font-size: 4em;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
 .navbar-style {
   background-color: white;
   border: 0;
@@ -46,15 +54,8 @@ nav {
   min-height: 100%;
   width: 95%;
   margin: auto;
-  padding: 225px 0;
+  padding: 250px 0;
 
-  h1 {
-    font-size: 4em;
-    font-weight: 100;
-    text-align: center;
-    margin: 0;
-    padding-bottom: 10px;
-  }
   figure {
     text-align: center;
 
@@ -81,6 +82,18 @@ nav {
 #portfolio {
   min-height: 100%;
   background-color: $portfolio-background-color;
+  padding: 75px 0;
+
+  figure {
+    text-align: center;
+  }
+  .project {
+    padding-top: 75px;
+
+    .listing {
+      text-align: center;
+    }
+  }
 }
 
 #posts {
@@ -89,7 +102,22 @@ nav {
 }
 
 #about {
-  min-height: 600px;
+  min-height: 100px;
+
+  #section-1 {
+
+    h4 {
+      font-family: sans-serif;
+      font-weight: lighter;
+      color: #B5B5B5;
+      padding: 0;
+      margin:0;
+    }
+  }
+}
+
+#contact {
+  min-height: 100px;
 }
 
 footer {
@@ -117,30 +145,6 @@ footer {
 
   .section-current {
     display: block;
-  }
-
-  #section-1 {
-    margin-top: 2.5em;
-
-    h4 {
-      font-family: sans-serif;
-      font-weight: lighter;
-      color: #B5B5B5;
-      padding: 0;
-      margin:0;
-    }
-
-    h5 {
-      font-family: sans-serif;
-    }
-
-    .recent-posts {
-      a {
-        text-decoration: none;
-        color: #9B9B9A;
-        font-family: sans-serif;
-      }
-    }
   }
 
   #section-2 {
@@ -238,7 +242,6 @@ footer {
   padding: 0;
   padding-bottom: .5em;
   margin: 0;
-  margin-top: 27.5em;
   text-align: center;
 
   p {
@@ -276,7 +279,6 @@ footer {
   padding: 0;
   padding-bottom: .5em;
   margin: 0;
-  margin-top: 3em;
   text-align: center;
 
 p {

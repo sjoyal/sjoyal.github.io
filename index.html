@@ -53,32 +53,43 @@ title: Sean Joyal
           </figure>
         </section> <!--#landing-page-->
         <section id="portfolio">
-
+          <h1>Projects</h1>
+          <figure>
+            <i class="fa fa-pencil fa-3x"></i>
+            <i class="fa fa-scissors fa-3x"></i>
+          </figure>
+          <aside class="project container">
+            <article class="listing col-sm-4 col-xs-12">
+              hello
+            </article> <!--.listing-->
+            <article class="listing col-sm-4 col-xs-12">
+              hello
+            </article> <!--.listing-->
+            <article class="listing col-sm-4 col-xs-12">
+              hello
+            </article> <!--.listing-->
+          </aside> <!--.project-->
         </section> <!--#portfolio-->
         <section id="posts">
 
         </section> <!--#posts-->
         <section id="about">
+          <div id="section-1" class="container section-current">
+            <h2>about</h2>
+            <h4>Gator alum and a tech newb. I'd rather be traveling.</h4>
+            <p> Hello. My name is Sean. I'm an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. More simply, it should help me get a job with a team that is a cultural fit, maybe? If that's what you're here for, read my blogs. Hopefully I've fixed the site, and they're working by now. </p>
+            <p> As background, I'm from Jacksonville, FL and proud of it. I went to the University of Florida and graduated with a BSBA in marketing in 2005. 10 years and a graduate degree later, I've worked in various marketing and communications roles, but have ultimately decided to pursue something entirely different. I've recently jumped head first into the tech world. I now get excited and dream about JavaScript, among other things, though I'm still very green and have a lot to learn. I'm accepting applications for a mentor if you or someone you know is interested. Contact me via social media if you'd like to connect. We both know you already have the links. </p>
+          </div> <!-- #section-1 -->
+        </section> <!--#about-->
+        <section id="contact">
 
-        </section> <!--#about-->      
+        </section> <!--#contact-->
 
 
 
 
 
         <div class="body-container">
-          <div id="section-1" class="section-current">
-            <h2>about</h2>
-            <h4>Gator alum and a tech newb. I'd rather be traveling.</h4>
-            <p> Hello. My name is Sean. I'm an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. More simply, it should help me get a job with a team that is a cultural fit, maybe? If that's what you're here for, read my blogs. Hopefully I've fixed the site, and they're working by now. </p>
-            <p> As background, I'm from Jacksonville, FL and proud of it. I went to the University of Florida and graduated with a BSBA in marketing in 2005. 10 years and a graduate degree later, I've worked in various marketing and communications roles, but have ultimately decided to pursue something entirely different. I've recently jumped head first into the tech world. I now get excited and dream about JavaScript, among other things, though I'm still very green and have a lot to learn. I'm accepting applications for a mentor if you or someone you know is interested. Contact me via social media if you'd like to connect. We both know you already have the links. </p>
-            <h5>Recent posts</h5>
-            <ul class="recent-posts">
-            {% for post in site.posts limit: 5 %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-            </ul>
-          </div> <!-- #section-1 -->
           <div id="section-2">
             <h2>ramblings</h2>
             <!--update post front matter with title / remove from body -->

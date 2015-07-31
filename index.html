@@ -112,21 +112,23 @@ title: Sean Joyal
           </aside> <!--.project-->
         </section> <!--#portfolio-->
         <section id="posts">
-          <div id="section-2">
-            <h2>ramblings</h2>
-            <!--update post front matter with title / remove from body -->
-            <article class="blog-post">
-              {% for post in site.posts %}
+          <h1>Posts</h1>
+          <figure>
+            <i class="fa fa-pencil fa-3x"></i>
+            <i class="fa fa-newspaper-o fa-3x"></i>
+          </figure>
+          <!--update post front matter with title / remove from body -->
+          <aside class="blog-post">
+            {% for post in site.posts %}
+            <div class="blog-content">
+              <h4>{{ post.title | upcase }}</h4>
               <div class="small">{{ post.date | date_to_string }}</div>
-              <div class="blog-content">
-                <h4>{{ post.title | upcase }}</h4>
-                <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
-                  <a href="{{ post.url }}">Keep Reading</a>
-                </p>
-              </div> <!-- .blog-content -->
-              {% endfor %}
-            </article> <!-- .blog-post -->
-          </div> <!-- #section-2 -->
+              <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
+                <a href="{{ post.url }}">Keep Reading</a>
+              </p>
+            </div> <!-- .blog-content -->
+            {% endfor %}
+          </aside> <!-- .blog-post -->
         </section> <!--#posts-->
         <section id="about">
           <div id="section-1" class="container section-current">

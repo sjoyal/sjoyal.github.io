@@ -16,12 +16,13 @@ h2 {
   margin: 0;
 }
 h4 {
-  font-weight: 400;
-  color: $font-color-primary;
+  font-weight: 300;
+  color: #737272;
   text-align: center;
+  padding-top: .5em;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 200;
   width: 80%;
   margin: auto;
@@ -117,18 +118,15 @@ nav {
           height: auto;
         }
       }
-/*       p {
-  min-height: 100px;
-} */
       .tech-stack {
         text-align: left;
-        padding-left: 2.5em;
+        padding-left: 1em;
+        margin-bottom: 0;
       }
       .ts-items {
         list-style-type: none;
-        padding-left: 3.5em;
+        padding-left: 2em;
         text-align: left;
-        width: 90%;
         margin: auto;
       }
       i {

@@ -1,7 +1,7 @@
 $font-color-primary: #3D3D3D;
 $font-color-scrollspy: #31343F;
 $portfolio-background-color: #77FFD6;
-$posts-background-color: #F5F5F5;
+$posts-background-color: #F8F8F8;
 $foot-background-color: black;
 $font-color-footer: white;
 
@@ -103,7 +103,7 @@ nav {
     text-align: center;
   }
   .project {
-    padding-top: 50px;
+    padding-top: 75px;
 
     .listing {
       padding: .5em .5em 0 .5em;
@@ -112,10 +112,19 @@ nav {
       article {
         background-color: white;
         padding: .5em .5em;
+        -moz-box-shadow:    2px 2px 3px 0 darkgray;
+        -webkit-box-shadow: 2px 2px 3px 0 darkgray;
+        box-shadow:         2px 2px 3px 0 darkgray;
 
         img {
           width: 100%;
           height: auto;
+          border: 1px solid lightgray;
+        }
+        h4 {
+          margin-top: 0;
+          padding: .75em 0 0 .5em;
+          text-align: left;
         }
       }
       .tech-stack {

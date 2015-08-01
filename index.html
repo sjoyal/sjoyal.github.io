@@ -120,12 +120,9 @@ title: Sean Joyal
           <!--update post front matter with title / remove from body -->
           <aside class="blog-post">
   <!--           {% for post in site.posts %} -->
-            <div class="blog-content">
-              <h2>{{ post.title | upcase }}<small>{{ post.date | date_to_string }}<small></h2>
-              <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
-                <a href="{{ post.url }}">Keep Reading</a>
-              </p>
-            </div> .blog-content
+            <h2>{{ post.title | upcase }}</h2>
+            <small>{{ post.date | date_to_string }}</small>
+            <p class="blog-excerpt" id="show">{{ post.content | strip_html | truncatewords: 50 }}</p>
 <!--             {% endfor %} -->
           </aside> <!-- .blog-post -->
         </section> <!--#posts-->

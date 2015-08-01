@@ -152,10 +152,22 @@ nav {
 
   figure {
     text-align: center;
+    padding-bottom: 50px;
   }
   .blog-post {
     width: 65%;
     margin: auto;
+    background-color: white;
+    border-radius: 4px;
+
+    h2 {
+      font-style: serif;
+      font-weight: 300;
+
+      small {
+        font-size: .5em;
+      }
+    }
 
     .small {
       display: inline-block;

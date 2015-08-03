@@ -40,6 +40,15 @@ nav {
   .hamburger {
     border: 1px solid $font-color-primary;
   }
+  .hamburger:hover {
+    background-color: $font-color-primary;
+    .hamburger-lines {
+      border: 1px solid white;
+    }
+  }
+  .hamburger-lines {
+    border: 1px solid $font-color-primary;
+  }
   .home-button {
     color: $font-color-primary;
   }
@@ -164,11 +173,11 @@ nav {
     h2 {
       font-family: serif;
       font-weight: 300;
-      font-size: 3em;
+      font-size: 2.5em;
       cursor: pointer;
     }
     h2:hover {
-      font-size: 3.25em;
+      font-size: 3em;
     }
     small {
       color: #5D6477;
@@ -190,6 +199,7 @@ nav {
 
 #about {
   min-height: 100px;
+  padding: 75px 0;
 }
 
 #contact {

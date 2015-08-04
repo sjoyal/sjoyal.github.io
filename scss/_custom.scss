@@ -2,7 +2,7 @@ $font-color-primary: #3D3D3D;
 $font-color-scrollspy: #31343F;
 $portfolio-background-color: #77FFD6;
 $posts-background-color: #F8F8F8;
-$foot-background-color: black;
+$contact-background-color: black;
 $font-color-footer: white;
 
 h1 {
@@ -14,12 +14,18 @@ h1 {
 }
 h2 {
   margin: 0;
+  font-weight: 300;
 }
 h4 {
   font-weight: 300;
   color: #737272;
   text-align: center;
   padding-top: .5em;
+}
+h5 {
+  color: #C9C9C9;
+  text-align: center;
+  font-weight: 300;
 }
 p {
   font-size: 1.2em;
@@ -86,7 +92,6 @@ nav {
       height: 4.25em;
       width: 4.25em;
       text-align: center;
-      /* border: 1px solid $font-color-primary; */
       border-radius: 50px;
 
       i {
@@ -111,8 +116,7 @@ nav {
     padding-top: 75px;
 
     .listing {
-      padding: .5em .5em 0 .5em;
-      padding-bottom: 2.5em;
+      padding: .5em .5em 2.5em .5em;
 
       article {
         background-color: white;
@@ -156,7 +160,7 @@ nav {
 
   figure {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
   }
   .blog-post {
     width: 65%;
@@ -194,160 +198,66 @@ nav {
 #about {
   min-height: 100px;
   padding: 75px 0;
+
+  figure {
+    text-align: center;
+    padding-bottom: 75px;
+  }
+
+  aside {
+
+    img {
+      border-radius: 2.5px;
+      width: 100%;
+      height: auto;
+    }
+    article {
+
+      p {
+        text-align: left;
+        width: 100%;
+      }
+      a, a:visited, a:focus {
+        color: #737272;
+        display: block;
+        padding-top: 1em;
+        text-decoration: none;
+
+        i {
+          vertical-align: middle;
+        }
+      }
+      a:hover {
+        color: $font-color-primary;
+        text-decoration: none;
+      }
+    }
+  }
 }
 #contact {
   min-height: 100px;
-}
-footer {
-  background-color: $foot-background-color;
-}
+  background-color: $contact-background-color;
+  padding: 25px 0;
 
-
-
-
-
-
-
-.body-container {
-  color: #393A3B;
-  font-family: serif;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  background-color: white;
-  padding: 0 1.5em 15em 1.5em;
-  border-radius: 10px;
-
-  div {
-    display: none;
-  }
-
-  .section-current {
-    display: block;
-  }
-
-  #section-2 {
-    margin-top: 2.5em;
-
-    .blog-post {
-    }
-  }
-
-  #section-3 {
-    margin-top: 2.5em;
-
-    h4 {
-      font-family: sans-serif;
-      font-weight: lighter;
-      color: #B5B5B5;
-      padding: 0;
-      margin:0;
-    }
-  }
-}
-
-.post-header {
-  background-color: #31343F;
-  @extend .clearfix;
-  margin-bottom: 2em;
-
-  h1 {
-    float: left;
-    font-size: 1.5em;
-    padding: 1em;
-  }
-
-  a {
-    float: right;
-    text-decoration: none;
-    margin: 1.15em;
-    color: white;
-    border: .25ex solid white;
-    width: 5em;
-    line-height: 2.5em;
+  h2 {
+    color: #B2B2B2;
     text-align: center;
   }
+  figure {
+    text-align: center;
+    padding: 25px 0;
 
-  a:hover {
-    background-color: white;
-    color: #31343F;
-  }
-}
-
-.post-footer {
-  background-color: #31343F;
-  color: white;
-  font-size: 1.25ex;
-  font-weight: 300;
-  padding: 0;
-  padding-bottom: .5em;
-  margin: 0;
-  text-align: center;
-
-  p {
-    display: inline-block;
-  }
-
-  .social-links {
-
-    p {
-      display: inline-block;
-      margin-top: 0;
-
-      a {
-        display: block;
-        text-decoration: none;
-        color: white;
-        border: .25ex solid white;
-        width: 5em;
-        line-height: 2.5em;
-        border-radius: 5px;
-      }
-
-      a:hover {
-        background-color: white;
-        color: #31343F;
-      }
-    }
-  }
-}
-
-.footer {
-  color: white;
-  font-size: 1.5ex;
-  font-weight: 300;
-  padding: 0;
-  padding-bottom: .5em;
-  margin: 0;
-  text-align: center;
-
-p {
-  margin: 0;
-  padding-top: 1.25em;
-}
-
-  .social-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 1.25em 0;
-
-    li {
-      display: inline-block;
+    i {
+      color: #B2B2B2;
       margin: 0 .25em;
-
-      a {
-        display: block;
-        text-decoration: none;
-        color: white;
-        border: .25ex solid white;
-        width: 5em;
-        line-height: 2.5em;
-        border-radius: 2.5px;
-      }
-
-      a:hover {
-        background-color: white;
-        color: #31343F;
-      }
     }
+    i:hover, i:visited, i:focus {
+      color: white;
+    }
+  }
+  p {
+    font-size: 1em;
+    color: #B2B2B2;
+    padding-top: 25px;
   }
 }

@@ -6,7 +6,7 @@ title: Sean Joyal
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{{page.title}}</title>
+        <title>Sean Joyal | Developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--bower:css-->
@@ -23,9 +23,9 @@ title: Sean Joyal
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed hamburger" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar hamburger"></span>
-                <span class="icon-bar hamburger"></span>
-                <span class="icon-bar hamburger"></span>
+                <span class="icon-bar hamburger-lines"></span>
+                <span class="icon-bar hamburger-lines"></span>
+                <span class="icon-bar hamburger-lines"></span>
               </button>
               <a class="navbar-brand home-button" href="#">
                 <i class="fa fa-plus" style="padding-right: .25em">
@@ -62,24 +62,23 @@ title: Sean Joyal
             <div class="listing col-sm-4 col-xs-12">
               <article>
                 <img src="img/Old_portfolio_portfolio.png">
+                <h4>OLDER PORTFOLIO</h4>
               </article>
-              <h4>OLDER PORTFOLIO</h4>
-              <p>This site used to look like this <i class="fa fa-hand-pointer-o"></i> seriously. Hopefully this shows how much I've learned in a short time. You can decide.</p>
-              <p>View the source code here</p>
+              <!-- <p>This site used to look like this <i class="fa fa-hand-pointer-o"></i> seriously. Hopefully this shows how much I've learned in a short time. You can decide.</p>
               <h4 class='tech-stack'><i class="fa fa-star-o"></i>Tech Stack</h4>
               <ul class="ts-items">
                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
                 <li><i class="fa fa-chevron-right"></i>Sass</li>
                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
               </ul>
+              <p>View the source code here</p> -->
             </div> <!--.listing-->
             <div class="listing col-sm-4 col-xs-12">
               <article>
                 <img src="img/Explore_Outdoors_portfolio.png">
+                <h4>EXPLORE OUTDOORS</h4>
               </article>
-              <h4>EXPLORE OUTDOORS</h4>
-              <p>A mashup project that I completed with a partner while at The Iron Yard. We used the Google Places API and Dark Sky Forecast API to make a site that helps outdoor adventures find locations while also tracking the upcoming forecast.</p>
-              <p>View the source code here</p>
+              <!-- <p>A mashup project that I completed with a partner while at The Iron Yard. We used the Google Places API and Dark Sky Forecast API to make a site that helps outdoor adventures find locations while also tracking the upcoming forecast.</p>
               <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
               <ul class="ts-items">
                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
@@ -88,15 +87,14 @@ title: Sean Joyal
                 <li><i class="fa fa-chevron-right"></i>Google Places API</li>
                 <li><i class="fa fa-chevron-right"></i>Dark Sky Forecast API</li>
               </ul>
+              <p>View the source code here</p> -->
             </div> <!--.listing-->
             <div class="listing col-sm-4 col-xs-12">
               <article>
                 <img src="img/IronPong_portfolio.png">
+                <h4>IRON PONG</h4>
               </article>
-              <h4>IRON PONG</h4>
-              <p>The project I'm most proud of, Iron Pong allows users to enter and track ping pong match results, comment on matches, and view a leaderboard sortable on various metrics.</p>
-              <p>View the site <a href="https://iron-pong.firebaseapp.com">here</a>.</p>
-              <p>View the source code here</p>
+              <!-- <p>The project I'm most proud of, Iron Pong allows users to enter and track ping pong match results, comment on matches, and view a leaderboard sortable on various metrics.</p>
               <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
               <ul class="ts-items">
                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
@@ -107,45 +105,44 @@ title: Sean Joyal
                 <li><i class="fa fa-chevron-right"></i>Firebase</li>
                 <li><i class="fa fa-chevron-right"></i>Restangular</li>
                 <li><i class="fa fa-chevron-right"></i>GitHub API</li>
-              </ul> <!--.tech-stack-->
+              </ul> .tech-stack
+              <p>View the site <a href="https://iron-pong.firebaseapp.com">here</a>.</p>
+              <p>View the source code here</p> -->
             </div> <!--.listing-->
           </aside> <!--.project-->
         </section> <!--#portfolio-->
         <section id="posts">
-          <div id="section-2">
-            <h2 style="margin: 0">ramblings</h2>
-            <!--update post front matter with title / remove from body -->
-            <article class="blog-post">
-              {% for post in site.posts %}
-              <div class="small">{{ post.date | date_to_string }}</div>
-              <div class="blog-content">
-                <h4>{{ post.title | upcase }}</h4>
-                <p class="blog-excerpt">{{ post.content | strip_html | truncatewords: 50 }}
-                  <a href="{{ post.url }}">Keep Reading</a>
-                </p>
-              </div> <!-- .blog-content -->
-              {% endfor %}
-            </article> <!-- .blog-post -->
-          </div> <!-- #section-2 -->
+          <h1>Posts</h1>
+          <figure>
+            <i class="fa fa-pencil fa-3x"></i>
+            <i class="fa fa-newspaper-o fa-3x"></i>
+          </figure>
+          <!--update post front matter with title / remove from body -->
+          <aside class="blog-post">
+          {% for post in site.posts %}
+            <h2>{{ post.title | upcase }}</h2>
+            <small>{{ post.date | date_to_string }}</small>
+            <p class="blog-excerpt" id="show">{{ post.content | strip_html | truncatewords: 50 }}</p>
+          {% endfor %}
+          </aside> <!-- .blog-post -->
         </section> <!--#posts-->
         <section id="about">
-          <div id="section-1" class="container section-current">
-            <h2>about</h2>
-            <h4>Gator alum and a tech newb. I'd rather be traveling.</h4>
-            <p> Hello. I'm Sean -- an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. If you're interested in those things, read my blogs.</p>
-            <p> As background, I'm from Jacksonville, FL, and I'm kind of proud of it. I attended a couple of colleges and got a couple degrees. However, after 10 years working in various marketing and communications roles, I ultimately decided to pursue something completely different. I now get excited and dream about JavaScript, among everything else I'm trying to learn as a front-end developer.
-              I'm still pretty green and have a lot to learn, but the prospect of continuous learning and the chance to create fuels my passion for development.</p>
-            <p>If you're interested in my work, I've included some of my projects in the portfolio section. Also, download my resume if you're so inclined. And yes, we can make it a lot less "stalky" if you actually reach out on social media. Links below.</p>
-          </div> <!-- #section-1 -->
+          <h1>About</h1>
+          <aside class="container">
+            <figure class="col-md-4 col-xs-12">
+              <img src="http://lorempixel.com/output/people-h-g-425-667-5.jpg" style="width: 100%; height: auto">
+            </figure>
+            <article class="col-md-8 col-xs-12">
+              <p> Hello. I'm Sean -- an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. If you're interested in those things, read my blogs.</p>
+              <p> As background, I'm from Jacksonville, FL, and I'm kind of proud of it. I attended a couple of colleges and got a couple degrees. However, after 10 years working in various marketing and communications roles, I ultimately decided to pursue something completely different. I now get excited and dream about JavaScript, among everything else I'm trying to learn as a front-end developer.
+                I'm still pretty green and have a lot to learn, but the prospect of continuous learning and the chance to create fuels my passion for development.</p>
+              <p>If you're interested in my work, I've included some of my projects in the portfolio section. Also, download my resume if you're so inclined. And yes, we can make it a lot less "stalky" if you actually reach out on social media. Links below.</p>
+            </article>
+          </aside>
         </section> <!--#about-->
         <section id="contact">
 
         </section> <!--#contact-->
-
-
-
-
-
         <div class="body-container">
           <div id="section-3">
             <h2>work</h2>
@@ -162,6 +159,86 @@ title: Sean Joyal
             <li><a href="https://www.linkedin.com/in/sjoyal">Linkedin</a></li>
           </ul> <!--.social-links-->
         </footer> <!--.footer-->
+        <section id="older-portfolio" class="modal fade" role="note">
+         <div class="modal-dialog">
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <h3 class="modal-title">Older Portfolio</h3>
+             </div>
+             <div class="modal-body well" data-dismiss="modal">
+               <img src="img/Old_portfolio_portfolio.png">
+               <p>This site used to look like this <i class="fa fa-hand-pointer-o"></i> seriously. Hopefully this shows how much I've learned in a short time. You can decide.</p>
+               <h4 class='tech-stack'><i class="fa fa-star-o"></i>Tech Stack</h4>
+               <ul class="ts-items">
+                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                 <li><i class="fa fa-chevron-right"></i>Sass</li>
+                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
+               </ul>
+               <p>View the source code here</p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger btn-lg pull-right" data-dismiss="modal">Return</button>
+             </div>
+           </div>
+         </div>
+        </section>
+        <section id="explore-outdoors" class="modal fade" role="note">
+         <div class="modal-dialog">
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <h3 class="modal-title">Explore Outdoors</h3>
+             </div>
+             <div class="modal-body well" data-dismiss="modal">
+               <img src="img/Explore_Outdoors_portfolio.png">
+               <p>A mashup project that I completed with a partner while at The Iron Yard. We used the Google Places API and Dark Sky Forecast API to make a site that helps outdoor adventures find locations while also tracking the upcoming forecast.</p>
+               <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
+               <ul class="ts-items">
+                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                 <li><i class="fa fa-chevron-right"></i>Sass</li>
+                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
+                 <li><i class="fa fa-chevron-right"></i>Google Places API</li>
+                 <li><i class="fa fa-chevron-right"></i>Dark Sky Forecast API</li>
+               </ul>
+               <p>View the source code here</p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger btn-lg pull-right" data-dismiss="modal">Return</button>
+             </div>
+           </div>
+         </div>
+        </section>
+        <section id="iron-pong" class="modal fade" role="note">
+         <div class="modal-dialog">
+           <!-- Modal content-->
+           <div class="modal-content">
+             <div class="modal-header">
+               <h3 class="modal-title">Iron Pong</h3>
+             </div>
+             <div class="modal-body well" data-dismiss="modal">
+               <img src="img/IronPong_portfolio.png">
+               <p>The project I'm most proud of, Iron Pong allows users to enter and track ping pong match results, comment on matches, and view a leaderboard sortable on various metrics.</p>
+               <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
+               <ul class="ts-items">
+                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                 <li><i class="fa fa-chevron-right"></i>Sass</li>
+                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
+                 <li><i class="fa fa-chevron-right"></i>AngularJS</li>
+                 <li><i class="fa fa-chevron-right"></i>Lodash</li>
+                 <li><i class="fa fa-chevron-right"></i>Firebase</li>
+                 <li><i class="fa fa-chevron-right"></i>Restangular</li>
+                 <li><i class="fa fa-chevron-right"></i>GitHub API</li>
+               </ul> <!--.tech-stack-->
+               <p>View the site <a href="https://iron-pong.firebaseapp.com">here</a>.</p>
+               <p>View the source code here</p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-danger btn-lg pull-right" data-dismiss="modal">Return</button>
+             </div>
+           </div>
+         </div>
+        </section>
       </main> <!-- .container -->
       <!--bower:js-->
       <script src="bower_components/jquery/dist/jquery.js"></script>

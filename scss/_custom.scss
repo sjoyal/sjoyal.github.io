@@ -1,7 +1,7 @@
 $font-color-primary: #3D3D3D;
 $font-color-scrollspy: #31343F;
 $portfolio-background-color: #77FFD6;
-$posts-background-color: #F5F5F5;
+$posts-background-color: #F8F8F8;
 $foot-background-color: black;
 $font-color-footer: white;
 
@@ -12,19 +12,22 @@ h1 {
   margin: 0;
   padding-bottom: 10px;
 }
+h2 {
+  margin: 0;
+}
 h4 {
-  font-weight: 400;
-  color: $font-color-primary;
+  font-weight: 300;
+  color: #737272;
   text-align: center;
+  padding-top: .5em;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 200;
   width: 80%;
   margin: auto;
   text-align: center;
 }
-
 .navbar-style {
   background-color: white;
   border: 0;
@@ -34,6 +37,15 @@ p {
 nav {
 
   .hamburger {
+    border: 1px solid $font-color-primary;
+  }
+  .hamburger:hover {
+    background-color: $font-color-primary;
+    .hamburger-lines {
+      border: 1px solid white;
+    }
+  }
+  .hamburger-lines {
     border: 1px solid $font-color-primary;
   }
   .home-button {
@@ -58,7 +70,6 @@ nav {
     }
   }
 }
-
 #landing-page {
   @extend .clearfix;
   clear: both;
@@ -83,13 +94,11 @@ nav {
         color: $font-color-primary;
       }
     }
-
     a:hover {
       background-color: #E3E3E3;
     }
   }
 }
-
 #portfolio {
   min-height: 100%;
   background-color: $portfolio-background-color;
@@ -99,7 +108,7 @@ nav {
     text-align: center;
   }
   .project {
-    padding-top: 50px;
+    padding-top: 75px;
 
     .listing {
       padding: .5em .5em 0 .5em;
@@ -108,24 +117,30 @@ nav {
       article {
         background-color: white;
         padding: .5em .5em;
+        -moz-box-shadow:    2px 2px 3px 0 darkgray;
+        -webkit-box-shadow: 2px 2px 3px 0 darkgray;
+        box-shadow:         2px 2px 3px 0 darkgray;
 
         img {
           width: 100%;
           height: auto;
+          border: 1px solid lightgray;
+        }
+        h4 {
+          margin-top: 0;
+          padding: .75em 0 0 .5em;
+          text-align: left;
         }
       }
-/*       p {
-  min-height: 100px;
-} */
       .tech-stack {
         text-align: left;
-        padding-left: 2.5em;
+        padding-left: 1em;
+        margin-bottom: 0;
       }
       .ts-items {
         list-style-type: none;
-        padding-left: 3.5em;
+        padding-left: 2em;
         text-align: left;
-        width: 90%;
         margin: auto;
       }
       i {
@@ -134,20 +149,55 @@ nav {
     }
   }
 }
-
 #posts {
   min-height: 100%;
   background-color: $posts-background-color;
-}
+  padding: 75px 0;
 
+  figure {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .blog-post {
+    width: 65%;
+    margin: auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 25px 2em;
+
+    h2 {
+      font-family: serif;
+      font-weight: 300;
+      font-size: 2.5em;
+      cursor: pointer;
+    }
+    h2:hover {
+      font-size: 3em;
+    }
+    small {
+      color: #5D6477;
+      font-size: 1em;
+      font-weight: 200;
+    }
+    .blog-excerpt {
+      display: none;
+      text-align: left;
+      margin: 0;
+      padding-top: .5em;
+      font-family: serif;
+    }
+    .show {
+      display: block;
+    }
+  }
+}
 #about {
   min-height: 100px;
+  padding: 75px 0;
 }
-
 #contact {
   min-height: 100px;
 }
-
 footer {
   background-color: $foot-background-color;
 }
@@ -179,45 +229,6 @@ footer {
     margin-top: 2.5em;
 
     .blog-post {
-
-      .small {
-        display: inline-block;
-        width: 13%;
-        text-align: right;
-        vertical-align: top;
-        padding-right: 2.5%;
-        font-size: 1.5ex;
-        font-family: sans-serif;
-        color: #B6B5B6;
-       }
-
-      .blog-content {
-        display: inline-block;
-        width: 75%;
-        padding-left: 1.5%;
-
-        h4 {
-          /* font-size: 2.25ex; */
-          font-family: sans-serif;
-          margin: 0;
-          cursor: pointer;
-        }
-
-        .blog-excerpt {
-          display: none;
-
-          a {
-            text-decoration: none;
-            font-family: serif;
-            font-size: 2ex;
-            color: #80A6CD;
-          }
-        }
-
-        .show {
-          display: block;
-        }
-      }
     }
   }
 

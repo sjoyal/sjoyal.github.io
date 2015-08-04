@@ -192,15 +192,18 @@ nav {
 #about {
   min-height: 100px;
   padding: 75px 0;
+
   figure {
     text-align: center;
+    padding-bottom: 75px;
   }
 
   aside {
-    padding-top: 50px;
 
     img {
       border-radius: 2.5px;
+      width: 100%;
+      height: auto;
     }
     p {
       text-align: left;

@@ -21,11 +21,24 @@
       $('#iron-pong-modal').modal('toggle');
     });
 
+  $('.home-button')
+    .on('click', function(){
+      event.preventDefault();
+      $('html,body').animate({scrollTop: 0}, 500);
+    });
+
+  $('.main-buttons')
+    .on('click', 'a[href^="#"]', function(){
+      event.preventDefault();
+      var scrollTo = $($(this).attr('href')).offset().top;
+      $('html,body').animate({scrollTop: scrollTo}, 500);
+    })
+
   $('.circle')
     .on('click', function(){
       event.preventDefault();
-      var scroll_port = $('#portfolio').offset().top;
-      $('html,body').animate({scrollTop: scroll_port}, 1000);
+      var scrollPort = $('#portfolio').offset().top;
+      $('html,body').animate({scrollTop: scrollPort}, 500);
     });
 
 })();

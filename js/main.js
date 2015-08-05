@@ -21,4 +21,11 @@
       $('#iron-pong-modal').modal('toggle');
     });
 
+  $('.circle')
+    .on('click', function(){
+      event.preventDefault();
+      var scroll_port = $('#portfolio').offset().top;
+      $('html,body').animate({scrollTop: scroll_port}, 1000);
+    });
+
 })();

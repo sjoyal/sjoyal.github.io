@@ -121,7 +121,7 @@ title: Sean Joyal
           {% for post in site.posts %}
             <h2>{{ post.title | upcase }}</h2>
             <small>{{ post.date | date_to_string }}</small>
-            <p class="blog-excerpt" id="show">{{ post.content | strip_html | truncatewords: 50 }}</p>
+            <p class="blog-excerpt" id="show">{{ post.content <!-- | strip_html | truncatewords: 50 --> }}</p>
           {% endfor %}
           </aside> <!-- .blog-post -->
         </section> <!--#posts-->
@@ -161,7 +161,7 @@ title: Sean Joyal
              <div class="modal-header">
                <h2 class="modal-title">Older Portfolio</h2>
              </div>
-             <div class="modal-body" data-dismiss="modal">
+             <div class="modal-body">
                <figure>
                  <img src="img/Old_portfolio_portfolio.png">
                </figure>
@@ -172,7 +172,7 @@ title: Sean Joyal
                  <li><i class="fa fa-chevron-right"></i>Sass</li>
                  <li><i class="fa fa-chevron-right"></i>jQuery</li>
                </ul>
-               <p>View the source code as the site exists today <a href="https://github.com/sjoyal/sjoyal.github.io">here</a></p>
+               <p>View the source code as the site exists today <a href="https://github.com/sjoyal/sjoyal.github.io" target="_blank">here</a></p>
              </div>
              <div class="modal-footer">
                <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
@@ -186,7 +186,7 @@ title: Sean Joyal
              <div class="modal-header">
                <h2 class="modal-title">Explore Outdoors</h2>
              </div>
-             <div class="modal-body well" data-dismiss="modal">
+             <div class="modal-body well">
                <figure>
                  <img src="img/Explore_Outdoors_portfolio.png">
                </figure>
@@ -199,7 +199,7 @@ title: Sean Joyal
                  <li><i class="fa fa-chevron-right"></i>Google Places API</li>
                  <li><i class="fa fa-chevron-right"></i>Dark Sky Forecast API</li>
                </ul>
-               <p>View the source code <a href="https://github.com/sjoyal/TIY-Mashup/tree/develop">here</a></p>
+               <p>View the source code <a href="https://github.com/sjoyal/TIY-Mashup/tree/develop" target="_blank">here</a></p>
              </div>
              <div class="modal-footer">
                <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
@@ -213,7 +213,7 @@ title: Sean Joyal
              <div class="modal-header">
                <h2 class="modal-title">Iron Pong</h2>
              </div>
-             <div class="modal-body well" data-dismiss="modal">
+             <div class="modal-body well">
                <figure>
                  <img src="img/IronPong_portfolio.png">
                </figure>
@@ -229,8 +229,8 @@ title: Sean Joyal
                  <li><i class="fa fa-chevron-right"></i>Restangular</li>
                  <li><i class="fa fa-chevron-right"></i>GitHub API</li>
                </ul> <!--.tech-stack-->
-               <p>View the live site <a href="https://iron-pong.firebaseapp.com">here</a></p>
-               <p>View the source code <a href="https://github.com/sjoyal/iron-pong">here</a></p>
+               <p>View the live site <a href="https://iron-pong.firebaseapp.com" target="_blank">here</a></p>
+               <p>View the source code <a href="https://github.com/sjoyal/iron-pong" target="_blank">here</a></p>
              </div>
              <div class="modal-footer">
                <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>

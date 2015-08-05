@@ -65,14 +65,15 @@ nav {
     a {
       color: $font-color-primary;
     }
+    a:visited, a:focus {
+      font-weight: 500;
+      text-decoration: none;
+      background-color: transparent;
+    }
     a:hover {
       font-weight: 500;
       text-decoration: none;
       background-color: #E3E3E3;
-    }
-    a:visited, a:focus {
-      font-weight: 500;
-      text-decoration: none;
     }
   }
 }
@@ -152,7 +153,7 @@ nav {
     padding-bottom: 75px;
   }
   .blog-post {
-    width: 65%;
+    width: 70%;
     margin: auto;
     background-color: white;
     border-radius: 4px;
@@ -287,13 +288,20 @@ nav {
 .modal-footer {
 
   button {
+    width: 100%;
     border-radius: 2.5px;
     border: none;
-    background-color: $posts-background-color;
-    color: $font-color-primary;
+    background-color: #2EA9FF;
+    color: $posts-background-color;
   }
   button:hover, button:focus, button:visited {
-    background-color: #E3E3E3;
-    color: $font-color-primary;
+    background-color: #1D6AA1;
+    color: $posts-background-color;
   }
 }
+
+/* @media  max-width: 768px) {
+  .blog-post {
+    width: 95%;
+  }
+} */

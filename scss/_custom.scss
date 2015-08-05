@@ -207,7 +207,7 @@ nav {
         width: 100%;
       }
       a, a:visited, a:focus {
-        color: #737272;
+        color: $font-color-primary;
         display: block;
         padding-top: 1em;
         text-decoration: none;
@@ -217,7 +217,7 @@ nav {
         }
       }
       a:hover {
-        color: $font-color-primary;
+        color: black;
         text-decoration: none;
       }
     }

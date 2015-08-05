@@ -21,6 +21,13 @@
       $('html,body').animate({scrollTop: scrollPort}, 500);
     });
 
+  $('.navbar-nav li a').click(function(){
+    var open = $('.navbar-toggle').is(':visible');
+    if (open){
+      $('.navbar-collapse').collapse('hide');
+    }
+  });
+
   $('#older-portfolio')
     .on('click', function(){
       $('#older-portfolio-modal').modal('toggle');

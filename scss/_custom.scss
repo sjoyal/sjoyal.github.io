@@ -300,8 +300,46 @@ nav {
   }
 }
 
-/* @media  max-width: 768px) {
-  .blog-post {
-    width: 95%;
+@media screen and (max-width: 768px) {
+  #portfolio {
+    article {
+      width: 75%;
+      margin: auto;
+    }
   }
-} */
+  #posts {
+    .blog-post {
+      width: 95%;
+    }
+  }
+  #about {
+    aside {
+
+      img {
+        border-radius: 2.5px;
+        width: 65%;
+        height: auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  #portfolio {
+    article {
+      width: 95%;
+    }
+  }
+  #about {
+    aside {
+
+      img {
+        border-radius: 2.5px;
+        width: 85%;
+        height: auto;
+      }
+      a {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -139,21 +139,6 @@ nav {
       article:hover {
         cursor: pointer;
       }
-
-      .tech-stack {
-        text-align: left;
-        padding-left: 1em;
-        margin-bottom: 0;
-      }
-      .ts-items {
-        list-style-type: none;
-        padding-left: 2em;
-        text-align: left;
-        margin: auto;
-      }
-      i {
-        padding-right: .25em;
-      }
     }
   }
 }
@@ -281,5 +266,32 @@ nav {
   p {
     text-align: left;
     width: 90%;
+  }
+  .tech-stack {
+    text-align: left;
+    padding: .5em 1.5em;
+    margin-bottom: 0;
+  }
+  .ts-items {
+    list-style-type: none;
+    padding-left: 2.25em;
+    text-align: left;
+    margin: auto;
+  }
+  i {
+    padding-right: .5em;
+  }
+}
+.modal-footer {
+
+  button {
+    border-radius: 2.5px;
+    border: none;
+    background-color: $posts-background-color;
+    color: $font-color-primary;
+  }
+  button:hover, button:focus, button:visited {
+    background-color: #E3E3E3;
+    color: $font-color-primary;
   }
 }

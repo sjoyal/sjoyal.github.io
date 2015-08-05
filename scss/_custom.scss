@@ -153,7 +153,7 @@ nav {
     padding-bottom: 75px;
   }
   .blog-post {
-    width: 65%;
+    width: 70%;
     margin: auto;
     background-color: white;
     border-radius: 4px;
@@ -299,3 +299,9 @@ nav {
     color: $posts-background-color;
   }
 }
+
+/* @media  max-width: 768px) {
+  .blog-post {
+    width: 95%;
+  }
+} */

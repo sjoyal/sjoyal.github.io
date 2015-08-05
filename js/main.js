@@ -28,6 +28,18 @@
     }
   });
 
+  $('.project')
+    .on('mouseenter', 'div', function(){
+      $(this).siblings().animate({
+        opacity: .5
+      });
+    })
+    .on('mouseleave', 'div', function(){
+      $(this).siblings().animate({
+        opacity: 1
+      });
+    })
+
   $('#older-portfolio')
     .on('click', function(){
       $('#older-portfolio-modal').modal('toggle');

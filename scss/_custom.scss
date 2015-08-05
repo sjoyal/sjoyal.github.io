@@ -255,7 +255,7 @@ nav {
 
   figure {
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 
     img {
       width: 90%;
@@ -266,11 +266,13 @@ nav {
   p {
     text-align: left;
     width: 90%;
+    padding-top: 1em;
   }
   .tech-stack {
     text-align: left;
     padding: .5em 1.5em;
     margin-bottom: 0;
+    color: $font-color-primary;
   }
   .ts-items {
     list-style-type: none;

@@ -288,13 +288,14 @@ nav {
 .modal-footer {
 
   button {
+    width: 100%;
     border-radius: 2.5px;
     border: none;
-    background-color: $posts-background-color;
-    color: $font-color-primary;
+    background-color: #2EA9FF;
+    color: $posts-background-color;
   }
   button:hover, button:focus, button:visited {
-    background-color: #E3E3E3;
-    color: $font-color-primary;
+    background-color: #1D6AA1;
+    color: $posts-background-color;
   }
 }

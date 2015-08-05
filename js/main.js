@@ -3,7 +3,6 @@
 
   $('.blog-post')
     .on('click', 'h2', function(){
-      console.log("Hello");
       $('#show').toggleClass('show');
     });
 
@@ -11,7 +10,7 @@
     .on('click', function(){
       $('#older-portfolio-modal').modal('toggle');
     });
-    
+
   $('#explore-outdoors')
     .on('click', function(){
       $('#explore-outdoors-modal').modal('toggle');

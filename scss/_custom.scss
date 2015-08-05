@@ -301,6 +301,12 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  #portfolio {
+    article {
+      width: 75%;
+      margin: auto;
+    }
+  }
   #posts {
     .blog-post {
       width: 95%;
@@ -318,6 +324,11 @@ nav {
   }
 }
 @media screen and (max-width: 480px) {
+  #portfolio {
+    article {
+      width: 95%;
+    }
+  }
   #about {
     aside {
 

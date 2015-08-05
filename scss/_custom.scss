@@ -65,14 +65,15 @@ nav {
     a {
       color: $font-color-primary;
     }
+    a:visited, a:focus {
+      font-weight: 500;
+      text-decoration: none;
+      background-color: transparent;
+    }
     a:hover {
       font-weight: 500;
       text-decoration: none;
       background-color: #E3E3E3;
-    }
-    a:visited, a:focus {
-      font-weight: 500;
-      text-decoration: none;
     }
   }
 }

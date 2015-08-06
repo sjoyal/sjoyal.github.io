@@ -3,8 +3,6 @@ layout: post
 title: TIY Week 6 - We Made Something Beautiful
 ---
 
-## TIY Week 6 - We Made Something Beautiful
-
 So week 6 at TIY happened, and it might've been my favorite week so far? Hard to decipher after the usual Tools on Tuesday mindfuck, and Wednesday's epic breakdown around 11:45 p.m. when I was trying to use `<template>` tags and loop through some json data to append a whole list of stuff to html. Turns out that's not as easy as it sounds. Doesn't help that I know there are more efficient methods coming to handle this...ways I'm guessing will make that entire process that much easier. But by the end of the week, I was feeling really great putting things together from week 1 until present for our weekend project. Unfortunately, I think the feeling might be fleeting because there's still so much to learn (and if you're familiar with my journal writing pattern/schedule, you'll know this is more than just a little foreshadowing).To recap, we got more new tools to help with the yak shaving process, talked about APIs in a lot more detail, and actually created something tangible from thin air. Score.
 
 #### So tools....

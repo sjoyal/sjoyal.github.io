@@ -1,15 +1,63 @@
-(function(window) {
+(function() {
+  'use strict';
 
-  $('.main-buttons').click(function(){
-    event.preventDefault();
-    $(this).siblings().removeClass('tab-current');
-    $(this).addClass('tab-current');
-    $('.body-container').children().removeClass('section-current');
-    $($('a', this).attr('href')).addClass('section-current');
+  $('.home-button')
+    .on('click', function(){
+      event.preventDefault();
+      $('html,body').animate({scrollTop: 0}, 500);
+    });
+
+  $('.main-buttons')
+    .on('click', 'a[href^="#"]', function(){
+      event.preventDefault();
+      var scrollTo = $($(this).attr('href')).offset().top;
+      $('html,body').animate({scrollTop: scrollTo}, 500);
+    });
+
+  $('.circle')
+    .on('click', function(){
+      event.preventDefault();
+      var scrollPort = $('#portfolio').offset().top;
+      $('html,body').animate({scrollTop: scrollPort}, 500);
+    });
+
+  $('.navbar-nav li a').click(function(){
+    var open = $('.navbar-toggle').is(':visible');
+    if (open){
+      $('.navbar-collapse').collapse('hide');
+    }
   });
 
-  // $('.blog-title').click(function(){
-  //   $(this).siblings().toggleClass('long-text');
-  // });
+  $('.project')
+    .on('mouseenter', 'div', function(){
+      $(this).siblings().animate({
+        opacity: .5
+      });
+    })
+    .on('mouseleave', 'div', function(){
+      $(this).siblings().animate({
+        opacity: 1
+      });
+    })
 
-})(window);
+  $('#older-portfolio')
+    .on('click', function(){
+      $('#older-portfolio-modal').modal('toggle');
+    });
+
+  $('#explore-outdoors')
+    .on('click', function(){
+      $('#explore-outdoors-modal').modal('toggle');
+    });
+
+  $('#iron-pong')
+    .on('click', function(){
+      $('#iron-pong-modal').modal('toggle');
+    });
+
+  $('.blog-post')
+    .on('click', 'h4', function(){
+      $(this).siblings().toggleClass('show');
+    });
+
+})();

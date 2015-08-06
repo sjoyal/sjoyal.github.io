@@ -56,8 +56,8 @@
     });
 
   $('.blog-post')
-    .on('click', 'h2', function(){
-      $('#show').toggleClass('show');
+    .on('click', 'h4', function(){
+      $(this).siblings().toggleClass('show');
     });
 
 })();

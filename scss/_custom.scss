@@ -159,14 +159,16 @@ nav {
     border-radius: 4px;
     padding: 25px 2em;
 
-    h2 {
+    h4 {
+      text-align: left;
+      color: $font-color-primary;
       font-family: serif;
       font-weight: 300;
-      font-size: 2.5em;
+      font-size: 1.5em;
       cursor: pointer;
     }
-    h2:hover {
-      font-size: 3em;
+    h4:hover {
+      font-size: 1.75em;
     }
     small {
       color: #5D6477;
@@ -178,7 +180,10 @@ nav {
       text-align: left;
       margin: 0;
       padding-top: .5em;
-      font-family: serif;
+    }
+    .post-link {
+      display: none;
+      text-align: right;
     }
     .show {
       display: block;

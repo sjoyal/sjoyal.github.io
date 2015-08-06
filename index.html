@@ -89,7 +89,7 @@ title: Sean Joyal
           {% for post in site.posts %}
             <h4>{{ post.title | upcase }}</h4>
             <small>{{ post.date | date_to_string }}</small>
-            <p class="blog-excerpt" id="show">{{ post.content | <!-- strip_html --> | truncatewords: 50 }}</p>
+            <p class="blog-excerpt" id="show">{{ post.content <!-- | strip_html | truncatewords: 50 --> }}</p>
           {% endfor %}
           </aside> <!-- .blog-post -->
         </section> <!--#posts-->

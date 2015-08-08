@@ -83,8 +83,15 @@ nav {
   min-height: 100%;
   width: 95%;
   margin: auto;
-  padding: 275px 0;
+  padding: 250px 0 275px 0;
 
+  h1 {
+    margin: 0;
+  }
+  h4 {
+    margin-top: 0;
+    padding-top: 0;
+  }
   figure {
     text-align: center;
 
@@ -202,7 +209,7 @@ nav {
   aside {
 
     img {
-      border-radius: 2.5px;
+      border-radius: 4px;
       width: 100%;
       height: auto;
     }

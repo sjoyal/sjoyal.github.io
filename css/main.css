@@ -146,7 +146,12 @@ nav .main-buttons a:hover {
   min-height: 100%;
   width: 95%;
   margin: auto;
-  padding: 275px 0; }
+  padding: 250px 0 275px 0; }
+  #landing-page h1 {
+    margin: 0; }
+  #landing-page h4 {
+    margin-top: 0;
+    padding-top: 0; }
   #landing-page figure {
     text-align: center; }
     #landing-page figure a {
@@ -232,7 +237,7 @@ nav .main-buttons a:hover {
     text-align: center;
     padding-bottom: 75px; }
   #about aside img {
-    border-radius: 2.5px;
+    border-radius: 4px;
     width: 100%;
     height: auto; }
   #about aside article p {

@@ -13,28 +13,39 @@
     </head>
     <body>
       <main class="container">
-        <header class="post-header">
-            <div class="header-title">
-              <h1>Sean Joyal</h1>
-              <a href="http://sjoyal.github.io">HOME</a>
-            </div> <!-- .header-title -->
-        </header>
+        <nav class="navbar navbar-style navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand home-button" href="#">
+                <i class="fa fa-plus" style="padding-right: .25em">
+                  </i>SEAN JOYAL</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="main-buttons"><a href="https://sjoyal.github.io/#posts">Back to Posts</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
         <div class="body-container">
           <h2>{{page.title}}</h2>
 
           {{ content }}
 
         </div> <!-- .body-container -->
-        <footer class="post-footer">
-          <div class="copyright">
-            <p>©2015 Sean Joyal. All rights reserved.</p>
-          </div> <!--.copyright-->
-          <div class="social-links">
-            <p><a href="https://github.com/sjoyal">GitHub</a></p>
-            <p><a href="https://twitter.com/s_joyal">twitter</a></p>
-            <p><a href="https://www.linkedin.com/in/sjoyal">Linkedin</a></p>
-          </div> <!--.social-links-->
-        </footer> <!--.footer-->
+        <section id="contact">
+          <h2>Connect With Me</h2>
+          <figure>
+            <a href="https://github.com/sjoyal"><i class="fa fa-github fa-3x"></i></a>
+            <a href="https://twitter.com/s_joyal"><i class="fa fa-twitter fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/sjoyal"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="mailto:sean.joyal@gmail.com"><i class="fa fa-envelope fa-3x"></i></a>
+          </figure>
+          <h5>p: 904.237.3357</h5>
+          <h5>e: sean.joyal@gmail.com</h5>
+          <p>©2015 Sean Joyal. All rights reserved.</p>
+        </section> <!--#contact-->
       </main> <!-- .container -->
     </body>
       <!--bower:js-->

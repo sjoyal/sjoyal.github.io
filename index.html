@@ -9,11 +9,10 @@ title: Sean Joyal
         <title>Sean Joyal | Developer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--bower:css-->
-        <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
-        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-        <!--endbower-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     </head>
     <body>
       <main>
@@ -44,6 +43,7 @@ title: Sean Joyal
         </nav>
         <section id="landing-page">
           <h1>Sean Joyal</h1>
+          <h4>FRONT END DEVELOPER</h4>
           <figure>
             <a href="#portfolio">
               <span class="circle">
@@ -104,12 +104,12 @@ title: Sean Joyal
           </figure>
           <aside class="container">
             <figure class="col-md-4 col-sm-6 col-xs-12">
-              <img src="http://lorempixel.com/g/400/500/people/5">
+              <img src="img/profile_image.jpg">
             </figure>
             <article class="col-md-8 col-sm-6 col-xs-12">
-              <p> Hello. I'm Sean -- an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you. The purpose of this site is to help me establish my online 'brand', and to reveal a little about who I am. If you're interested in those things, read my blogs.</p><br>
+              <p> Hello. I'm Sean -- an aspiring front end developer from Jacksonville, FL. This is a website. If you're here, either A) I know you, or B) you're stalking me on social media. Either way, I won't judge you.</p><br>
               <p> As background, I'm from Jacksonville, FL, and I'm kind of proud of it. I attended a couple of colleges and got a couple degrees. But, after 10 years working in various marketing and communications roles, I ultimately decided to pursue something completely different. I now get excited and dream about JavaScript, among everything else I'm trying to learn as a front-end developer. I'm still pretty green and have a lot to learn, but the prospect of continuous learning and the chance to create fuels my passion for development.</p><br>
-              <p>If you're interested in my work, I've included some of my projects in the portfolio section, and you can download my resume. Also, it ceases to be stalking if we actually connect on social media. Reach out. Links are below.</p>
+              <p>If you're interested in my work, I've included some of my projects in the portfolio section, my blog poasts, and you can download my resume. Also, it ceases to be stalking if we actually connect on social media. Reach out. Links are below.</p>
               <a href="docs/seanjoyal_resume_07-2015.pdf" target="_blank"><i class="fa fa-download fa-2x"></i>&nbsp;Resume</a>
             </article>
           </aside>
@@ -127,95 +127,93 @@ title: Sean Joyal
           <p>©2015 Sean Joyal. All rights reserved.</p>
         </section> <!--#contact-->
         <section id="older-portfolio-modal" class="modal fade" role="note">
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header">
-               <h2 class="modal-title">Older Portfolio</h2>
-             </div>
-             <div class="modal-body">
-               <figure>
-                 <img src="img/Old_portfolio_portfolio.png">
-               </figure>
-               <p>This site used to look like this. Seriously. A giant image and 6 lines of JavaScript away from a plain MF'ing website. This was built in week 5 of 12 at The Iron Yard.</p>
-               <h4 class='tech-stack'><i class="fa fa-star-o"></i>Tech Stack</h4>
-               <ul class="ts-items">
-                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
-                 <li><i class="fa fa-chevron-right"></i>Sass</li>
-                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
-               </ul>
-               <p>View the source code as the site exists today <a href="https://github.com/sjoyal/sjoyal.github.io" target="_blank">here</a></p>
-             </div>
-             <div class="modal-footer">
-               <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
-             </div>
-           </div>
-         </div>
-        </section>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title">Older Portfolio</h2>
+              </div>
+            <div class="modal-body">
+              <figure>
+                <img src="img/Old_portfolio_portfolio.png">
+              </figure>
+              <p>This site used to look like this. Seriously. A giant image and 6 lines of JavaScript away from a plain MF'ing website. This was built in week 5 of 12 at The Iron Yard.</p>
+              <h4 class='tech-stack'><i class="fa fa-star-o"></i>Tech Stack</h4>
+              <ul class="ts-items">
+                <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                <li><i class="fa fa-chevron-right"></i>Sass</li>
+                <li><i class="fa fa-chevron-right"></i>jQuery</li>
+              </ul>
+              <p>View the source code as the site exists today <a href="https://github.com/sjoyal/sjoyal.github.io" target="_blank">here</a></p>
+            </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
+              </div>
+            </div>
+          </div>
+        </section> <!--#older-portfolio-modal-->
         <section id="explore-outdoors-modal" class="modal fade" role="note">
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header">
-               <h2 class="modal-title">Explore Outdoors</h2>
-             </div>
-             <div class="modal-body well">
-               <figure>
-                 <img src="img/Explore_Outdoors_portfolio.png">
-               </figure>
-               <p>A mashup project that I worked on with a partner while at The Iron Yard. We used the Google Places API and Dark Sky Forecast API to make a site that helps outdoor adventurers find locations while also tracking the upcoming forecast.</p>
-               <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
-               <ul class="ts-items">
-                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
-                 <li><i class="fa fa-chevron-right"></i>Sass</li>
-                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
-                 <li><i class="fa fa-chevron-right"></i>Google Places API</li>
-                 <li><i class="fa fa-chevron-right"></i>Dark Sky Forecast API</li>
-               </ul>
-               <p>View the source code <a href="https://github.com/sjoyal/TIY-Mashup/tree/develop" target="_blank">here</a></p>
-             </div>
-             <div class="modal-footer">
-               <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
-             </div>
-           </div>
-         </div>
-        </section>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title">Explore Outdoors</h2>
+              </div>
+              <div class="modal-body well">
+                <figure>
+                  <img src="img/Explore_Outdoors_portfolio.png">
+                </figure>
+                <p>A mashup project that I worked on with a partner while at The Iron Yard. We used the Google Places API and Dark Sky Forecast API to make a site that helps outdoor adventurers find locations while also tracking the upcoming forecast.</p>
+                <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
+                <ul class="ts-items">
+                  <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                  <li><i class="fa fa-chevron-right"></i>Sass</li>
+                  <li><i class="fa fa-chevron-right"></i>jQuery</li>
+                  <li><i class="fa fa-chevron-right"></i>Google Places API</li>
+                  <li><i class="fa fa-chevron-right"></i>Dark Sky Forecast API</li>
+                </ul>
+                <p>View the source code <a href="https://github.com/sjoyal/TIY-Mashup/tree/develop" target="_blank">here</a></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
+              </div>
+            </div>
+          </div>
+        </section> <!--#explore-outdoors-modal-->
         <section id="iron-pong-modal" class="modal fade" role="note">
-         <div class="modal-dialog">
-           <div class="modal-content">
-             <div class="modal-header">
-               <h2 class="modal-title">Iron Pong</h2>
-             </div>
-             <div class="modal-body well">
-               <figure>
-                 <img src="img/IronPong_portfolio.png">
-               </figure>
-               <p>The project I'm most proud of, Iron Pong allows users to enter and track ping pong match results, comment on matches, and view a leaderboard sortable by various metrics.</p>
-               <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
-               <ul class="ts-items">
-                 <li><i class="fa fa-chevron-right"></i>HTML5</li>
-                 <li><i class="fa fa-chevron-right"></i>Sass</li>
-                 <li><i class="fa fa-chevron-right"></i>jQuery</li>
-                 <li><i class="fa fa-chevron-right"></i>AngularJS</li>
-                 <li><i class="fa fa-chevron-right"></i>Lodash</li>
-                 <li><i class="fa fa-chevron-right"></i>Firebase</li>
-                 <li><i class="fa fa-chevron-right"></i>Restangular</li>
-                 <li><i class="fa fa-chevron-right"></i>GitHub API</li>
-               </ul> <!--.tech-stack-->
-               <p>View the live site <a href="https://iron-pong.firebaseapp.com" target="_blank">here</a></p>
-               <p>View the source code <a href="https://github.com/sjoyal/iron-pong" target="_blank">here</a></p>
-             </div>
-             <div class="modal-footer">
-               <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
-             </div>
-           </div>
-         </div>
-        </section>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title">Iron Pong</h2>
+              </div>
+              <div class="modal-body well">
+                <figure>
+                  <img src="img/IronPong_portfolio.png">
+                </figure>
+                <p>Because bragging rights matter. Iron Pong allows users to enter and track ping pong match results, comment on matches, and view a leaderboard sortable by various metrics.</p>
+                <h4 class="tech-stack"><i class="fa fa-star-o"></i>Tech Stack</h4>
+                <ul class="ts-items">
+                  <li><i class="fa fa-chevron-right"></i>HTML5</li>
+                  <li><i class="fa fa-chevron-right"></i>Sass</li>
+                  <li><i class="fa fa-chevron-right"></i>jQuery</li>
+                  <li><i class="fa fa-chevron-right"></i>AngularJS</li>
+                  <li><i class="fa fa-chevron-right"></i>Lodash</li>
+                  <li><i class="fa fa-chevron-right"></i>Firebase</li>
+                  <li><i class="fa fa-chevron-right"></i>Restangular</li>
+                  <li><i class="fa fa-chevron-right"></i>GitHub API</li>
+                </ul> <!--.tech-stack-->
+                <p>View the live site <a href="https://iron-pong.firebaseapp.com" target="_blank">here</a></p>
+                <p>View the source code <a href="https://github.com/sjoyal/iron-pong" target="_blank">here</a></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-lg pull-right" data-dismiss="modal">Return</button>
+              </div>
+            </div>
+          </div>
+        </section> <!--#iron-pong-modal-->
       </main> <!-- .container -->
-      <!--bower:js-->
-      <script src="bower_components/jquery/dist/jquery.js"></script>
-      <script src="bower_components/modernizr/modernizr.js"></script>
-      <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
-      <!--endbower-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
       <script src="js/plugins.js"></script>
+      <script src="js/jquery.js"></script>
       <script src="js/main.js"></script>
+      <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

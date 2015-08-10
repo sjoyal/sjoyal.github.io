@@ -32,7 +32,6 @@ p {
   font-weight: 200;
   width: 80%;
   margin: auto;
-  text-align: center;
 }
 .navbar-style {
   background-color: white;
@@ -174,9 +173,6 @@ nav {
       font-size: 1.5em;
       cursor: pointer;
     }
-    h4:hover {
-      font-size: 1.75em;
-    }
     small {
       color: #5D6477;
       font-size: 1em;
@@ -261,6 +257,7 @@ nav {
     font-size: 1em;
     color: #B2B2B2;
     padding-top: 25px;
+    text-align: center;
   }
 }
 .modal-body {
@@ -354,4 +351,12 @@ nav {
       }
     }
   }
+}
+.post-title {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 25px;
+}
+.post-contact {
+  margin-top: 25px;
 }

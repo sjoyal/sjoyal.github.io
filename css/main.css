@@ -103,8 +103,7 @@ p {
   font-size: 1.2em;
   font-weight: 200;
   width: 80%;
-  margin: auto;
-  text-align: center; }
+  margin: auto; }
 
 .navbar-style {
   background-color: white;
@@ -213,8 +212,6 @@ nav .main-buttons a:hover {
       font-weight: 300;
       font-size: 1.5em;
       cursor: pointer; }
-    #posts .blog-post h4:hover {
-      font-size: 1.75em; }
     #posts .blog-post small {
       color: #5D6477;
       font-size: 1em;
@@ -272,7 +269,8 @@ nav .main-buttons a:hover {
   #contact p {
     font-size: 1em;
     color: #B2B2B2;
-    padding-top: 25px; }
+    padding-top: 25px;
+    text-align: center; }
 
 .modal-body {
   background-color: #F8F8F8; }
@@ -331,6 +329,14 @@ nav .main-buttons a:hover {
     height: auto; }
   #about aside a {
     text-align: center; } }
+
+.post-title {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 25px; }
+
+.post-contact {
+  margin-top: 25px; }
 
 /* ==========================================================================
    Helper classes

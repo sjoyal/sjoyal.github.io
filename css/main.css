@@ -145,14 +145,22 @@ nav .main-buttons a:hover {
   min-height: 100%;
   width: 95%;
   margin: auto;
-  padding: 250px 0 275px 0; }
+  padding: 215px 0 275px 0; }
   #landing-page h1 {
     margin: 0; }
   #landing-page h4 {
     margin-top: 0;
     padding-top: 0; }
-  #landing-page figure {
+  #landing-page .landing-contact {
     text-align: center; }
+    #landing-page .landing-contact i {
+      margin: 0 0.25em;
+      color: #3D3D3D; }
+    #landing-page .landing-contact i:hover, #landing-page .landing-contact i:visited, #landing-page .landing-contact i:focus {
+      color: black; }
+  #landing-page figure {
+    text-align: center;
+    padding-top: 5px; }
     #landing-page figure a {
       display: inline-block;
       height: 4.25em;

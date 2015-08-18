@@ -1,9 +1,7 @@
 ---
 layout: post
-title: The JavaScript Date Object
+title: The JavaScript Date Object - When Epoch Time Just Won't Fly
 ---
-
-## When Epoch Time Just Won't Fly
 
 In a recent project, I was tasked with adding various dates to a page that correlated with information obtained from a weather API. However easy that sounds (it was and it wasn't), I encountered a problem with the date provided by the API. That date came in the following form:
 

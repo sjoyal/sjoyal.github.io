@@ -1,4 +1,7 @@
-## Churning Along
+---
+layout: post
+title: TIY Week 7 Churning Along
+---
 
 #### A few thoughts on things...
 

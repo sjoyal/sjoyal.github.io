@@ -1,4 +1,7 @@
-### Selecting and Displaying an Image Chosen from Thumbnails
+---
+layout: post
+title: Image from Thumbnails
+---
 
 In one of our recent cohort group projects, I worked on a feature I assume will be very common in the future as a front end developer. The project was to recreate an etsy product page using some cached data from the etsy API, and the feature was to display the main product image with additional functionality for changing that image per a collection of product thumbnails. To accomplish this, I first set the main image as default using my JSON object, then used jQuery to attach an event handler to a parent element for the thumbnails. Because the thumbnails were added to the page using `v-repeat` from the vue.js library, setting the event listener to a parent element was crucial because the content of the thumbnail row would be added dynamically after initial page load. The code I used to accomplish the image rotation is included below, as well as my process for setting the selected thumbnail to class='active' for future styling:
 

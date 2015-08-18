@@ -234,6 +234,13 @@ nav .main-buttons a:hover {
       text-align: right; }
     #posts .blog-post .show {
       display: block; }
+  #posts .pagination {
+    text-align: right; }
+    #posts .pagination ul {
+      padding: 0;
+      list-style-type: none; }
+      #posts .pagination ul li {
+        display: inline-block; }
 
 #about {
   min-height: 100px;

@@ -235,12 +235,17 @@ nav .main-buttons a:hover {
     #posts .blog-post .show {
       display: block; }
   #posts .pagination {
+    display: block;
     text-align: right; }
     #posts .pagination ul {
       padding: 0;
       list-style-type: none; }
       #posts .pagination ul li {
-        display: inline-block; }
+        display: inline-block;
+        padding: 0 0.15em;
+        font-size: 1.15em; }
+        #posts .pagination ul li .disabled {
+          display: none; }
 
 #about {
   min-height: 100px;

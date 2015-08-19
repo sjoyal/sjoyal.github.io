@@ -112,7 +112,7 @@ title: Sean Joyal
             <i class="fa fa-newspaper-o fa-3x"></i>
           </figure>
           <aside class="blog-post">
-          {% for post in paginate.posts %}
+          {% for post in paginator.posts %}
             <div>
               <h4>{{ post.title | upcase }}</h4>
               <small>{{ post.date | date_to_string }}</small>

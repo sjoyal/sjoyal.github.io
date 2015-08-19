@@ -4,4 +4,4 @@ description: The personal website of Sean Joyal, including projects, blog posts,
 paginate: 10
 
 markdown: kramdown
-permalink: /:title
+permalink: pretty

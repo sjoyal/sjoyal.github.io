@@ -35,7 +35,7 @@
       });
     })
     .on('mouseleave', 'div', function(){
-      $(this).siblings().animate({
+      $(this).siblings().css({
         opacity: 1
       });
     })

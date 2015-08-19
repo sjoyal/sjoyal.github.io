@@ -1,0 +1,13 @@
+---
+layout: archive
+title: Blog Posts Archive
+---
+
+{% for post in site.posts %}
+  <div>
+    <h4>{{ post.title | upcase }}</h4>
+    <small>{{ post.date | date_to_string }}</small>
+    <p class="blog-excerpt">{{ post.content <!-- | strip_html | truncatewords: 50 --> }}</p>
+    <a href="{{ post.url }}" class="post-link">Read More</a>
+  </div>
+{% endfor %}

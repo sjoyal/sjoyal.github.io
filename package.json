@@ -1,6 +1,6 @@
 {
   "name": "sjoyal.github.io",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "--- permalink: index.html ---",
   "main": "index.js",
   "scripts": {

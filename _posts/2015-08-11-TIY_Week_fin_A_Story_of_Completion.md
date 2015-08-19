@@ -3,7 +3,7 @@ layout: post
 title: TIY Week _fin_ A Story of Completion
 ---
 
-## A Graduate of The Iron Yard
+#### A Graduate of The Iron Yard
 
 12 weeks down. 0 journals for over 4 weeks....and I'm done at The Iron Yard. The hardest thing I've ever done, and it's not close. To recap, that's 12 straight weeks of 12-16 hour days, including weekends. I legitimately took 2 Saturdays off the entire time, and never a Sunday. In the weeks since my last post, I learned AngularJS and used it and Firebase to build my [final project](https://iron-pong.firebaseapp.com), updated my resume, started saying bye to Orlando(maybe?), reworked my resume, created my [portfolio site](https://sjoyal.github.io), drank some beers, and slept some naps.
 

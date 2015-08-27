@@ -263,7 +263,8 @@ nav .main-buttons a:hover {
     color: #3D3D3D;
     display: block;
     padding-top: 1em;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 1.5em; }
     #about aside article a i, #about aside article a:visited i, #about aside article a:focus i {
       vertical-align: middle; }
   #about aside article a:hover {
